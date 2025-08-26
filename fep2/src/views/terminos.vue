@@ -6,8 +6,8 @@ const errorMessage = ref('');
 
 onMounted(async () => {
     try {
-        // Asegúrate de que el nombre del archivo JSON coincida aquí.
-        const response = await import('../textos/terminos.json'); // Ruta ajustada
+        // === ¡Línea corregida aquí! ===
+        const response = await import('../textos/Terminos.json'); // Apuntando a la carpeta correcta
         terminosData.value = response.default;
     } catch (error) {
         console.error('Error al cargar la sección "Términos y definiciones":', error);
