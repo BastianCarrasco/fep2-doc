@@ -26,13 +26,22 @@ onMounted(async () => {
                 <template v-if="seccion.subsecciones">
                     <div v-for="(sub, subIndex) in seccion.subsecciones" :key="subIndex" class="sub-section-group">
                         <h3 class="subsection-title" v-if="sub.titulo_subseccion">{{ sub.titulo_subseccion }}</h3>
+
+                        <!-- Lógica mejorada para manejar `sub.contenido` o `sub.puntos` directamente -->
                         <template v-if="sub.contenido">
+                            <!-- Para estructuras como "Primera Etapa", "Segunda Etapa" -->
                             <div v-for="(etapa, etapaIndex) in sub.contenido" :key="etapaIndex">
                                 <p v-if="etapa.titulo" class="sub-section-intro"><strong>{{ etapa.titulo }}</strong></p>
                                 <ul v-if="etapa.puntos" class="styled-list">
                                     <li v-for="(punto, puntoIndex) in etapa.puntos" :key="puntoIndex">{{ punto }}</li>
                                 </ul>
                             </div>
+                        </template>
+                        <template v-else-if="sub.puntos">
+                            <!-- Para estructuras como "Infraestructura Mixta:" -->
+                            <ul class="styled-list">
+                                <li v-for="(punto, puntoIndex) in sub.puntos" :key="puntoIndex">{{ punto }}</li>
+                            </ul>
                         </template>
                     </div>
                 </template>
