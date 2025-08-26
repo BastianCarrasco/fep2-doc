@@ -1,0 +1,27 @@
+{
+  "titulo_capitulo": "CAPÍTULO 10: PROCESO DE EVALUACIÓN",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 29°",
+      "titulo": "COMISIÓN EVALUADORA",
+      "introduccion": "La Comisión tendrá las siguientes atribuciones:",
+      "atribuciones": [
+        "• Evaluar ofertas según criterios establecidos",
+        "• Solicitar aclaraciones a proponentes",
+        "• Elaborar informe de evaluación",
+        "• Recomendar adjudicación o declarar desierta"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 30°",
+      "titulo": "EVALUACIÓN ADMINISTRATIVA",
+      "introduccion": "Verificación de cumplimiento de requisitos formales. Subsanación de errores menores:",
+      "subsanacion_errores": [
+        "• Plazo: 24 horas",
+        "• Sólo errores formales que no afecten la igualdad",
+        "• No aplicable a garantías ni documentos esenciales"
+      ],
+      "inadmisibilidad_ofertas": "Ofertas que no cumplan requisitos esenciales serán declaradas inadmisibles"
+    }
+  ]
+}

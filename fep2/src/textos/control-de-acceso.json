@@ -1,0 +1,878 @@
+{
+  "titulo_seccion": "9 Control de acceso",
+  "secciones": [
+    {
+      "numero": "9.1",
+      "titulo": "Requisitos del negocio para el control de acceso",
+      "objetivo": "Controlar el acceso a la información.",
+      "introduccion": "Se debería establecer una política de control de acceso basada en los requisitos del negocio para el acceso a los sistemas de información.",
+      "descripcion": "Los requisitos de acceso a los sistemas de información, incluyendo el control y las restricciones de acceso a la información, se deberían definir y documentar en una política de control de acceso basada en las necesidades de seguridad del negocio. Se debería tener una política de control de acceso bien definida para proteger las instalaciones de procesamiento de información y los bienes de información. Esta política se debería apoyar mediante procedimientos de seguridad formalmente documentados (ver 8.1.1). La política debería establecer claramente quién tiene permitido acceder, qué información y bajo qué condiciones. Se debería tomar en cuenta lo siguiente:",
+      "consideraciones": [
+        {
+          "letra": "a)",
+          "item": "la política de la organización para la seguridad de la información (ver 3.1)"
+        },
+        {
+          "letra": "b)",
+          "item": "los requisitos de las aplicaciones del negocio para el control de acceso"
+        },
+        {
+          "letra": "c)",
+          "item": "los requisitos de los usuarios individuales y de los grupos de negocios"
+        },
+        {
+          "letra": "d)",
+          "item": "la clasificación de la información (ver 5.2)"
+        },
+        {
+          "letra": "e)",
+          "item": "la legislación que se aplica a la organización (ver cláusula 12)"
+        },
+        {
+          "letra": "f)",
+          "item": "cualquier obligación contractual que la organización tiene con respecto al acceso a la información (ver 12.1)"
+        }
+      ]
+    },
+    {
+      "numero": "9.2",
+      "titulo": "Gestión de acceso de usuario",
+      "objetivo": "Evitar el acceso no autorizado a los sistemas de información.",
+      "introduccion": "La gestión del acceso de los usuarios se debería controlar a través de un proceso de registro de usuarios bien definido.",
+      "subsecciones": [
+        {
+          "numero": "9.2.1",
+          "titulo": "Registro de usuario",
+          "introduccion": "Se debería establecer un procedimiento formal de registro de usuarios para permitir el acceso a los sistemas de información.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "a cada usuario se le debería otorgar un user ID único para permitir la trazabilidad de las acciones"
+            },
+            {
+              "letra": "b)",
+              "item": "se debería verificar la autorización para usar el sistema de información particular y los servicios (basado en los requisitos del negocio para el acceso) por el dueño del sistema, directivo u otro directivo de la organización"
+            },
+            {
+              "letra": "c)",
+              "item": "el proceso de registro debería asegurar que los requisitos de autorización estén definidos claramente; un acuerdo de no divulgación debería firmarse como parte del acuerdo de empleo (ver 6.1.3)"
+            },
+            {
+              "letra": "d)",
+              "item": "los principios de la separación de obligaciones se deberían aplicar a la designación de los derechos de acceso, es decir, no se debería permitir que la misma persona otorgue derechos de acceso"
+            },
+            {
+              "letra": "e)",
+              "item": "los derechos de acceso se deberían otorgar solamente después de la autorización"
+            },
+            {
+              "letra": "f)",
+              "item": "a los directivos de los sistemas se les debería entregar una lista formal y actualizada de los user IDs, que han sido autorizados"
+            },
+            {
+              "letra": "g)",
+              "item": "se debería informar a todos los nuevos usuarios sus obligaciones en la seguridad, incluyendo sus responsabilidades personales sobre el uso de claves, la política de escritorio limpio y pantalla limpia (ver 7.3.1), y los procedimientos de uso de los equipos sin asistencia; la sensibilización del usuario se puede obtener mediante entrenamiento (ver 6.2)"
+            }
+          ]
+        },
+        {
+          "numero": "9.2.2",
+          "titulo": "Gestión de privilegios",
+          "introduccion": "Se debería controlar la asignación y gestión de los derechos privilegiados.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "la asignación de los privilegios se debería restringir y controlar"
+            },
+            {
+              "letra": "b)",
+              "item": "se deberían establecer los privilegios para evitar cualquier conflicto con el principio de separación de obligaciones (ver 8.1.3)"
+            },
+            {
+              "letra": "c)",
+              "item": "la asignación de los privilegios a los usuarios se debería autorizar y registrar"
+            },
+            {
+              "letra": "d)",
+              "item": "el uso de privilegios se debería restringir a la gestión de los directivos, y se debería llevar a cabo el control de ellos; los privilegios se deberían registrar y monitorear (ver 9.7)"
+            },
+            {
+              "letra": "e)",
+              "item": "cuando sea posible, los programas y el personal operativo no se deberían entregar privilegios ilimitados; donde esto no sea posible, las actividades deberían ser monitoreadas de cerca"
+            }
+          ]
+        },
+        {
+          "numero": "9.2.3",
+          "titulo": "Gestión de claves secretas de usuario",
+          "introduccion": "La asignación de claves secretas se debería controlar a través de un proceso de gestión formalmente documentado.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "el acceso a las claves secretas se debería limitar a la persona para quien fueron generadas"
+            },
+            {
+              "letra": "b)",
+              "item": "las claves secretas deberían ser entregadas a los usuarios de una forma que asegure una confidencialidad, por ejemplo, en sobres sellados"
+            },
+            {
+              "letra": "c)",
+              "item": "las claves secretas generadas por la aplicación (claves secretas por defecto) deberían ser cambiadas en el primer inicio de sesión del usuario"
+            },
+            {
+              "letra": "d)",
+              "item": "los usuarios deberían firmar la recepción de las claves secretas"
+            },
+            {
+              "letra": "e)",
+              "item": "los sistemas que emiten claves secretas temporales deberían forzar a los usuarios a cambiar la clave secreta al primer inicio de sesión"
+            }
+          ]
+        },
+        {
+          "numero": "9.2.4",
+          "titulo": "Revisión de derechos de acceso del usuario",
+          "introduccion": "Los derechos de acceso de usuario se deberían revisar periódicamente.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "los derechos de acceso de los usuarios se deberían revisar a intervalos regulares"
+            },
+            {
+              "letra": "b)",
+              "item": "los derechos de acceso del usuario se deberían revisar cuando se le traslada a un nuevo puesto de trabajo, o cuando hay un cambio de trabajo, o cuando ha dejado de ser pertinente"
+            },
+            {
+              "letra": "c)",
+              "item": "se debería realizar una confirmación formal, por el dueño del activo o por el dueño del sistema, para verificar que los derechos de acceso del usuario sean correctos"
+            },
+            {
+              "letra": "d)",
+              "item": "el personal de seguridad debería controlar los user IDs para asegurar que solamente se usan user IDs autorizados, por ejemplo, eliminando o inhabilitando los user IDs inactivos"
+            }
+          ]
+        },
+        {
+          "numero": "9.2.5",
+          "titulo": "Eliminación o ajuste de los derechos de acceso",
+          "introduccion": "Los derechos de acceso para los usuarios que cambian de trabajo o dejan la organización se deberían eliminar o ajustar.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "los derechos de acceso se deberían eliminar cuando un usuario abandona la organización"
+            },
+            {
+              "letra": "b)",
+              "item": "se deberían modificar los derechos de acceso cuando un usuario cambia de rol o deja de ser pertinente"
+            },
+            {
+              "letra": "c)",
+              "item": "la eliminación o modificación de los derechos de acceso se deberían llevar a cabo tan pronto como sea posible una vez que la dirección o el directivo ha sido notificado; puede ser útil para algunos sistemas de información el tener los derechos de acceso para el personal que abandona la organización deshabilitados y no eliminados por un período de tiempo, permitiendo la reasignación de los derechos de acceso del usuario a otro personal"
+            },
+            {
+              "letra": "d)",
+              "item": "se deberían informar todos los accesos eliminados o modificados a la gestión responsable de los sistemas o servicios; esta información se debería registrar"
+            },
+            {
+              "letra": "e)",
+              "item": "cuando sea posible, se deberían controlar los user IDs que hayan sido deshabilitados, pero no eliminados para garantizar que no se utilicen ilícitamente"
+            },
+            {
+              "letra": "f)",
+              "item": "la administración del sistema y el software de seguridad que se haya utilizado para eliminar o modificar el acceso se debería controlar y probar para asegurar su efectiva funcionalidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "9.3",
+      "titulo": "Responsabilidades del usuario",
+      "objetivo": "Hacer responsables a los usuarios por la protección de sus mecanismos de autenticación.",
+      "introduccion": "Se debería entregar guía a los usuarios para seleccionar y proteger las claves secretas.",
+      "subsecciones": [
+        {
+          "numero": "9.3.1",
+          "titulo": "Uso de claves secretas",
+          "introduccion": "Los usuarios deberían seguir la práctica de la organización en la selección y uso de las claves secretas.",
+          "puntos_practica": [
+            {
+              "letra": "a)",
+              "item": "mantener secreta la clave secreta y privada"
+            },
+            {
+              "letra": "b)",
+              "item": "evitar tener la clave escrita o guardada sin seguridad"
+            },
+            {
+              "letra": "c)",
+              "item": "cambiar la clave secreta cuando haya alguna indicación de compromiso"
+            },
+            {
+              "letra": "d)",
+              "item": "evitar usar la misma clave secreta por mucho tiempo para prevenir la determinación mediante ataque por fuerza bruta o adivinación; las claves se deberían cambiar regularmente"
+            },
+            {
+              "letra": "e)",
+              "item": "seleccionar claves secretas que sean de dificultad suficiente para prevenir la adivinación o el uso de un programa de descifrado, por ejemplo, no usar el cumpleaños del usuario o los nombres de los hijos"
+            },
+            {
+              "letra": "f)",
+              "item": "cambiar las claves temporales que son generadas por el sistema al primer uso"
+            },
+            {
+              "letra": "g)",
+              "item": "evitar almacenar las claves secretas de usuario en el software de la memoria"
+            }
+          ]
+        },
+        {
+          "numero": "9.3.2",
+          "titulo": "Facilidades no atendidas del usuario",
+          "introduccion": "Los usuarios deberían asegurarse de que los equipos desatendidos tengan una protección apropiada.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "proteger los equipos de procesamiento de información desatendidos con métodos de protección apropiados, tales como un salvapantallas con clave; esto se puede activar automáticamente cuando un terminal ha estado inactivo por un tiempo predeterminado o cuando un computador es encendido"
+            },
+            {
+              "letra": "b)",
+              "item": "los sistemas que han terminado una sesión (logged out) no se deberían reiniciar inmediatamente con la sesión abierta (logged back) para evitar que una persona no autorizada obtenga acceso al sistema, utilizando la anterior user ID que fue dejada con la sesión abierta"
+            }
+          ]
+        },
+        {
+          "numero": "9.3.3",
+          "titulo": "Política de escritorio limpio y pantalla limpia",
+          "introduccion": "Los usuarios deberían implementar una política de escritorio limpio y pantalla limpia para los papeles y dispositivos removibles de almacenamiento, y para los equipos de procesamiento de información."
+        }
+      ]
+    },
+    {
+      "numero": "9.4",
+      "titulo": "Control de acceso a la red",
+      "objetivo": "Controlar el acceso a los servicios de la red.",
+      "introduccion": "Los usuarios deberían tener acceso solamente a los servicios de la red para los que han sido específicamente autorizados. Además, se debería controlar la conexión con las redes públicas y privadas, por ejemplo, internet.",
+      "subsecciones": [
+        {
+          "numero": "9.4.1",
+          "titulo": "Política de uso de servicios de red",
+          "introduccion": "Los usuarios sólo deberían tener acceso a los servicios de la red para los que han sido específicamente autorizados. Esto debería establecer los controles apropiados para la red y también para los servicios de valor agregado.",
+          "controles_aplicar": "Se deberían aplicar los controles siguientes para el uso de los servicios de la red:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "los usuarios sólo deberían tener acceso a los servicios para los que han sido autorizados; éstos pueden incluir conexión al computador central o al servidor, correo electrónico, uso de archivos y servicios de impresión, acceso a las redes públicas"
+            },
+            {
+              "letra": "b)",
+              "item": "los derechos de acceso para la red se deberían controlar por el acceso para la aplicación o sistema (ver 9.6)"
+            },
+            {
+              "letra": "c)",
+              "item": "los controles de seguridad para cada servicio se deberían asegurar para garantizar la integridad y confidencialidad; se pueden usar los filtros de direcciones de la red para controlar el acceso del usuario a los servicios y a los sistemas dentro de la red"
+            }
+          ]
+        },
+        {
+          "numero": "9.4.2",
+          "titulo": "Autenticación de usuario para conexiones externas",
+          "introduccion": "Se debería emplear una autenticación robusta para las conexiones externas (remotas).",
+          "descripcion": "El mecanismo de autenticación debería ser lo suficientemente robusto para proteger la seguridad de la información. El método de autenticación se debería ajustar al valor y sensibilidad de la información a la cual se va a acceder. Las formas de autenticación incluyen las claves secretas y los token.",
+          "consideraciones": "Se deberían considerar los siguientes controles:",
+          "puntos_consideraciones": [
+            {
+              "letra": "a)",
+              "item": "el uso de claves de usuario; las claves de usuario se deberían generar y gestionar según las políticas de claves secretas de usuario (ver 9.3.1)"
+            },
+            {
+              "letra": "b)",
+              "item": "el uso de procedimientos de autenticación de dos vías; esto es, donde el servidor autentica al usuario y también el usuario autentica el servidor"
+            }
+          ]
+        },
+        {
+          "numero": "9.4.3",
+          "titulo": "Identificación de equipos en las redes",
+          "introduccion": "Las conexiones automáticas, es decir, sin intervención manual de usuario, no se deberían permitir a menos que se haya implementado una autenticación fuerte del equipo.",
+          "descripcion": "Los equipos en las redes no deberían iniciar la conexión automáticamente sin la autenticación del usuario, para asegurarse de que el usuario sea genuino. Los equipos se deberían identificar en una red pública mediante el uso de un mecanismo apropiado, es decir, el uso de las direcciones de los equipos de red. Para cada computador conectado, las direcciones IP se deberían registrar para permitir una trazabilidad de los ataques. Los firewalls se pueden utilizar para controlar el acceso entre la red de área local y el exterior, y se pueden situar entre las redes que tienen un ambiente de seguridad diferente (ver 8.5.1)."
+        },
+        {
+          "numero": "9.4.4",
+          "titulo": "Protección de los puertos de diagnóstico",
+          "introduccion": "Los puertos de diagnóstico y configuración de las redes, se deberían proteger.",
+          "descripcion": "Los puertos de diagnóstico y configuración de las redes se deberían proteger para impedir el acceso no autorizado. Los puertos de diagnóstico se deberían deshabilitar y desconectar cuando no se usan. Los controles para el acceso físico a los cables y puertos (ver 7.2.3) se deberían implementar cuando sea pertinente."
+        },
+        {
+          "numero": "9.4.5",
+          "titulo": "Protección del control de acceso a la red",
+          "introduccion": "Los controles de seguridad para el control de acceso a la red se deberían proteger del acceso no autorizado.",
+          "descripcion": "Los controles para el acceso a la red y el software de gestión (ver 8.5.1) se deberían proteger. Solamente los operadores de red autorizados deberían tener los derechos de acceso para operar los dispositivos de la red. Los servicios y equipos de acceso se deberían proteger usando claves, mecanismos de inicio de sesión de dos vías y mecanismos de autenticación automática."
+        },
+        {
+          "numero": "9.4.6",
+          "titulo": "Separación de la red",
+          "introduccion": "Los grupos de servicios de información, usuarios y sistemas de información que requieren seguridad de red diferente, se deberían segregar en redes. Los sistemas de información que procesan información sensible deberían ser segregados en redes de computadores, lógicamente o físicamente, cuando la política de seguridad lo requiera (ver 8.5.1).",
+          "consideraciones": "Se deberían considerar los siguientes controles:",
+          "puntos_consideraciones": [
+            {
+              "letra": "a)",
+              "item": "la infraestructura de la red se debería separar, por ejemplo, los servidores de red se deberían separar físicamente de los sistemas operacionales que procesan datos sensibles"
+            },
+            {
+              "letra": "b)",
+              "item": "la información y los bienes, y los sistemas de información deberían ser segmentados con las redes que están conectadas a Internet; los segmentos se deberían configurar con firewalls apropiados para asegurar que los hosts internos estén protegidos del exterior; los firewalls también se pueden usar para proteger los segmentos de la red interna"
+            },
+            {
+              "letra": "c)",
+              "item": "se deberían revisar periódicamente las configuraciones del firewall para garantizar su efectividad"
+            }
+          ]
+        },
+        {
+          "numero": "9.4.7",
+          "titulo": "Controles de conexión a la red",
+          "introduccion": "Se debería controlar la conexión con las redes públicas para proteger la información en los sistemas de información.",
+          "controles_considerar": "Se deberían considerar los siguientes controles de conexión a la red:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "un firewall (muro cortafuego) o un gateway de seguridad con una función de firewall debería instalarse entre las redes de la organización y las redes públicas"
+            },
+            {
+              "letra": "b)",
+              "item": "las aplicaciones que residen en computadores en las redes conectadas a una red pública deberían configurarse para dar un acceso restringido a las redes internas"
+            },
+            {
+              "letra": "c)",
+              "item": "se deberían usar mecanismos seguros (ver 10.3) para la protección de la información transmitida sobre redes públicas; cuando las transacciones sensibles requieran protección, se deberían establecer canales seguros, tales como una red privada virtual (VPN)"
+            },
+            {
+              "letra": "d)",
+              "item": "los sistemas que requieren conexión a las redes públicas se deberían aislar de la red interna y establecer la conexión con la red pública a través de un gateway o un firewall de seguridad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "9.5",
+      "titulo": "Control de acceso a la operación del sistema",
+      "objetivo": "Prevenir el acceso no autorizado a los sistemas operativos.",
+      "introduccion": "Se deberían usar instalaciones de seguridad en el sistema operativo para restringir el acceso a los sistemas operativos.",
+      "descripcion": "El acceso lógico a los sistemas operativos se debería restringir a los usuarios autorizados. Los sistemas operativos deberían:",
+      "caracteristicas_sistemas_operativos": [
+        {
+          "letra": "a)",
+          "item": "proveer control de acceso a las utilidades del sistema operativo"
+        },
+        {
+          "letra": "b)",
+          "item": "proveer control de acceso a la información y a las funciones del sistema operativo, conforme con una política de control de acceso definida por el negocio (ver 9.1)"
+        },
+        {
+          "letra": "c)",
+          "item": "proveer protección de los utilitarios capaces de pasar por sobre el sistema o los controles de la aplicación"
+        },
+        {
+          "letra": "d)",
+          "item": "no comprometer la seguridad de otros sistemas con los que comparten recursos de información"
+        },
+        {
+          "letra": "e)",
+          "item": "ser capaz de proporcionar acceso a la información solamente a la que tiene un dueño, a otros individuos designados y autorizados o a grupos definidos de usuarios"
+        }
+      ],
+      "subsecciones": [
+        {
+          "numero": "9.5.1",
+          "titulo": "Procedimientos de inicio de sesión seguro",
+          "introduccion": "Los procedimientos de inicio de sesión se deberían usar para acceder a los sistemas operativos.",
+          "descripcion": "El acceso a los sistemas operativos se debería realizar mediante un procedimiento seguro de inicio de sesión. Esto aseguraría que se cumplan las políticas de control de acceso. Los siguientes controles se deberían considerar para el procedimiento de inicio de sesión seguro:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "los mensajes de inicio de sesión deberían ser claros, y no deberían dar información de la implementación del sistema;"
+            },
+            {
+              "letra": "b)",
+              "item": "los mensajes que podrían inducir a los usuarios a dar información, por ejemplo, \"Por favor ingrese su user ID y contraseña\", no deberían ser usados;"
+            },
+            {
+              "letra": "c)",
+              "item": "las instalaciones de inicio de sesión deberían estar ocultas hasta que el procedimiento de inicio de sesión se haya terminado; las mensajes de bienvenida o banner se pueden usar, sin revelar ningún detalle del sistema;"
+            },
+            {
+              "letra": "d)",
+              "item": "el sistema no debería revelar el contenido de la clave secreta cuando se ingresa, ni en las pantallas ni en otros dispositivos;"
+            },
+            {
+              "letra": "e)",
+              "item": "el sistema no debería dar un feedback para los intentos de inicio de sesión fallidos, por ejemplo, \"user ID no válida\", \"contraseña incorrecta\";"
+            },
+            {
+              "letra": "f)",
+              "item": "los user IDs deberían ser suspendidos después de un número determinado de intentos fallidos de inicio de sesión;"
+            },
+            {
+              "letra": "g)",
+              "item": "las sesiones se deberían terminar después de un período de inactividad, esto es especialmente importante en sistemas de alto riesgo (ver 9.5.8)."
+            }
+          ]
+        },
+        {
+          "numero": "9.5.2",
+          "titulo": "Identificación y autenticación de usuario",
+          "introduccion": "Cada usuario, incluyendo el personal de apoyo, debería tener una única identificación (user ID) para los sistemas de información, y un método adecuado de autenticación para comprobar la identidad del usuario.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "cada usuario del sistema de información debería tener una user ID única (ver 9.2.1);"
+            },
+            {
+              "letra": "b)",
+              "item": "la autenticación se debería exigir antes que se le otorgue al usuario el acceso al sistema de información (ver 9.2.3);"
+            },
+            {
+              "letra": "c)",
+              "item": "los mecanismos de autenticación se deberían basar en la consideración de los riesgos de acceso al sistema, la sensibilidad del sistema y la información, y la facilidad de uso; por ejemplo, las claves secretas, los token o la identificación biométrica;"
+            },
+            {
+              "letra": "d)",
+              "item": "el user ID y el token o clave secreta, se deberían usar para la identificación y autenticación en la conexión al sistema de información."
+            }
+          ]
+        },
+        {
+          "numero": "9.5.3",
+          "titulo": "Sistema de gestión de claves",
+          "introduccion": "Los sistemas de gestión de claves de seguridad se deberían usar para el control del acceso a las funciones del sistema.",
+          "descripcion": "El acceso a los sistemas de información se debería controlar mediante un sistema de gestión de claves que asigna una clave secreta a cada user ID autorizado para acceder al sistema. Las propiedades y el nivel de seguridad de la clave secreta se deberían definir de acuerdo con las necesidades de la política de seguridad (ver 9.3.1). Los siguientes controles se deberían considerar para la gestión de las claves:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "las claves secretas deberían ser de una longitud y fortaleza adecuada para prevenir la adivinación o ataques de fuerza bruta;"
+            },
+            {
+              "letra": "b)",
+              "item": "las claves secretas deberían ser cambiadas regularmente, a intervalos apropiados y su historia guardada; el historial de las claves secretas se debería guardar de modo de prevenir la redefinición de una clave secreta anterior por un período definido;"
+            },
+            {
+              "letra": "c)",
+              "item": "las claves secretas deberían ser confidenciales y se deberían proteger de divulgación no autorizada;"
+            },
+            {
+              "letra": "d)",
+              "item": "se debería dar una guía a los usuarios para seleccionar claves secretas que sean difíciles de adivinar o para usar herramientas automáticas;"
+            },
+            {
+              "letra": "e)",
+              "item": "los usuarios que olvidan sus claves secretas deberían tener un procedimiento de recuperación formal para establecer una nueva clave;"
+            },
+            {
+              "letra": "f)",
+              "item": "la autenticación de un usuario con una clave secreta que es generada automáticamente por el sistema (por ejemplo, con fines administrativos o al inicializar un computador) debería exigir que el usuario cambie la clave secreta al primer inicio de sesión;"
+            },
+            {
+              "letra": "g)",
+              "item": "el sistema debería proteger la clave secreta contra el acceso y divulgación no autorizados, por ejemplo, la clave secreta debería almacenarse de una forma cifrada;"
+            },
+            {
+              "letra": "h)",
+              "item": "se debería proteger la clave secreta de los ataques de la red; por ejemplo, cuando la clave secreta se transmite a través de una red, la clave se debería cifrar (ver 10.3);"
+            },
+            {
+              "letra": "i)",
+              "item": "se debería tener en cuenta la disponibilidad del servicio y la capacidad de los usuarios para recordar las claves secretas."
+            }
+          ]
+        },
+        {
+          "numero": "9.5.4",
+          "titulo": "Uso de utilitarios de sistema",
+          "introduccion": "Se debería restringir y controlar el uso de los utilitarios de sistema capaces de anular los controles de seguridad lógicos y de las aplicaciones.",
+          "descripcion": "Los utilitarios de sistema capaces de anular los controles de seguridad lógicos y de las aplicaciones tienen un potencial significativo de daño y, consecuentemente, se deberían restringir y controlar. Se deberían considerar los siguientes controles para los utilitarios de sistema:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "la capacidad para utilizar un utilitario de sistema debería estar restringida al personal autorizado solamente;"
+            },
+            {
+              "letra": "b)",
+              "item": "se deberían aprobar formalmente todos los accesos al utilitario de sistema;"
+            },
+            {
+              "letra": "c)",
+              "item": "el uso del utilitario de sistema se debería registrar (ver 9.7);"
+            },
+            {
+              "letra": "d)",
+              "item": "se deberían borrar o desactivar los utilitarios de sistema no utilizados;"
+            },
+            {
+              "letra": "e)",
+              "item": "el software utilitario, incluyendo el software proporcionado por el fabricante del sistema, debería ser de \"sólo lectura\" cuando esté en los entornos de producción;"
+            },
+            {
+              "letra": "f)",
+              "item": "los programas de utilidad que puedan ser capaces de anular los controles de seguridad del sistema o de la aplicación deberían almacenarse y ser accedidos de forma segura para protegerse del mal uso."
+            }
+          ]
+        },
+        {
+          "numero": "9.5.5",
+          "titulo": "Gestión del acceso al código fuente del programa",
+          "introduccion": "El acceso a los programas fuente del sistema debería ser restringido.",
+          "descripcion": "El acceso a los programas fuente del sistema y de la aplicación (incluyendo el código fuente en ejecución de la base de datos) se debería restringir. Esto se debería proteger para prevenir la introducción de una funcionalidad no autorizada, o la presencia de software no autorizado. Se deberían considerar los siguientes controles:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "el acceso al código fuente del programa se debería restringir a las personas autorizadas"
+            },
+            {
+              "letra": "b)",
+              "item": "el código fuente del programa se debería mantener en una biblioteca segura"
+            },
+            {
+              "letra": "c)",
+              "item": "el código fuente de la producción no debería estar presente en el entorno de producción; si fuera necesario, para permitir un mantenimiento de emergencia, el código se debería documentar, controlar y después de su uso se debería eliminar"
+            },
+            {
+              "letra": "d)",
+              "item": "se debería utilizar un sistema formal de control de cambios para mantener un registro de las modificaciones"
+            }
+          ]
+        },
+        {
+          "numero": "9.5.6",
+          "titulo": "Tiempo de inactividad de las sesiones",
+          "introduccion": "Las sesiones interactivas inactivas se deberían terminar después de un período de tiempo predeterminado.",
+          "descripcion": "Las sesiones inactivas de los sistemas de información deberían terminarse después de un período de tiempo predeterminado. Esto reduciría el riesgo de acceso no autorizado, por ejemplo, cuando el usuario desatiende un terminal y no termina la sesión."
+        },
+        {
+          "numero": "9.5.7",
+          "titulo": "Seguridad del portal y de los sistemas de mensajería",
+          "introduccion": "Los accesos de usuarios a los portales y sistemas de mensajería (por ejemplo, correo electrónico, fax, acceso a internet) se deberían controlar.",
+          "descripcion": "Se deberían establecer los controles para el uso de portales y sistemas de mensajería, incluyendo el correo electrónico, fax, acceso a internet, telefonía móvil, correo de voz, para evitar que puedan ser utilizados para el acceso no autorizado o mal uso de la información. Se deberían considerar los siguientes controles:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "se deberían implementar los controles de acceso a las aplicaciones;"
+            },
+            {
+              "letra": "b)",
+              "item": "los archivos adjuntos con correo electrónico y los servicios de descarga se deberían proteger contra el software malicioso (ver 8.3);"
+            },
+            {
+              "letra": "c)",
+              "item": "la capacidad para acceder a los sitios de internet desde el sistema de aplicación se debería deshabilitar o restringir, para evitar el riesgo de un código móvil o la descarga de software malicioso."
+            }
+          ]
+        },
+        {
+          "numero": "9.5.8",
+          "titulo": "Limitación del tiempo de conexión",
+          "introduccion": "Las restricciones en los tiempos de conexión se deberían proveer adicionalmente a la seguridad de las aplicaciones de alto riesgo. Limitando el período de conexión del terminal se permite a los servicios computacionales reducir la ventana de oportunidad de acceso no autorizado. Tal control debería considerar las aplicaciones computacionales sensibles, especialmente aquellas con terminales instalados en ubicaciones de alto riesgo, por ejemplo, en áreas públicas o externas que están fuera de la gestión de seguridad de la organización. Ejemplos de tales restricciones incluyen:",
+          "ejemplos_restricciones": [
+            {
+              "letra": "a)",
+              "item": "usar intervalos de tiempo predeterminados, por ejemplo, transmisión de archivos batch, o sesiones interactivas regulares de corta duración"
+            },
+            {
+              "letra": "b)",
+              "item": "restringir los tiempos de conexión a horas de oficina si no existe necesidad de sobretiempo o de operación en horas extendidas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "9.6",
+      "titulo": "Control de acceso a la aplicación",
+      "objetivo": "Prevenir el acceso no autorizado a la información que se mantiene en los sistemas de información. Se deberían usar instalaciones de seguridad para restringir el acceso dentro de las aplicaciones del sistema.",
+      "introduccion": "El acceso lógico al software y a la información se debería restringir a usuarios autorizados.",
+      "caracteristicas_aplicaciones": "Las aplicaciones deberían:",
+      "puntos_caracteristicas": [
+        {
+          "letra": "a)",
+          "item": "controlar el acceso de los usuarios a la información y a las funciones de la aplicación del sistema, conforme con una política definida de control de acceso del negocio"
+        },
+        {
+          "letra": "b)",
+          "item": "proveer protección contra el acceso no autorizado a cualquier utilitario y software del sistema operativo que sea capaz de pasar por sobre el sistema o los controles de la aplicación"
+        },
+        {
+          "letra": "c)",
+          "item": "no comprometer la seguridad de otros sistemas con los que se comparte los recursos de información"
+        },
+        {
+          "letra": "d)",
+          "item": "ser capaz de proveer acceso a la información solamente al dueño, a otros individuos designados y autorizados o a grupos definidos de usuarios"
+        }
+      ],
+      "subsecciones": [
+        {
+          "numero": "9.6.1",
+          "titulo": "Restricción de acceso a la información",
+          "introduccion": "Los usuarios de las aplicaciones del sistema, incluidos el personal de apoyo, deberían tener acceso a la información y a las funciones de la aplicación del sistema de acuerdo a la política de control de acceso, en base a los requisitos de la aplicación individual del negocio y consistente con la política de acceso a la información de la organización (ver 9.1).",
+          "controles_considerar": "Se debería considerar la aplicación de los controles siguientes con el fin de apoyar los requisitos de restricción de acceso:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "proveer menús para controlar el acceso a las funciones de la aplicación"
+            },
+            {
+              "letra": "b)",
+              "item": "restringir a los usuarios el conocimiento de la información o de las funciones de aplicación del sistema a las cuales ellos no están autorizados a acceder, con una edición apropiada de la documentación de usuario"
+            },
+            {
+              "letra": "c)",
+              "item": "controlar los derechos de acceso de usuarios, por ejemplo, leer, escribir, borrar o ejecutar"
+            },
+            {
+              "letra": "d)",
+              "item": "asegurar que las salidas de información sensible que manipulan las aplicaciones del sistema contengan sólo la información que es pertinente al uso de la salida y que se envían sólo a los terminales y ubicaciones autorizadas, incluyendo la revisión periódica de tales salidas para asegurar que se retire la información redundante"
+            }
+          ]
+        },
+        {
+          "numero": "9.6.2",
+          "titulo": "Aislamiento del sistema sensible",
+          "introduccion": "Los sistemas sensibles pueden necesitar un ambiente computacional dedicado (aislado). Algunas aplicaciones del sistema son suficientemente sensibles a pérdidas potenciales de modo que ellas requieren manipulación especial. La sensibilidad puede indicar que la aplicación del sistema se debería ejecutar en un computador dedicado, debería solamente compartir recursos con las aplicaciones confiables, o no tener limitaciones. Aplicar las consideraciones siguientes:",
+          "consideraciones": [
+            {
+              "letra": "a)",
+              "item": "La sensibilidad de una aplicación del sistema se debería identificar explícitamente y documentar por el dueño de la aplicación (ver 4.1.3)."
+            },
+            {
+              "letra": "b)",
+              "item": "Cuando una aplicación sensible se ejecuta en un ambiente compartido, se deberían identificar las aplicaciones de los sistemas con los cuales compartirá recursos y debería estar de acuerdo con el dueño de la aplicación sensible."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "9.7",
+      "titulo": "Monitoreo de uso y acceso al sistema",
+      "objetivo": "Detectar actividades no autorizadas.",
+      "introduccion": "Los sistemas se deberían monitorear para detectar desviación de la política de control de acceso y registrar los eventos que se pueden monitorear para proveer evidencias en el caso de incidentes de seguridad.",
+      "descripcion": "El sistema de monitoreo permite, revisar la efectividad de los controles adoptados y verificar la conformidad con el modelo de la política de acceso (ver 9.1).",
+      "subsecciones": [
+        {
+          "numero": "9.7.1",
+          "titulo": "Registro de evento",
+          "introduccion": "Se deberían auditar los registros de excepciones y otros eventos de seguridad pertinentes y guardarlos por un período acordado, para ayudar en futuras investigaciones y monitoreo del control de acceso.",
+          "registros_incluir": "La auditoría de los registros también debería incluir:",
+          "puntos_registros": [
+            { "letra": "a)", "item": "user IDs" },
+            {
+              "letra": "b)",
+              "item": "fechas y horas de abrir y cerrar sesiones"
+            },
+            {
+              "letra": "c)",
+              "item": "identificación del terminal o ubicación si es posible"
+            },
+            {
+              "letra": "d)",
+              "item": "registros de intentos de acceso al sistema exitosos y rechazados"
+            },
+            {
+              "letra": "e)",
+              "item": "registros de intentos de acceso a los datos y a otros recursos, exitosos y rechazados"
+            }
+          ],
+          "consideracion_adicional": "Puede ser necesario que ciertas auditorías se archiven como parte de la política de conservación de registros o debido a los requisitos de reunir evidencias (ver también cláusula 12)."
+        },
+        {
+          "numero": "9.7.2",
+          "titulo": "Monitoreo del uso del sistema",
+          "sub_subsecciones": [
+            {
+              "numero": "9.7.2.1",
+              "titulo": "Procedimientos y áreas de riesgos",
+              "introduccion": "Se deberían establecer procedimientos de monitoreo del uso de las instalaciones de procesamiento de la información. Tales procedimientos son necesarios para asegurar que los usuarios realicen solamente actividades que se hayan autorizado explícitamente. El nivel de monitoreo necesario para las instalaciones individuales se debería determinar por una evaluación del riesgo. Las áreas que se deberían incluir:",
+              "areas_incluir": [
+                {
+                  "letra": "a)",
+                  "item": "acceso autorizado, que incluye detalles como:",
+                  "subpuntos": [
+                    "a.1) el user ID;",
+                    "a.2) la fecha y hora de los eventos claves;",
+                    "a.3) el tipo de eventos;",
+                    "a.4) los archivos accedidos;",
+                    "a.5) los programas/ utilitarios que se usan."
+                  ]
+                },
+                {
+                  "letra": "b)",
+                  "item": "todas las operaciones privilegiadas, tales como:",
+                  "subpuntos": [
+                    "b.1) uso de cuenta de supervisor;",
+                    "b.2) partida y detención del sistema;",
+                    "b.3) conexión/ desconexión de dispositivos E/S."
+                  ]
+                },
+                {
+                  "letra": "c)",
+                  "item": "intentos de acceso no autorizados, tales como:",
+                  "subpuntos": [
+                    "c.1) intentos fallidos;",
+                    "c.2) violaciones a las políticas de acceso y avisos de gateways y firewalls;",
+                    "c.3) alertas de los sistemas propietarios de detección de intrusión."
+                  ]
+                },
+                {
+                  "letra": "d)",
+                  "item": "sistemas de alertas o de fallas, tal como:",
+                  "subpuntos": [
+                    "d.1) alerta o mensajes de consola;",
+                    "d.2) registros de excepciones del sistema;",
+                    "d.3) alarmas de gestión de red."
+                  ]
+                }
+              ]
+            },
+            {
+              "numero": "9.7.2.2",
+              "titulo": "Factores de riesgo",
+              "introduccion": "El resultado de las actividades de monitoreo se debería revisar regularmente. La frecuencia de las revisiones debería depender de los riesgos involucrados.",
+              "factores_riesgo": "Los factores de riesgo que se deberían considerar incluyen:",
+              "puntos_factores": [
+                {
+                  "letra": "a)",
+                  "item": "la criticidad de los procesos de la aplicación"
+                },
+                {
+                  "letra": "b)",
+                  "item": "el valor, sensibilidad o criticidad de la información involucrada"
+                },
+                {
+                  "letra": "c)",
+                  "item": "la experiencia pasada de la infiltración y mal uso del sistema"
+                },
+                {
+                  "letra": "d)",
+                  "item": "la extensión de la interconexión del sistema (particularmente en redes públicas)"
+                }
+              ]
+            },
+            {
+              "numero": "9.7.2.3",
+              "titulo": "Registro y revisión de eventos",
+              "introduccion": "Una revisión de los eventos involucra la comprensión de las amenazas enfrentadas por el sistema y la manera en que éstas pueden aparecer. Ejemplos de eventos que pueden necesitar investigación más amplia es el caso de los incidentes de seguridad indicados en 9.7.1.",
+              "manejo_registros": "Los registros del sistema a menudo contienen un gran volumen de información, mucho de éste es ajeno al monitoreo de seguridad. Para ayudar a identificar los eventos significativos con propósitos de monitoreo de seguridad, se debería considerar copiar los mensajes tipos apropiados automáticamente a un segundo registro, y/o el uso de los utilitarios adecuados del sistema o las herramientas de auditoría para analizar archivos.",
+              "separacion_roles": "Cuando se asigna la responsabilidad de revisar el registro, se debería considerar una separación de los roles entre la(s) persona(s) que efectúa(n) la revisión y aquella cuyas actividades están siendo monitoreadas.",
+              "atencion_seguridad_registros": "Particular atención se debería dar a la seguridad de las instalaciones de registros debido a que si se altera puede proveer una falsa sensación de seguridad. Los controles deberían ayudar a proteger de los cambios no autorizados y de los problemas operacionales, incluyendo:",
+              "problemas_operacionales": [
+                {
+                  "letra": "a)",
+                  "item": "el registro que está siendo desactivado"
+                },
+                {
+                  "letra": "b)",
+                  "item": "las alteraciones de los tipos de mensajes que son registrados"
+                },
+                {
+                  "letra": "c)",
+                  "item": "el archivo de registro que está siendo editado o borrado"
+                },
+                {
+                  "letra": "d)",
+                  "item": "el dispositivo de archivo de registro que esté lleno y, si está defectuoso para registrar eventos o para la sobre escritura"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "9.7.3",
+          "titulo": "Sincronización del reloj",
+          "importancia_sincronizacion": "Es importante el ajuste correcto del reloj del computador para resguardar la seguridad de registros de auditoría, los que puedan ser necesarios para las investigaciones o como evidencia en casos legales o disciplinarios. Los registros de auditoría inexactos pueden obstruir tales investigaciones y dañar la credibilidad de tal evidencia.",
+          "estandar_acordado": "Cuando un computador o dispositivo de comunicación tiene la capacidad de operar un reloj en tiempo real, debería ajustarse a un estándar acordado, por ejemplo, la hora coordinada universal (UCT) u hora estándar local. Como se sabe que algunos relojes tienen desfase con el tiempo, debería existir un procedimiento que verifique y corrija cualquier variación significativa."
+        }
+      ]
+    },
+    {
+      "numero": "9.8",
+      "titulo": "Computadores móviles y teletrabajo",
+      "objetivo": "Resguardar la seguridad de la información cuando se usen computadores móviles y equipos de teletrabajo.",
+      "introduccion": "La protección necesaria debería estar en proporción con los riesgos que causa esta manera específica de trabajo. Cuando se usan computadores móviles se deberían considerar los riesgos de trabajar en un ambiente no protegido y aplicar la protección apropiada. En el caso de teletrabajo la organización debería aplicar protección al sitio de teletrabajo y asegurar que para esta forma de trabajo la configuración adecuada está instalada.",
+      "subsecciones": [
+        {
+          "numero": "9.8.1",
+          "titulo": "Computadores móviles",
+          "introduccion": "Cuando se usen equipos de computadores móviles, por ejemplo, notebooks, palmtops, laptops y teléfonos móviles, se debería tener especial cuidado para asegurar que la información del negocio no se comprometa. Se debería adoptar una política formal que tome en cuenta los riesgos de trabajar con equipos de computadores móviles, en particular en ambientes no protegidos. Por ejemplo, tal política debería incluir los requisitos de protección física, controles de acceso, técnicas de criptografía, respaldos y protección antivirus. Esta política también debería incluir reglas y consejos en la conexión de equipos móviles a redes y una guía para el uso de estos equipos en los lugares públicos.",
+          "uso_lugares_publicos": "Se debería tener cuidado cuando se usen equipos de computadores móviles en lugares públicos, salas de reunión y otras áreas no protegidas externas a las instalaciones de la organización. Se debería tener protección en el sitio para evitar el acceso no autorizado o la divulgación de la información almacenada y procesada por estos equipos, por ejemplo, el uso de técnicas de criptografía (ver 10.3).",
+          "evitar_observacion": "Es importante cuando tales equipos se usen en lugares públicos tener cuidado para evitar el riesgo de que lo observen y los usen personas no autorizadas. Los procedimientos contra el software malicioso deberían estar disponibles y mantenerlos actualizados (ver 8.3). Deberían estar disponibles equipos para permitir un rápido y fácil respaldo de la información. Estos respaldos deberían dar una protección adecuada, por ejemplo, contra robos y pérdida de información.",
+          "proteccion_redes": "Una protección apropiada se debería dar a los equipos móviles conectados a las redes. El acceso remoto a la información del negocio vía una red pública usando un equipo computador móvil debería suceder solamente después de la identificación y autenticación exitosa y tener los mecanismos de control de acceso apropiado instalados (ver 9.4).",
+          "proteccion_fisica": "Los equipos de computadores móviles también deberían estar físicamente protegidos contra los robos, especialmente cuando se dejan, por ejemplo, en autos y otros medios de transporte, habitaciones de hoteles, centros de conferencias y lugares de reuniones. Los equipos que contienen información importante del negocio, sensible y/o crítica no se debería dejar desatendido y, cuando sea posible, debería estar físicamente con llave o se deberían usar trabas especiales para asegurarlo. En 7.2.5 se puede encontrar más información respecto a la protección física de los equipos móviles.",
+          "entrenamiento_personal": "Se debería disponer de entrenamiento para el personal que usa computadores móviles, para elevar su conocimiento de los riesgos adicionales que aparecen al trabajar de esta forma y de los controles que se deberían implementar."
+        },
+        {
+          "numero": "9.8.2",
+          "titulo": "Teletrabajo",
+          "introduccion": "El teletrabajo usa la tecnología de las comunicaciones para permitir que el personal trabaje remotamente desde un lugar fijo fuera de la ubicación de su organización. La protección adecuada del sitio de teletrabajo debería estar instalada en contra de, por ejemplo, el robo de los equipos y de la información, divulgación no autorizada de la información, acceso remoto no autorizado a los sistemas internos de la organización o mal uso de los equipos.",
+          "autorizacion_control": "Es importante que el teletrabajo sea autorizado y controlado por la dirección, y que, para esta forma de trabajo las configuraciones adecuadas estén instaladas.",
+          "desarrollo_politica": "Las organizaciones deberían considerar el desarrollo de una política, procedimientos y normas para el control de las actividades de teletrabajo. Las organizaciones deberían autorizar sólo las actividades de teletrabajo si ellas satisfacen las disposiciones de seguridad apropiadas, existen los controles y cumplen con la política de seguridad de la organización. Se debería considerar lo siguiente:",
+          "consideraciones": [
+            {
+              "letra": "a)",
+              "item": "la existencia de la seguridad física del sitio de teletrabajo, tomando en cuenta la seguridad física del edificio y su ambiente"
+            },
+            { "letra": "b)", "item": "el ambiente de teletrabajo propuesto" },
+            {
+              "letra": "c)",
+              "item": "los requisitos de seguridad de las comunicaciones, tomando en cuenta la necesidad de acceso remoto a los sistemas internos de la organización, la sensibilidad de la información que será accesible, el paso por el enlace de comunicación y la sensibilidad del sistema interno"
+            },
+            {
+              "letra": "d)",
+              "item": "la amenaza de acceso no autorizado a la información o recursos, de otras personas que usan las acomodaciones del sitio, por ejemplo, la familia y los amigos"
+            }
+          ],
+          "controles_disposiciones": "Se debería considerar incluir los controles y disposiciones para:",
+          "puntos_controles_disposiciones": [
+            {
+              "letra": "a)",
+              "item": "el suministro de los equipos adecuados y accesorios de almacenamiento para las actividades de teletrabajo"
+            },
+            {
+              "letra": "b)",
+              "item": "una definición del trabajo permitido, las horas de trabajo, la clasificación de la información que se puede guardar y los sistemas internos y servicios que el teletrabajador está autorizado a acceder"
+            },
+            {
+              "letra": "c)",
+              "item": "el suministro de los equipos de comunicaciones apropiados, incluyendo los métodos para el acceso remoto seguro"
+            },
+            { "letra": "d)", "item": "la seguridad física" },
+            {
+              "letra": "e)",
+              "item": "reglas y guías en la familia y el acceso de visitas a los equipos e información"
+            },
+            {
+              "letra": "f)",
+              "item": "el suministro de apoyo al software y hardware y mantenimiento"
+            },
+            {
+              "letra": "g)",
+              "item": "los procedimientos de respaldo y continuidad del negocio"
+            },
+            { "letra": "h)", "item": "auditoría y monitoreo de la seguridad" },
+            {
+              "letra": "i)",
+              "item": "revocación de la autoridad, derechos de acceso y el retorno de los equipos cuando finalizan las actividades de teletrabajo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

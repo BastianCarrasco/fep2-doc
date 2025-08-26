@@ -1,0 +1,36 @@
+{
+  "titulo_seccion": "2 Términos y definiciones",
+  "introduccion": "Para los propósitos de esta norma, se aplican los términos y definiciones siguientes:",
+  "terminos": [
+    {
+      "numero": "2.1",
+      "termino": "confidencialidad",
+      "definicion": "aseguramiento de que la información sea accesible sólo por quienes están autorizados para tener acceso"
+    },
+    {
+      "numero": "2.2",
+      "termino": "disponibilidad",
+      "definicion": "aseguramiento de que los usuarios tengan acceso a la información y bienes asociados cuando lo necesiten"
+    },
+    {
+      "numero": "2.3",
+      "termino": "evaluación del riesgo",
+      "definicion": "cuantificación de las amenazas de impactar y vulnerar la información y las instalaciones de procesamiento de la información y la probabilidad de ocurrencia"
+    },
+    {
+      "numero": "2.4",
+      "termino": "gestión del riesgo",
+      "definicion": "proceso de identificación, control y minimización o eliminación de los riesgos de la seguridad que pueden afectar los sistemas de información, a un costo aceptable"
+    },
+    {
+      "numero": "2.5",
+      "termino": "integridad",
+      "definicion": "salvaguardia de la exactitud y totalidad de la información y de los métodos de procesamiento"
+    },
+    {
+      "numero": "2.6",
+      "termino": "seguridad de la información",
+      "definicion": "preservación de la confidencialidad, integridad y disponibilidad de la información"
+    }
+  ]
+}

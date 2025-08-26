@@ -1,0 +1,57 @@
+{
+  "titulo_capitulo": "CAPÍTULO 14: EVALUACIÓN ACADÉMICA",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 40°",
+      "titulo": "ESCALA DE CALIFICACIÓN ACADÉMICA",
+      "introduccion": "Para efectos académicos.",
+      "tabla_calificacion_base_titulo": "1. TABLA DE CALIFICACIÓN BASE",
+      "tabla_calificacion_base": [
+        {
+          "condicion": "Primer Lugar",
+          "criterio": "(Si existe alguna propuesta que todos los ítems cumpla sobre el 90% de los requerimientos y sea superior al resto)",
+          "nota": "7,0"
+        },
+        {
+          "condicion": "Segundo Lugar",
+          "criterio": "(las ofertas que pueden optar a este lugar deben cumplir que todos los ítems cumplan sobre el 80% de los Requerimientos)",
+          "nota": "6,5"
+        },
+        {
+          "condicion": "Tercer Lugar",
+          "criterio": "Ofertas cuyo puntaje final en la evaluación técnica sea igual o superior a 60%, y el puntaje en cada ítem dentro de la propuesta sea superior a 30%.",
+          "nota": "5,5"
+        },
+        {
+          "condicion": "Cuarto Lugar",
+          "criterio": "Ofertas cuyo puntaje final en la evaluación técnica sea igual o superior a 60%, y el puntaje en cada ítem dentro de la propuesta sea superior a 30%.",
+          "nota": "4,5"
+        },
+        {
+          "condicion": "Quinto e inferior Lugar",
+          "criterio": "Ofertas cuyo puntaje final en la evaluación técnica sea igual o superior a 60%, y el puntaje en cada ítem dentro de la propuesta sea superior a 30%.",
+          "nota": "4,0"
+        },
+        {
+          "condicion": "No cumple técnicamente",
+          "criterio": "Con las propuestas que tengan Puntaje <60% o algún ítem <30%",
+          "nota": "3,0"
+        },
+        {
+          "condicion": "Oferta no aceptada",
+          "criterio": "Con las Incumplimiento formal o administrativo",
+          "nota": "1.0"
+        }
+      ],
+      "ajuste_excelencia_titulo": "2. AJUSTE POR EXCELENCIA DEL PRIMER LUGAR",
+      "ajuste_excelencia_introduccion": "Cuando ninguna propuesta alcance la calificación máxima de 7.0 por no cumplir con el requisito de superar el 90% en todos los criterios, pero exista una propuesta que se destaque significativamente del resto, se aplicará el siguiente mecanismo de ajuste:",
+      "condiciones_ajuste_titulo": "a) Condiciones para aplicar el ajuste:",
+      "condiciones_ajuste_puntos": [
+        "• La propuesta mejor evaluada debe tener una diferencia mínima de 10 puntos porcentuales en el puntaje final ponderado respecto al segundo lugar",
+        "• Debe cumplir con todos los requisitos técnicos mínimos establecidos",
+        "• Debe haber obtenido al menos 75% del puntaje máximo posible en la evaluación técnica",
+        "• Las demás propuestas se ajustarían proporcionalmente según las diferencias establecidas."
+      ]
+    }
+  ]
+}

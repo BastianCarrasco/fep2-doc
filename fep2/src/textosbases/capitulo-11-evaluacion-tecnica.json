@@ -1,0 +1,52 @@
+{
+  "titulo_capitulo": "CAPÍTULO 11: EVALUACIÓN TÉCNICA",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 31°",
+      "titulo": "CRITERIOS DE EVALUACIÓN TÉCNICA",
+      "introduccion": "Las ofertas técnicas serán evaluadas por el CLIENTE, la que se asesorará por una Comisión de Expertos, que tendrá como misión analizar cada una de las ofertas, evaluarlas y ranquearlas en función del cumplimiento de los requerimientos planteados",
+      "forma_asignacion": "La Comisión evaluará cada uno de los criterios definidos de asignarán de la siguiente forma:",
+      "criterios": [
+        {
+          "punto": "1.",
+          "descripcion": "Escala de evaluación: 0 a 100 puntos"
+        },
+        {
+          "punto": "2.",
+          "descripcion": "Asignación de puntajes:",
+          "subsecciones": [
+            {
+              "titulo": "Para cumplimiento igual o superior al exigido (60-100 puntos):",
+              "puntos": [
+                "• Mejor propuesta: 100 puntos",
+                "• Propuestas intermedias: Interpolación 61-99",
+                "• Cumplimiento mínimo: 60 puntos"
+              ]
+            },
+            {
+              "titulo": "Para cumplimiento inferior al exigido (0-59 puntos):",
+              "puntos": [
+                "• Propuesta más alta: 60 puntos",
+                "• Propuestas intermedias: Interpolación 21-59",
+                "• Incumplimiento total: 0 puntos"
+              ]
+            }
+          ]
+        },
+        {
+          "punto": "3.",
+          "descripcion": "Condiciones de exclusión de la propuesta técnica:",
+          "subpuntos": [
+            "• Puntaje inferior a 30 en cualquier criterio",
+            "• Puntaje ponderado total inferior a 60 puntos"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 33°",
+      "titulo": "EVALUACIÓN DETALLADA POR CRITERIO",
+      "contenido": "Los criterios de evaluación que se especifica estas Bases en el Formulario T-20, T-21 y T-22."
+    }
+  ]
+}

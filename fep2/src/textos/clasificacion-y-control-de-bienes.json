@@ -1,0 +1,80 @@
+{
+  "titulo_seccion": "5 Clasificación y control de bienes",
+  "secciones": [
+    {
+      "numero": "5.1",
+      "titulo": "Responsabilidad de los bienes",
+      "objetivo": "Mantener una protección apropiada de los bienes de la organización.",
+      "parrafo_introductorio": "Todos los bienes de información importantes se deberían contabilizar y deberían tener designado un dueño.",
+      "descripcion": "La responsabilidad de los bienes ayuda a asegurar que se mantenga la protección apropiada. Se deberían identificar los dueños de todos los bienes importantes y se debería asignar la responsabilidad del mantenimiento de los controles apropiados. Se puede delegar la responsabilidad de la implementación de los controles. La responsabilidad debería permanecer con el dueño designado del bien.",
+      "subsecciones": [
+        {
+          "numero": "5.1.1",
+          "titulo": "Inventario de los bienes",
+          "importancia_inventario": "El inventario de los bienes ayuda a asegurar que se realice una protección efectiva de los bienes y también puede ser necesario para otros propósitos del negocio, tales como salud y seguridad, razones financieras o de seguros (gestión del bien). El proceso de recopilar un inventario de bienes es un aspecto importante de gestión del riesgo. Una organización necesita ser capaz de identificar sus bienes y el valor relativo e importancia de ellos. Basada en esta información una organización puede así proveer niveles de protección en proporción con el valor e importancia de los bienes.",
+          "implementacion_inventario": "Se debería implementar y mantener un inventario de los bienes importantes asociados con cada sistema de información. Cada bien se debería identificar claramente, documentar y acordar su propiedad y su clasificación de seguridad (ver 5.2), junto con su actual ubicación (importante cuando se intenta recuperar de una pérdida o daño). Ejemplos de bienes asociados con los sistemas de información son:",
+          "ejemplos_bienes": [
+            {
+              "letra": "a)",
+              "tipo": "bienes de información",
+              "ejemplos": "bases de datos y archivos de datos, documentación del sistema, manuales de usuario, material de entrenamiento, procedimientos de apoyo y operación, planes de continuidad, planes de recuperación, información archivada"
+            },
+            {
+              "letra": "b)",
+              "tipo": "bienes de software",
+              "ejemplos": "software de aplicación, software de sistema, herramientas de desarrollo y utilitarios"
+            },
+            {
+              "letra": "c)",
+              "tipo": "bienes físicos",
+              "ejemplos": "equipos de computación (procesadores, monitores, computadores portátiles, modems), equipos de comunicación (ruteadores, PABXs, máquinas de fax, máquinas contestadoras), medios magnéticos (cintas y discos), otros equipos técnicos (fuentes de alimentación, unidades de aire acondicionado), mobiliario"
+            },
+            {
+              "letra": "d)",
+              "tipo": "servicios",
+              "ejemplos": "servicios de computación y comunicaciones, servicios públicos en general, por ejemplo, calefacción, iluminación, energía eléctrica, aire acondicionado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "5.2",
+      "titulo": "Clasificación de la información",
+      "objetivo": "Asegurar que los bienes de información reciban un nivel apropiado de protección.",
+      "parrafo_introductorio": "La información se debería clasificar para indicar la necesidad, prioridad y grado de protección.",
+      "descripcion": "La información tiene un grado de sensibilidad y criticidad variable. Algunos ítemes pueden requerir un nivel adicional de protección o una manipulación especial. Se debería usar un sistema de clasificación para definir un conjunto apropiado de niveles de protección, y comunicar la necesidad de medidas especiales de manipulación.",
+      "subsecciones": [
+        {
+          "numero": "5.2.1",
+          "titulo": "Guías para la clasificación",
+          "consideraciones_clasificacion": "La clasificación y los controles de protección asociados a la información, deberían tomar en cuenta la necesidad del negocio de compartir o restringir la información, y los impactos del negocio asociados con tales necesidades, por ejemplo, acceso no autorizado o daño a la información. En general, la clasificación dada a la información es una forma resumida de determinar cómo se debe manipular y proteger esta información.",
+          "etiquetado_valor_sensibilidad": "La información y las salidas de los sistemas que manipulan los datos clasificados se deberían etiquetar en términos de su valor y sensibilidad para la organización. Puede ser también apropiado etiquetar la información en términos de cuán crítica es para la organización, por ejemplo, en términos de su integridad y disponibilidad.",
+          "cambio_clasificacion": "La información a menudo deja de ser sensible o crítica después de cierto período de tiempo, por ejemplo, cuando la información se ha hecho pública. Estos aspectos se deberían tomar en cuenta, ya que una sobre-clasificación puede llevar a un gasto adicional innecesario del negocio. Las guías de clasificación deberían anticipar y permitir el hecho que la clasificación de cualquier ítem dado de la información no es necesariamente fija durante todo el tiempo, y puede cambiar de acuerdo con alguna política predeterminada (ver 9.1).",
+          "categorias_complejidad": "Se debería dar cierta consideración al número de categorías de clasificación y a los beneficios que se ganan con su uso. Esquemas demasiado complejos pueden llegar a ser engorrosos y no económicos para su uso o ser poco prácticos. Se debería tener cuidado en interpretar las etiquetas de clasificación en los documentos de otras organizaciones que pueden tener diferentes definiciones para la misma etiqueta o algunas denominadas similarmente.",
+          "responsabilidad_clasificacion": "La responsabilidad para definir la clasificación de un ítem de información, por ejemplo, para un documento, registro de dato, archivo de datos o diskette, y para la revisión periódica de esa clasificación, debería permanecer con el creador o dueño nominado de la información."
+        },
+        {
+          "numero": "5.2.2",
+          "titulo": "Etiquetado y manipulación de la información",
+          "introduccion": "Es importante que se defina un conjunto apropiado de procedimientos para el etiquetado y la manipulación de la información, de acuerdo con el esquema de clasificación adoptado por la organización. Estos procedimientos necesitan cubrir los bienes de información en formatos físicos y electrónicos. Para cada clasificación, se debería definir los procedimientos de manipulación para cubrir los siguientes tipos de actividad de procesamiento de la información:",
+          "tipos_actividad": [
+            { "letra": "a)", "item": "copiado" },
+            { "letra": "b)", "item": "almacenamiento" },
+            {
+              "letra": "c)",
+              "item": "transmisión por correo tradicional, fax y correo electrónico"
+            },
+            {
+              "letra": "d)",
+              "item": "transmisión de voz, incluyendo teléfono móvil, correo de voz y máquinas contestadoras"
+            },
+            { "letra": "e)", "item": "destrucción" }
+          ],
+          "etiquetado_salida": "La salida de los sistemas que contienen información que está clasificada como sensible o crítica debería tener una etiqueta apropiada de clasificación (en la salida). La etiqueta debería reflejar la clasificación de acuerdo a las reglas establecidas en 5.2.1. Los ítemes a considerar incluyen los informes impresos, pantallas de computador, medios magnéticos (cintas, discos, CDs, cassettes), mensajes electrónicos y transferencias de archivos.",
+          "etiquetas_fisicas_electronicas": "Las etiquetas físicas son generalmente las formas más apropiadas de etiquetar. Sin embargo, algunos bienes de información, tales como documentos en forma electrónica, no se pueden etiquetar físicamente y se deben usar dispositivos de etiquetado electrónico."
+        }
+      ]
+    }
+  ]
+}

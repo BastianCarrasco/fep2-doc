@@ -1,0 +1,120 @@
+{
+  "titulo_seccion": "6 Seguridad del personal",
+  "secciones": [
+    {
+      "numero": "6.1",
+      "titulo": "Seguridad en la definición del trabajo y recursos",
+      "objetivo": "Reducir los riesgos de error humano, robos, fraudes o mal uso de las instalaciones.",
+      "parrafo_introductorio": "Las responsabilidades de seguridad se deberían asignar en la etapa de contratación del personal, incluirlas en los contratos, y monitorearlas durante el empleo de la persona. Los potenciales postulantes se deberían seleccionar adecuadamente (ver 6.1.2), especialmente para trabajos sensibles. Todos los empleados y los usuarios de terceras partes de los equipos de procesamiento de la información, deberían firmar un acuerdo de confidencialidad (no divulgación).",
+      "subsecciones": [
+        {
+          "numero": "6.1.1",
+          "titulo": "Incorporación de la seguridad en las responsabilidades del trabajo",
+          "contenido": "Los roles de seguridad y responsabilidad, como se establecen en la política de seguridad de la información de la organización (ver 3.1), se deberían documentar cuando sea apropiado. Ellos deberían incluir cualquier responsabilidad general para implementar o mantener la política de seguridad como también cualquier responsabilidad específica para la protección de los bienes particulares, o por la ejecución de actividades o procesos de seguridad particulares."
+        },
+        {
+          "numero": "6.1.2",
+          "titulo": "Selección y política de personal",
+          "verificaciones_contratacion": "Se deberían realizar verificaciones al personal permanente al momento de la contratación. Esto debería incluir los controles siguientes:",
+          "controles_verificacion": [
+            {
+              "letra": "a)",
+              "item": "disponibilidad de referencias satisfactorias, por ejemplo, una comercial y una personal"
+            },
+            {
+              "letra": "b)",
+              "item": "una verificación (de la totalidad y exactitud) del currículo vitae del postulante"
+            },
+            {
+              "letra": "c)",
+              "item": "confirmación de las calificaciones profesionales y académicas exigidas"
+            },
+            {
+              "letra": "d)",
+              "item": "verificación de identidad (pasaporte, cédula de identidad o documento similar)"
+            }
+          ],
+          "revision_antecedentes_financieros": "Cuando un trabajo, ya sea en una designación inicial o en una promoción, involucra a una persona que tiene acceso a los equipos de procesamiento de la información, y en particular si hay una manipulación de información sensible, por ejemplo, información financiera o altamente confidencial, la organización debería realizar una revisión de los antecedentes financieros. Para el personal que es autoridad importante, esta revisión se debería repetir periódicamente.",
+          "personal_temporal_externo": "Se debería realizar un proceso de selección similar para el personal temporal y externo. Cuando este personal es empleado a través de una agencia, el contrato con la agencia debería especificar claramente las responsabilidades de ella en los procedimientos de selección y notificación, que necesitan seguir si la selección no ha sido completa o si los resultados son dudosos.",
+          "supervision_personal_nuevo": "La dirección debería evaluar la supervisión necesaria para el personal nuevo y sin experiencia con autorización para acceder a sistemas sensibles. El trabajo de todo el personal debería estar sujeto a revisiones periódicas y aprobación de los procedimientos por un miembro más antiguo.",
+          "circunstancias_personales": "Los directivos deberían estar conscientes que circunstancias personales de su personal pueden afectar su trabajo. Problemas financieros, personales, cambios en su comportamiento o estilo de vida, ausencias recurrentes y evidencias de estrés o depresión podrían llevar a un fraude, robo, error u otras implicancias en la seguridad. Esta información se debería tratar de acuerdo con alguna legislación aplicable, en la jurisdicción pertinente."
+        },
+        {
+          "numero": "6.1.3",
+          "titulo": "Acuerdos de confidencialidad",
+          "introduccion": "Los acuerdos de confidencialidad o de no divulgación, se usan para notificar que la información es secreta o confidencial. Los empleados deberían normalmente firmar un acuerdo como parte de los términos y condiciones iniciales de empleo.",
+          "personal_temporal_terceros": "El personal temporal y los usuarios de terceras partes no cubiertos por un contrato existente (que contenga un acuerdo de confidencialidad), deberían firmar un acuerdo de confidencialidad antes de que tengan acceso a los equipos de procesamiento de la información.",
+          "revision_acuerdos": "Los acuerdos de confidencialidad se deberían revisar cuando haya cambios de las condiciones del empleo o contrato, particularmente cuando los empleados deben dejar la organización por alguna razón o por término de contrato."
+        },
+        {
+          "numero": "6.1.4",
+          "titulo": "Términos y condiciones de contratación",
+          "responsabilidad_seguridad": "Los términos y condiciones de contratación deberían establecer la responsabilidad en la seguridad de la información. Cuando sea apropiado, estas responsabilidades continuarían por un tiempo definido después de finalizar la contratación. Se debería incluir la acción que se tomará si el empleado descuida los requisitos de seguridad.",
+          "derechos_legales": "También se deberían aclarar e incluir en los términos y condiciones de contratación, las responsabilidades y derechos legales del empleado, por ejemplo, leyes relacionadas con los derechos de propiedad o la legislación de protección de datos. También se debería incluir la responsabilidad por la clasificación y gestión de los datos del empleador. Se debería establecer, cuando sea apropiado, que los términos y condiciones de contratación se extiendan fuera de las instalaciones de la organización y fuera de las horas normales de trabajo, por ejemplo, en caso de trabajos en la casa (ver también 7.2.5 y 9.8.1)."
+        }
+      ]
+    },
+    {
+      "numero": "6.2",
+      "titulo": "Entrenamiento del usuario",
+      "objetivo": "Asegurar que los usuarios estén conscientes de las amenazas de la seguridad de la información y lo que afecta y estén equipados para apoyar la política de seguridad de la organización durante su trabajo normal.",
+      "introduccion": "Los usuarios se deberían entrenar en los procedimientos de seguridad y en el uso correcto de los equipos de procesamiento de la información para minimizar los posibles riesgos en la seguridad.",
+      "subsecciones": [
+        {
+          "numero": "6.2.1",
+          "titulo": "Educación y entrenamiento en la seguridad de la información",
+          "contenido": "Todos los empleados de la organización y los usuarios de terceras partes, deberían recibir cuando sea pertinente, un entrenamiento adecuado y actualizaciones regulares de los procedimientos y políticas de la organización. Esto incluye los requisitos de seguridad, las responsabilidades legales y controles del negocio, así como el entrenamiento en el uso correcto de los equipos de procesamiento de la información, por ejemplo, el procedimiento de ingreso, uso de paquetes de software, después que se haya otorgado el acceso a la información o a los servicios."
+        }
+      ]
+    },
+    {
+      "numero": "6.3",
+      "titulo": "Respuesta a los incidentes de seguridad y malfuncionamiento",
+      "objetivo": "Minimizar el daño de los incidentes de seguridad y malfuncionamientos, monitorear y aprender de tales incidentes.",
+      "introduccion": "Los incidentes que afectan la seguridad se deberían informar tan rápido como sea posible, a través de un canal de gestión apropiado. Todos los empleados y personal externo deberían estar conscientes de los procedimientos de informe de los diferentes tipos de incidentes (violación de la seguridad, amenaza, debilidad o malfuncionamientos) que podrían tener un impacto en la seguridad de los bienes de la organización. Se les debería exigir que informen a la persona designada de contacto cualquier incidente que se observe o sea sospechoso tan rápido como sea posible. La organización debería establecer un proceso disciplinario formal para las relaciones con los empleados quienes cometan violaciones a la seguridad. Para ser capaz de guiar los incidentes en forma apropiada después de la ocurrencia, puede ser necesario reunir evidencias tan pronto como sea posible (ver 12.1.7).",
+      "subsecciones": [
+        {
+          "numero": "6.3.1",
+          "titulo": "Informes de incidentes de seguridad",
+          "contenido_general": "Los incidentes de seguridad se deberían informar a través de canales de gestión apropiados tan rápido como sea posible.",
+          "procedimiento_formal": "Se debería establecer un procedimiento formal de informes, junto con un procedimiento de respuesta al incidente y disponer la acción a tomar cuando se reciba un informe. Todos los empleados y personal externo deberían estar conscientes del procedimiento de informes de incidentes de seguridad, y se les debería exigir que informen tales incidentes tan rápido como sea posible. Se deberían implementar procesos de realimentación convenientes para asegurar que estos informes de incidentes sean contrastados con los resultados después que el incidente se haya tratado y cerrado. Estos incidentes se pueden usar en entrenamientos de sensibilización del usuario (ver 6.2) como ejemplos de lo que podría suceder, cómo responder a tales incidentes, y cómo evitar la ocurrencia en el futuro (ver 12.1.7)."
+        },
+        {
+          "numero": "6.3.2",
+          "titulo": "Informes de deficiencias de la seguridad",
+          "contenido": "Se les debería exigir a los usuarios de los servicios de información que registren e informen cualquier deficiencia observada o sospechosa de la seguridad, o amenazas a los servicios o sistemas. Ellos deberían informar estas materias a su dirección o directamente a su proveedor de servicio tan rápido como sea posible. A los usuarios se les debería informar que en ninguna circunstancia ellos deberían, intentar probar una deficiencia sospechosa. Por su propia protección, una prueba de la deficiencia se podría interpretar como un potencial mal uso del sistema."
+        },
+        {
+          "numero": "6.3.3",
+          "titulo": "Informe de malfuncionamientos del software",
+          "introduccion": "Se deberían establecer los procedimientos para informar los malfuncionamientos del software. Se deberían considerar las acciones siguientes:",
+          "acciones_considerar": [
+            {
+              "letra": "a)",
+              "item": "Se deberían registrar los síntomas del problema y cualquier mensaje que aparezca en la pantalla."
+            },
+            {
+              "letra": "b)",
+              "item": "Se debería aislar el computador, si es posible, y detener su uso. Se debería informar al contacto apropiado de inmediato. Si el equipo se va a examinar, se debería desconectar de cualquier red de la organización antes de volver a energizarlo. Los diskettes no se deberían transferir a otro computador."
+            },
+            {
+              "letra": "c)",
+              "item": "Se debería informar inmediatamente el tema al encargado de seguridad de la información."
+            }
+          ],
+          "recuperacion_software": "Los usuarios no deberían intentar retirar el software sospechoso, a menos que estén autorizados para realizarlo. El personal apropiadamente entrenado y experimentado debería realizar la recuperación del software."
+        },
+        {
+          "numero": "6.3.4",
+          "titulo": "Aprendizaje de los incidentes",
+          "contenido": "Debería existir en el lugar de trabajo los mecanismos que permitan cuantificar y monitorear los tipos, volúmenes y costos de los incidentes y malfuncionamientos. Esta información se debería usar para identificar malfuncionamientos o incidentes recurrentes o de alto impacto. Esto puede indicar la necesidad de reforzar los controles o agregar controles adicionales para limitar la frecuencia, daño y costo de ocurrencias futuras, o para ser tomados en cuenta en los procesos de revisión de la política de seguridad (ver 3.1.2)."
+        },
+        {
+          "numero": "6.3.5",
+          "titulo": "Procesos disciplinarios",
+          "contenido": "Debería existir un proceso disciplinario formal para los empleados que hayan violado las políticas y procedimientos de seguridad (ver 6.1.4 y para la conservación de la evidencia ver 12.1.7). Tal proceso puede actuar como un disuasivo para los empleados quienes de otra forma podrían estar inclinados a descuidar los procedimientos de seguridad. Adicionalmente, esto debería asegurar un trato adecuado a los empleados quienes son sospechosos de cometer violaciones serias o persistentes a la seguridad."
+        }
+      ]
+    }
+  ]
+}

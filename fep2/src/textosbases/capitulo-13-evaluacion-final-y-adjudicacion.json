@@ -1,0 +1,44 @@
+{
+  "titulo_capitulo": "CAPÍTULO 13: EVALUACIÓN FINAL Y ADJUDICACIÓN",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 37°",
+      "titulo": "PUNTAJE FINAL",
+      "formula_introduccion": "1. Fórmula de ponderación final:",
+      "formula_contenido": "PUNTAJE FINAL = (Presentaciones × 0.1) + (Técnica × 0.7) + (Económica × 0.2)",
+      "ponderaciones_introduccion": "2. Ponderaciones:",
+      "ponderaciones_detalle": [
+        "• Presentaciones preparatorias: 10%",
+        "• Evaluación técnica: 70%",
+        "• Evaluación económica: 20%"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 38°",
+      "titulo": "CRITERIOS DE ADJUDICACIÓN",
+      "criterio_principal": "Se adjudicará al proponente con mayor puntaje final ponderado",
+      "empate_introduccion": "En caso de empate:",
+      "criterios_empate": [
+        "1. Mayor puntaje técnico",
+        "2. Mayor puntaje en solución propuesta",
+        "3. Mejor precio"
+      ],
+      "derecho_cliente_introduccion": "El CLIENTE se reserva el derecho de:",
+      "derechos_cliente": [
+        "• Adjudicar parcialmente",
+        "• Declarar desierta la licitación",
+        "• Rechazar todas las ofertas"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 39°",
+      "titulo": "NOTIFICACIÓN Y PUBLICACIÓN",
+      "notificacion_introduccion": "La adjudicación se notificará:",
+      "forma_notificacion": [
+        "• Al adjudicatario: Por carta certificada y correo electrónico",
+        "• A los demás: Por correo electrónico"
+      ],
+      "plazo_notificacion": "Plazo de notificación: 5 días hábiles desde la resolución"
+    }
+  ]
+}

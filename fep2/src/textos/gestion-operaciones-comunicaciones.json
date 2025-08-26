@@ -1,0 +1,823 @@
+{
+  "titulo_seccion": "8 Gestión de las operaciones y de las comunicaciones",
+  "secciones": [
+    {
+      "numero": "8.1",
+      "titulo": "Responsabilidades y procedimientos de las operaciones",
+      "subsecciones": [
+        {
+          "numero": "8.1.1",
+          "titulo": "Documentación de los procedimientos de las operaciones",
+          "objetivo": "Asegurar las operaciones correctas y seguras de las instalaciones de procesamiento de información.",
+          "introduccion": "Se deberían establecer y mantener los procedimientos de operación documentados para todos los sistemas de procesamiento de información. Se deberían mantener y hacer disponibles las instrucciones de operación, que describen cómo se van a llevar a cabo las funciones de seguridad. Estos procedimientos pueden incluir:",
+          "procedimientos_incluir": [
+            "procedimientos de ingreso/salida, y de gestión de error, incluyendo las copias de seguridad;",
+            "guías de uso de cada sistema;",
+            "instrucciones de encendido/apagado, gestión de error, y de respaldo;",
+            "disposiciones de manejo de materiales especiales, por ejemplo, los impresos, medios magnéticos (cintas, discos, CDs), cartuchos de tóner, papel de impresión;",
+            "disposiciones de procesamiento seguro de los datos, por ejemplo, entrada, procesamiento de verificación, salida y errores;",
+            "disposiciones de eliminación de datos;",
+            "disposiciones de seguridad en el respaldo y recuperación;",
+            "disposiciones de operación para el monitoreo de los sistemas;",
+            "guías de administración para la gestión de acceso, gestión de problemas, gestión de cambios y mantenimiento de registros;"
+          ],
+          "revision_actualizacion": "Estos procedimientos se deberían revisar y actualizar regularmente para asegurar que se mantengan apropiados, por ejemplo, después de un cambio importante en el sistema de información."
+        },
+        {
+          "numero": "8.1.2",
+          "titulo": "Gestión de cambios",
+          "objetivo": "Controlar los cambios en las instalaciones de procesamiento de información y a los sistemas que las afectan.",
+          "introduccion": "Los cambios en las instalaciones de procesamiento de información y sistemas (incluyendo hardware, software y red), se deberían controlar a través del uso de procedimientos formales de gestión de cambio. Los cambios en los procesos del negocio y en los procedimientos que afectan la seguridad también se deberían controlar a través de los procedimientos de gestión de cambio.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "todos los cambios importantes se deberían someter a una aprobación formal;"
+            },
+            {
+              "letra": "b)",
+              "item": "todos los cambios en los sistemas de aplicación y en la plataforma de las tecnologías de información se deberían gestionar a través de procedimientos de control de cambios;"
+            },
+            {
+              "letra": "c)",
+              "item": "el impacto de los cambios se debería evaluar con respecto a la confidencialidad, integridad y disponibilidad de la información y los bienes; los cambios se deberían evaluar completamente antes de la implementación;"
+            },
+            {
+              "letra": "d)",
+              "item": "la seguridad se debería tener en consideración al planificar un cambio, especialmente los controles de seguridad relevantes que se requiere aplicar en el entorno de explotación, por ejemplo, al instalar un nuevo sistema operativo o al poner un nuevo desarrollo en producción, se debería verificar que los accesos por defecto estén deshabilitados o protegidos con clave;"
+            },
+            {
+              "letra": "e)",
+              "item": "la aprobación del cambio debería considerar cualquier modificación de seguridad requerida de acuerdo con la política de seguridad y los riesgos;"
+            },
+            {
+              "letra": "f)",
+              "item": "los cambios de hardware y software deberían someterse a pruebas de no regresión para asegurar que no se haya afectado adversamente la seguridad del sistema y las operaciones; la efectividad de los parches de seguridad (conocidos como 'Service Pack' para sistemas Microsoft) se deberían probar antes de la implementación;"
+            },
+            {
+              "letra": "g)",
+              "item": "si los controles de seguridad son degradados, se deberían implementar acciones alternativas antes de que el cambio se implemente;"
+            },
+            {
+              "letra": "h)",
+              "item": "la fecha, la hora y el dueño de los cambios se deberían mantener y registrar;"
+            },
+            {
+              "letra": "i)",
+              "item": "las guías de soporte de la seguridad se deberían actualizar;"
+            },
+            {
+              "letra": "j)",
+              "item": "la reversión de los sistemas y los procedimientos asociados se deberían identificar para todos los cambios importantes;"
+            },
+            {
+              "letra": "k)",
+              "item": "se deberían implementar los procedimientos de contingencia si el cambio resulta ser fallido; en particular, se deberían probar los procedimientos de reversión de los cambios."
+            }
+          ]
+        },
+        {
+          "numero": "8.1.3",
+          "titulo": "Separación de obligaciones",
+          "objetivo": "Reducir el riesgo de mal uso accidental o malicioso de las instalaciones de procesamiento de información.",
+          "introduccion": "Se deberían separar las obligaciones y áreas de responsabilidad para reducir las oportunidades de una persona de comprometer la seguridad de información. Un ejemplo de la separación de obligaciones sería el requerimiento de dos personas para autorizar una acción particularmente sensible.",
+          "consideraciones": "Se debería dar consideración cuidadosa a la separación de obligaciones para actividades sensibles, por ejemplo, administración de un sistema y administración de seguridad en los entornos de producción.",
+          "pequenas_organizaciones": "En organizaciones pequeñas donde la separación de obligaciones es difícil de implementar, se deberían considerar otros controles tales como monitoreo de los eventos, el seguimiento de la auditoría y la supervisión de la dirección. Es también apropiado considerar la rotación de obligaciones en los directivos.",
+          "conflicto_intereses": "Se debería evaluar el potencial de conflicto de intereses para todas las responsabilidades del trabajo que tienen acceso a las instalaciones de procesamiento de información."
+        },
+        {
+          "numero": "8.1.4",
+          "titulo": "Separación de los ambientes de desarrollo, prueba y operaciones",
+          "objetivo": "Reducir los riesgos de acceso no autorizado o daños a los sistemas y aplicaciones de operaciones.",
+          "introduccion": "Los ambientes de desarrollo, prueba y operaciones se deberían separar. Si el equipo se usa para el desarrollo o prueba de aplicaciones, los ambientes de desarrollo y prueba se deberían separar de los ambientes de operación para reducir los riesgos de acceso no autorizado, de daños o interrupción de los sistemas de aplicación. Los ambientes de prueba y desarrollo deberían ser capaces de funcionar de manera apropiada con los datos sensibles que son usados en producción (ver 10.4.3).",
+          "consideraciones": "Se deberían considerar los controles siguientes:",
+          "puntos_consideraciones": [
+            {
+              "letra": "a)",
+              "item": "el software o los datos de aplicación del sistema que se encuentran en desarrollo o en prueba no se deberían utilizar en ambientes de operación;"
+            },
+            {
+              "letra": "b)",
+              "item": "el software de operación y los datos de producción no se deberían utilizar para desarrollo o prueba; sin embargo, en casos excepcionales, por ejemplo, con los entornos de software de gran tamaño o complejo, puede ser necesario usar software de producción en el ambiente de prueba para llevar a cabo la prueba sin causar problemas de regresión; en tales casos, se debería tener cuidado en no realizar trabajos de desarrollo y se debería utilizar estrictamente un control de cambios (ver 8.1.2) para el software en producción, antes de la ejecución de la prueba;"
+            },
+            {
+              "letra": "c)",
+              "item": "los compiladores, editores y otras herramientas de desarrollo, no se deberían instalar o utilizar en los sistemas de producción, para reducir el riesgo de los cambios no autorizados en el software y en los sistemas operativos;"
+            },
+            {
+              "letra": "d)",
+              "item": "los ambientes de prueba se deberían limpiar de todos los datos y software al término del trabajo y antes de cualquier nuevo desarrollo o prueba;"
+            },
+            {
+              "letra": "e)",
+              "item": "la copia de datos de producción a ambientes de prueba, se debería manejar en forma controlada (ver 10.4.3); es posible el uso de datos de producción para las pruebas solamente si se cumplen los requisitos de seguridad establecidos;"
+            },
+            {
+              "letra": "f)",
+              "item": "el acceso a los ambientes de desarrollo y prueba se debería restringir a la gestión de la dirección."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "8.2",
+      "titulo": "Aceptación y planificación del sistema",
+      "objetivo": "Reducir el riesgo de fallas del sistema y garantizar la integridad de los datos.",
+      "subsecciones": [
+        {
+          "numero": "8.2.1",
+          "titulo": "Aceptación del sistema",
+          "introduccion": "Se deberían probar los sistemas nuevos y las mejoras importantes, para asegurar que se cumplan los requisitos de seguridad y que el sistema no esté expuesto a vulnerabilidades inaceptables, especialmente en el ambiente de operación.",
+          "consideraciones": "Se deberían considerar los siguientes controles antes de aceptar un nuevo sistema o mejora importante del sistema de información:",
+          "puntos_consideraciones": [
+            {
+              "letra": "a)",
+              "item": "verificar que los controles para proteger los sistemas de operación y la información se hayan implementado completamente;"
+            },
+            {
+              "letra": "b)",
+              "item": "probar la capacidad del sistema para hacer frente a la carga de trabajo; las fallas del sistema pueden ser causadas por una capacidad inadecuada y sobrecarga; la capacidad debería ser suficiente para satisfacer las demandas de los niveles de servicio definidos, incluyendo demandas de la seguridad de la información;"
+            },
+            {
+              "letra": "c)",
+              "item": "la implementación de nuevos sistemas y mejoras en las operaciones existentes se debería planificar completamente y probarse cuidadosamente para minimizar los riesgos de la interrupción de las operaciones del negocio; la planificación debería incluir criterios de seguridad definidos para la aceptación."
+            }
+          ]
+        },
+        {
+          "numero": "8.2.2",
+          "titulo": "Planificación de la capacidad",
+          "introduccion": "Se debería monitorear la capacidad de los equipos y proyectar la demanda futura, para garantizar que la capacidad adecuada del procesamiento de información esté disponible.",
+          "consideraciones": "Se deberían considerar los siguientes controles para la planificación de la capacidad:",
+          "puntos_consideraciones": [
+            {
+              "letra": "a)",
+              "item": "proyectar la capacidad futura y asegurar que haya capacidad adecuada en todo el momento;"
+            },
+            {
+              "letra": "b)",
+              "item": "asegurar que haya espacio de disco suficiente para todas las necesidades de procesamiento, incluyendo las pistas de auditoría y los registros;"
+            },
+            {
+              "letra": "c)",
+              "item": "asegurar que haya una capacidad adecuada del procesador y memoria en todo el momento;"
+            },
+            {
+              "letra": "d)",
+              "item": "monitorear el uso de los recursos de los equipos, por ejemplo, el uso de las CPU, uso del disco, uso de la memoria, registros de los eventos de seguridad;"
+            },
+            {
+              "letra": "e)",
+              "item": "analizar las tendencias y necesidades futuras para la capacidad;"
+            },
+            {
+              "letra": "f)",
+              "item": "tener controles para el uso de equipos externos, para no sobrecargar los equipos."
+            }
+          ],
+          "impacto_seguridad": "Una inadecuada capacidad de los sistemas puede conducir a fallas de los equipos y pérdida de la disponibilidad de los servicios o el acceso a la información. Además, la pérdida del espacio de disco puede llevar a los sistemas a la falla."
+        }
+      ]
+    },
+    {
+      "numero": "8.3",
+      "titulo": "Protección contra el software malicioso",
+      "objetivo": "Proteger la integridad del software y de la información.",
+      "introduccion": "Se deberían implementar controles para prevenir y detectar el código móvil y el software malicioso, y para apoyar la recuperación de cualquier falla.",
+      "consideraciones": "Se deberían considerar los controles siguientes:",
+      "puntos_consideraciones": [
+        {
+          "letra": "a)",
+          "item": "Las políticas y procedimientos de escritorio limpio (ver 7.3.1) se deberían aplicar a los dispositivos removibles de almacenamiento, con el fin de protegerlos contra el software malicioso."
+        },
+        {
+          "letra": "b)",
+          "item": "Se debería mantener una política para usar exclusivamente software autorizado."
+        },
+        {
+          "letra": "c)",
+          "item": "Las comprobaciones de los virus se deberían realizar con la última versión de software de detección de virus antes de su uso."
+        },
+        {
+          "letra": "d)",
+          "item": "Para el correo electrónico se deberían usar los controles siguientes:",
+          "subpuntos": [
+            "d.1) los filtros de escaneo de los virus en el gateway de internet deberían examinar todo el correo electrónico entrante y saliente;",
+            "d.2) la capacidad para recibir software ejecutable como un archivo adjunto al correo electrónico, se debería limitar o restringir, y a los usuarios se les debería entregar una guía al respecto de los riesgos involucrados;"
+          ]
+        },
+        {
+          "letra": "e)",
+          "item": "Para los accesos públicos de archivos se deberían usar los controles siguientes:",
+          "subpuntos": [
+            "e.1) los filtros de escaneo de los virus deberían examinar todo el software y los datos de la red de archivos públicamente accesible;",
+            "e.2) el software y los datos disponibles para la descarga de los sistemas públicos de tablones de anuncios o internet deberían ser tomados desde una fuente de confianza y ser controlados de los códigos móviles antes de usarlos."
+          ]
+        },
+        {
+          "letra": "f)",
+          "item": "Los controles para proteger contra los virus se deberían aplicar al software y a los datos antes que sean usados."
+        },
+        {
+          "letra": "g)",
+          "item": "Para los archivos personales se deberían usar los controles siguientes:",
+          "subpuntos": [
+            "g.1) el acceso a los archivos de datos personales y directorios en los computadores personales se debería proteger de otros usuarios;",
+            "g.2) los servicios de compartición de los archivos de pares se deberían deshabilitar y/o monitorear para prevenir el intercambio no autorizado de software o contenido."
+          ]
+        },
+        {
+          "letra": "h)",
+          "item": "Las vulnerabilidades reportadas en el software se deberían investigar para determinar si existen vulnerabilidades en el ambiente propio. Se deberían consultar los sitios WEB para la última versión de parches."
+        }
+      ],
+      "nota": "NOTA - Los programas maliciosos incluyen, por ejemplo, virus, gusanos, caballos de Troya, bombas lógicas y spyware. Los códigos móviles incluyen, por ejemplo, applets de Java, controles ActiveX, scripts, Macros."
+    },
+    {
+      "numero": "8.4",
+      "titulo": "Administración interna",
+      "objetivo": "Mantener la integridad y disponibilidad de la información y de las instalaciones de procesamiento de información.",
+      "subsecciones": [
+        {
+          "numero": "8.4.1",
+          "titulo": "Procesos de copia de respaldo",
+          "introduccion": "Se deberían establecer y probar regularmente copias de respaldo de la información y software, de acuerdo con una política de copias de seguridad de respaldo, para asegurar la protección contra la pérdida de datos. La gestión de copias de seguridad de respaldo debería cumplir con los acuerdos de política y acceso de la información (ver 5.2).",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "se deberían realizar regularmente copias de seguridad de respaldo de toda la información y software crítico;"
+            },
+            {
+              "letra": "b)",
+              "item": "los dispositivos de respaldo deberían estar etiquetados de forma completa;"
+            },
+            {
+              "letra": "c)",
+              "item": "las copias de seguridad de respaldo deberían ser probadas regularmente;"
+            },
+            {
+              "letra": "d)",
+              "item": "las copias de seguridad de respaldo de los datos se deberían almacenar en un sitio remoto, y en un ambiente seguro (ver 7.1.3 y 7.1.4), por ejemplo, un cofre de seguridad que sea ignífugo y que proteja de inundaciones, y se debería mantener una auditoría de seguimiento;"
+            },
+            {
+              "letra": "e)",
+              "item": "las copias de seguridad de respaldo se deberían guardar por el período de tiempo especificado en el acuerdo de retención de datos; para la destrucción de copias de seguridad de respaldo se debería utilizar un proceso de eliminación seguro;"
+            },
+            {
+              "letra": "f)",
+              "item": "se debería documentar un procedimiento de restauración, el que debería estar disponible para todo el personal autorizado que lo necesite;"
+            },
+            {
+              "letra": "g)",
+              "item": "las copias de seguridad de respaldo de los datos y la información cifrada se deberían manejar con el mismo nivel de protección que se aplica a los datos normales o la información no cifrada (ver 10.3);"
+            },
+            {
+              "letra": "h)",
+              "item": "se debería asegurar que los medios y los dispositivos de almacenamiento sean de una adecuada calidad y capacidad y estén mantenidos para la restauración, en el evento de que falle el equipo o el servicio."
+            }
+          ]
+        },
+        {
+          "numero": "8.4.2",
+          "titulo": "Gestión del soporte de la seguridad",
+          "introduccion": "Para garantizar la integridad y disponibilidad del soporte de seguridad se debería considerar la gestión del soporte de la seguridad y los métodos de seguridad.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "los registros de auditoría y los reportes de incidentes se deberían proteger contra las modificaciones o accesos no autorizados;"
+            },
+            {
+              "letra": "b)",
+              "item": "los logs de monitoreo del sistema se deberían proteger contra las modificaciones y accesos no autorizados;"
+            },
+            {
+              "letra": "c)",
+              "item": "la información registrada por los sistemas de seguridad, por ejemplo, archivos de acceso, reportes de incidentes, datos sobre las amenazas de seguridad, se debería proteger para su recuperación;"
+            },
+            {
+              "letra": "d)",
+              "item": "se debería proteger la información de gestión de red contra la modificación o acceso no autorizado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "8.5",
+      "titulo": "Gestión de red",
+      "objetivo": "Asegurar que se mantenga la seguridad de la información en las redes.",
+      "introduccion": "Los controles de seguridad para la gestión de red se deberían implementar a través de la red y estar bajo el control de la dirección.",
+      "subsecciones": [
+        {
+          "numero": "8.5.1",
+          "titulo": "Controles de seguridad de red",
+          "introduccion": "Se deberían aplicar controles de seguridad a las redes, para proteger la información y los sistemas de información.",
+          "consideraciones": "Se deberían considerar los siguientes controles de seguridad de red:",
+          "puntos_consideraciones": [
+            {
+              "letra": "a)",
+              "item": "se deberían implementar los controles de red para servicios interconectados;"
+            },
+            {
+              "letra": "b)",
+              "item": "los sistemas que procesan información sensible deberían ser segregados en redes de computadores, lógicamente o físicamente, cuando la política de seguridad lo requiera; se pueden usar las técnicas de segregación de red para reducir la exposición a amenazas y proteger de accesos no autorizados, por ejemplo, los cortafuegos (firewall), los gateways y los ruteadores;"
+            },
+            {
+              "letra": "c)",
+              "item": "para asegurar el uso no autorizado de los servicios de la red, los usuarios sólo deberían tener acceso a los servicios para los que han sido específicamente autorizados;"
+            },
+            {
+              "letra": "d)",
+              "item": "el acceso a los servicios de la red se debería restringir a la gestión de la dirección;"
+            },
+            {
+              "letra": "e)",
+              "item": "se deberían utilizar los mecanismos de autenticación apropiados para controlar el acceso a la red;"
+            },
+            {
+              "letra": "f)",
+              "item": "las conexiones a la red se deberían controlar de las operaciones o actividades ilícitas (ver 9.7.1); el tráfico de la red se debería monitorear, en búsqueda de las evidencias de actividades inusuales o anomalías en la operación;"
+            },
+            {
+              "letra": "g)",
+              "item": "se debería prestar atención a los requisitos de seguridad de la red de área local y las redes de área amplia, y a la interconexión con las redes públicas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "8.6",
+      "titulo": "Seguridad y manipulación de dispositivos",
+      "objetivo": "Prevenir pérdidas, daños o compromiso de los bienes y la interrupción de las actividades del negocio.",
+      "subsecciones": [
+        {
+          "numero": "8.6.1",
+          "titulo": "Gestión de dispositivos removibles",
+          "introduccion": "Se deberían establecer los procedimientos para gestionar el uso de dispositivos removibles, de acuerdo con la clasificación de la información (ver 5.2).",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "la información y el software almacenados en dispositivos removibles se deberían proteger contra las copias, accesos no autorizados, daños o robo de forma similar a la forma en que se protegen las unidades de almacenamiento fijo;"
+            },
+            {
+              "letra": "b)",
+              "item": "los dispositivos removibles se deberían manejar en forma segura de acuerdo con la clasificación de la información (ver 5.2); se debería considerar la encriptación de los dispositivos que contienen datos sensibles;"
+            },
+            {
+              "letra": "c)",
+              "item": "para proteger los dispositivos de mal uso en una red pública, se deberían usar medios de transferencia electrónica autorizados, para mover información desde los sistemas de información a los dispositivos removibles;"
+            },
+            {
+              "letra": "d)",
+              "item": "se deberían guardar los registros del contenido de todos los dispositivos de archivo que están off-line; estos registros deberían estar protegidos adecuadamente;"
+            },
+            {
+              "letra": "e)",
+              "item": "todos los dispositivos removibles se deberían almacenar en un ambiente físico seguro, para protegerlos de daños, desautorización y robo, por ejemplo, se deberían usar cajas resistentes al fuego y a las inundaciones."
+            }
+          ],
+          "nota": "NOTA - Los dispositivos removibles incluyen, por ejemplo, cassettes, diskettes, cartuchos, CD, DVDs y otros medios de almacenamiento portátil."
+        },
+        {
+          "numero": "8.6.2",
+          "titulo": "Eliminación de dispositivos y papeles en desuso",
+          "introduccion": "Los dispositivos de información y el papel en desuso se deberían disponer de ellos en forma segura. Se deberían considerar los controles siguientes:",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "los dispositivos de información y el papel en desuso deberían ser eliminados en forma segura y de tal forma que no se pueda recuperar la información;"
+            },
+            {
+              "letra": "b)",
+              "item": "los dispositivos y el papel en desuso se deberían almacenar en contenedores seguros hasta que se eliminen; se deberían utilizar los contenedores con llave en un área segura (ver 7.1.3);"
+            },
+            {
+              "letra": "c)",
+              "item": "cuando sea necesario, los dispositivos deberían estar desmagnetizados o físicamente destruidos;"
+            },
+            {
+              "letra": "d)",
+              "item": "los dispositivos se deberían destruir o sobrescribir antes de su reuso (ver 7.2.6);"
+            },
+            {
+              "letra": "e)",
+              "item": "se debería controlar el uso de las instalaciones de destrucción o de los equipos; el equipo para la destrucción de información debería ser usado por personal autorizado;"
+            },
+            {
+              "letra": "f)",
+              "item": "la destrucción de la información sensible se debería registrar;"
+            },
+            {
+              "letra": "g)",
+              "item": "la información importante debería eliminarse de todos los dispositivos de procesamiento de información. Esto incluye:"
+            },
+            {
+              "subpuntos_g": [
+                "b.1) discos duros;",
+                "b.2) memorias flash (todas las formas);",
+                "b.3) cintas magnéticas (todas las formas);",
+                "b.4) disco óptico (todas las formas);",
+                "b.5) cartuchos removibles;",
+                "b.6) memorias no volátiles de los equipos de red;",
+                "b.7) SIM cards;",
+                "b.8) dispositivos de almacenamiento óptico (todas las formas, incluyendo los medios de distribución de todos los fabricantes de software);",
+                "b.9) listados de programas;",
+                "b.10) datos de prueba;",
+                "b.11) documentación del sistema."
+              ]
+            },
+            {
+              "letra": "c)",
+              "item": "Puede ser más fácil juntar y disponer de todos los ítemes de los dispositivos y deshacerse sin riesgos, más que intentar separar los ítemes sensibles."
+            },
+            {
+              "letra": "d)",
+              "item": "Muchas organizaciones ofrecen los servicios de juntar y eliminar los papeles, dispositivos y equipos en desuso. Se debería tener cuidado en seleccionar el personal externo adecuado con experiencia y controles apropiados."
+            },
+            {
+              "letra": "e)",
+              "item": "La eliminación de ítemes sensibles en desuso se debería registrar, cuando sea posible, con el fin de mantener una auditoría de seguimiento."
+            }
+          ],
+          "efecto_agregado": "Cuando se acumulan dispositivos en desuso, se debería tener en consideración el efecto agregado, los que podrían causar una gran cantidad de información no clasificada y que puede llegar a ser más sensible que una cantidad pequeña de información clasificada."
+        },
+        {
+          "numero": "8.6.3",
+          "titulo": "Procedimientos de manipulación de la información",
+          "introduccion": "Se deberían establecer los procedimientos para la manipulación y almacenamiento de la información con el fin de proteger tal información de una divulgación no autorizada o mal uso. Los procedimientos para la manipulación de la información se deberían diseñar de acuerdo con su clasificación (ver 5.2), en documentos, sistemas computacionales, redes, computadores móviles, comunicaciones móviles, correo, correo de voz, comunicaciones de voz en general, multimedios, instalaciones y servicios postales, uso de máquinas de fax y cualquier otro ítem sensible, por ejemplo, cheques en blancos, facturas.",
+          "controles_considerar": "Se deberían considerar los controles siguientes (ver también 5.2 y 8.7.2):",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "manipulación y etiquetado de todos los dispositivos [ver también 8.7.2 a)]"
+            },
+            {
+              "letra": "b)",
+              "item": "restricciones de acceso para identificar al personal no autorizado"
+            },
+            {
+              "letra": "c)",
+              "item": "mantenimiento de un registro formal de los receptores de datos autorizados"
+            },
+            {
+              "letra": "d)",
+              "item": "aseguramiento de que los datos de entrada estén completos, que el procesamiento se complete apropiadamente y que se aplique la validación de la salida"
+            },
+            {
+              "letra": "e)",
+              "item": "protección de los datos en la cola de espera de impresión de salida, de acuerdo con su sensibilidad"
+            },
+            {
+              "letra": "f)",
+              "item": "almacenamiento de los dispositivos en un ambiente que esté de acuerdo con las especificaciones del fabricante"
+            },
+            {
+              "letra": "g)",
+              "item": "mantener la distribución de datos al mínimo"
+            },
+            {
+              "letra": "h)",
+              "item": "marcar en forma clara todas las copias de datos para la atención de los receptores autorizados"
+            },
+            {
+              "letra": "i)",
+              "item": "revisión de las listas de distribución y listas de receptores autorizados a intervalos regulares"
+            }
+          ]
+        },
+        {
+          "numero": "8.6.4",
+          "titulo": "Seguridad de la documentación de sistema",
+          "introduccion": "La documentación de sistema puede contener una variedad de información sensible, por ejemplo, descripciones de procesos de aplicaciones, procedimientos, estructuras de datos, procesos de autorización (ver también 9.1).",
+          "controles_considerar": "Los siguientes controles se deberían considerar para proteger del acceso no autorizado a la documentación del sistema.",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "La documentación del sistema se debería almacenar de manera segura."
+            },
+            {
+              "letra": "b)",
+              "item": "La lista de acceso a la documentación del sistema debería ser lo más pequeña posible y autorizada por el dueño de la aplicación."
+            },
+            {
+              "letra": "c)",
+              "item": "La documentación del sistema que se mantiene en o se suministra vía una red pública, se debería proteger apropiadamente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "8.7",
+      "titulo": "Intercambios de información y software",
+      "objetivo": "Prevenir pérdidas, modificación o mal uso de la información intercambiada entre organizaciones.",
+      "introduccion": "Los intercambios de información y software entre organizaciones se debería controlar y hacer cumplir con una legislación pertinente (ver cláusula 12).",
+      "acuerdos_base": "Los intercambios se deberían incluir en los acuerdos base. Se deberían establecer los procedimientos y normas para proteger los dispositivos y la información en tránsito. Se deberían considerar los requisitos de los controles y las implicancias en el negocio y en la seguridad, asociadas con el intercambio de datos electrónicos, comercio electrónico y correo electrónico.",
+      "subsecciones": [
+        {
+          "numero": "8.7.1",
+          "titulo": "Acuerdos de intercambio de información y software",
+          "introduccion": "Se deberían establecer los acuerdos para el intercambio (ya sea manual o electrónico) de información y software entre organizaciones, algunos de los cuales pueden ser formales, incluyendo cuando corresponda, los acuerdos de software de resguardo. El contenido de seguridad de tal acuerdo debería reflejar la sensibilidad de la información del negocio involucrada.",
+          "condiciones_seguridad": "Los acuerdos en las condiciones de seguridad deberían considerar:",
+          "puntos_condiciones": [
+            {
+              "letra": "a)",
+              "item": "responsabilidades de la gestión para controlar y notificar la transmisión, despacho y recepción"
+            },
+            {
+              "letra": "b)",
+              "item": "procedimientos para notificar el envío, transmisión, despacho y recepción"
+            },
+            {
+              "letra": "c)",
+              "item": "normas técnicas mínimas para empaquetar y transmitir"
+            },
+            { "letra": "d)", "item": "normas de identificación del courier" },
+            {
+              "letra": "e)",
+              "item": "responsabilidades y obligaciones en el evento de pérdida de datos"
+            },
+            {
+              "letra": "f)",
+              "item": "uso de un sistema de etiquetado para la información sensible o crítica, asegurando que el significado de las etiquetas sea inmediatamente entendido y que la información sea apropiadamente protegida"
+            },
+            {
+              "letra": "g)",
+              "item": "la propiedad del software y la información y responsabilidades de protección de los datos, cumplimiento con los derechos de propiedad del software y consideraciones similares (ver 12.1.2 y 12.1.4)"
+            },
+            {
+              "letra": "h)",
+              "item": "normas técnicas para grabar y leer el software y la información"
+            },
+            {
+              "letra": "i)",
+              "item": "cualquier control especial que pueda ser necesario para proteger los ítemes sensibles, tales como claves criptográficas (ver 10.3.5)"
+            }
+          ]
+        },
+        {
+          "numero": "8.7.2",
+          "titulo": "Seguridad de los dispositivos en tránsito",
+          "introduccion": "La información puede ser vulnerable al acceso no autorizado, mal uso o corrupción durante el transporte físico, por ejemplo cuando se envían dispositivos vía servicio postal o courier. Se deberían aplicar los siguientes controles para salvaguardar los dispositivos computacionales que se están transportando entre sitios.",
+          "controles_aplicar": "Se deberían aplicar los siguientes controles para salvaguardar los dispositivos computacionales que se están transportando entre sitios.",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "Se deberían usar courier o transportes confiables. Se debería acordar con la dirección una lista de couriers autorizados y un procedimiento para verificar la identificación de los courier implementados."
+            },
+            {
+              "letra": "b)",
+              "item": "El empaquetamiento debería ser suficiente para proteger los contenidos de cualquier probable aparición de daño físico durante el tránsito y de acuerdo con las especificaciones del fabricante."
+            },
+            {
+              "letra": "c)",
+              "item": "Se deberían adoptar controles especiales, donde sea necesario, para proteger la información sensible a la divulgación o modificación no autorizada. Por ejemplo incluir:",
+              "subpuntos": [
+                "c.1) uso de contenedores con llave;",
+                "c.2) entrega por mano;",
+                "c.3) empaque con detección de manipulación no autorizada (que revela cualquier intento de obtener acceso);",
+                "c.4) en casos excepcionales, dividir el envío en más de una entrega y despacho mediante diferentes rutas;",
+                "c.5) usar la firma electrónica y la encriptación de confidencialidad, ver 10.3."
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "8.7.3",
+          "titulo": "Seguridad en el comercio electrónico",
+          "introduccion": "El comercio electrónico puede involucrar el uso de intercambio de datos digitales (EDI), correo electrónico y transacciones en línea a través de las redes públicas, tal como internet. El comercio electrónico es vulnerable a varias amenazas de la red que pueden llevar a una actividad fraudulenta, disputa contractual y divulgación o modificación de la información. Se deberían aplicar controles para proteger el comercio electrónico de tales amenazas.",
+          "controles_considerar": "Se deberían incluir los siguientes controles para considerar la seguridad en el comercio electrónico.",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "Autenticación. ¿Qué nivel de confianza debería necesitar el cliente y el comerciante, uno del otro al exigir la identidad?"
+            },
+            {
+              "letra": "b)",
+              "item": "Autorización. ¿Quién está autorizado para colocar precios, emitir o firmar documentos de comercialización? ¿Cómo conoce esto el socio de la comercialización?"
+            },
+            {
+              "letra": "c)",
+              "item": "Procesos de propuestas y contratos. ¿Cuáles son los requisitos de confidencialidad, integridad y prueba de despacho y recepción de los documentos claves y de no desconocimiento de los contratos?"
+            },
+            {
+              "letra": "d)",
+              "item": "Información de precio. ¿Qué nivel de confianza se puede poner en la integridad de la lista de precios publicada y la confidencialidad de los convenios de descuentos sensibles?"
+            },
+            {
+              "letra": "e)",
+              "item": "Transacciones de solicitud. ¿Cómo es la confidencialidad e integridad de la solicitud, pago y detalles de la dirección de entrega y la confirmación de la recepción?"
+            },
+            {
+              "letra": "f)",
+              "item": "Verificación. ¿Qué grado de verificación es apropiado para revisar la información de pago suministrada por el cliente?"
+            },
+            {
+              "letra": "g)",
+              "item": "Pago. ¿Cuál es el medio de pago más apropiado, para protegerse de los fraudes?"
+            },
+            {
+              "letra": "h)",
+              "item": "Manejo de solicitudes. ¿Cuál es la protección necesaria para mantener la confidencialidad e integridad de la información de la solicitud y evitar la pérdida o duplicación de la transacción?"
+            },
+            {
+              "letra": "i)",
+              "item": "Responsabilidad. ¿Quién asume el riesgo de cualquier acto fraudulento?"
+            }
+          ],
+          "consideraciones_criptograficas": "Se pueden considerar varios de los aspectos anteriores mediante la aplicación de las técnicas criptográficas indicadas en 10.3, tomando en cuenta el cumplimiento de los requisitos legales (ver 12.1, especialmente 12.1.6, legislación relacionada con la criptografía).",
+          "acuerdos_comerciales": "Los convenios de comercio electrónico entre socios comerciales se deberían apoyar mediante un acuerdo documentado que someta a ambas partes a los términos de comercialización acordados, incluyendo los detalles de autorización [ver b) anterior]. Pueden ser necesarios otros acuerdos con los proveedores de servicios y redes de valor agregado.",
+          "sistemas_publicos": "Los sistemas públicos de comercialización deberían divulgar entre los clientes los términos del negocio.",
+          "resistencia_ataques": "Se debería tener en consideración la resistencia del computador usado para el comercio electrónico para defenderse de los ataques y las implicaciones en la seguridad de cualquier red de interconexión necesaria para su implementación (ver 9.4.7)."
+        },
+        {
+          "numero": "8.7.4",
+          "titulo": "Seguridad del correo electrónico",
+          "sub_subsecciones": [
+            {
+              "numero": "8.7.4.1",
+              "titulo": "Riesgos de la seguridad",
+              "introduccion": "El correo electrónico se usa para las comunicaciones del negocio, reemplazando las formas tradicionales de comunicación, tales como el telex y la carta. El correo electrónico difiere de las formas tradicionales de comunicación de los negocios, por ejemplo, su velocidad, estructura del mensaje, grado de informalidad y vulnerabilidad a acciones no autorizadas. Se debería tener en consideración la necesidad de controles para reducir los riesgos de la seguridad creados por el correo electrónico. Los riesgos de la seguridad incluyen:",
+              "riesgos": [
+                {
+                  "letra": "a)",
+                  "item": "vulnerabilidad de los mensajes, modificaciones o accesos no autorizados o ataques de denegación del servicio"
+                },
+                {
+                  "letra": "b)",
+                  "item": "vulnerabilidad a errores, por ejemplo, direcciones incorrectas o direcciones malas, confiabilidad y disponibilidad del servicio en general"
+                },
+                {
+                  "letra": "c)",
+                  "item": "impacto de un cambio en los dispositivos de comunicación en los procesos de los negocios, por ejemplo, el efecto de aumentar la velocidad de despacho o el efecto de enviar mensajes formales de persona a persona antes que de compañía a compañía"
+                },
+                {
+                  "letra": "d)",
+                  "item": "consideraciones legales, tales como la necesidad potencial de comprobar el origen, despacho, entrega y aceptación"
+                },
+                {
+                  "letra": "e)",
+                  "item": "implicancias de tener la lista de personal publicadas para el acceso externo"
+                },
+                {
+                  "letra": "f)",
+                  "item": "control a usuarios con acceso remoto a las cuentas de correo electrónico"
+                }
+              ]
+            },
+            {
+              "numero": "8.7.4.2",
+              "titulo": "Política para el correo electrónico",
+              "introduccion": "Las organizaciones deberían formular una política clara para el uso del correo electrónico, incluyendo:",
+              "puntos_politica": [
+                {
+                  "letra": "a)",
+                  "item": "ataques al correo electrónico, por ejemplo, virus, intercepción"
+                },
+                {
+                  "letra": "b)",
+                  "item": "protección de los archivos adjuntos a los correos electrónicos"
+                },
+                {
+                  "letra": "c)",
+                  "item": "guías de cuándo usar o no el correo electrónico"
+                },
+                {
+                  "letra": "d)",
+                  "item": "responsabilidad de lo empleados para no comprometer a la compañía, por ejemplo en el envío de correos electrónicos difamatorios, uso para hostigamientos, compras no autorizadas"
+                },
+                {
+                  "letra": "e)",
+                  "item": "uso de técnicas de criptografía para proteger la confidencialidad e integridad de los mensajes electrónicos (ver 10.3)"
+                },
+                {
+                  "letra": "f)",
+                  "item": "conservación de mensajes que, si son almacenados, se podrían utilizar en caso de litigios"
+                },
+                {
+                  "letra": "g)",
+                  "item": "controles adicionales para la verificación de mensajes que no se pueden autenticar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "8.7.5",
+          "titulo": "Seguridad de los sistemas de la oficina electrónica",
+          "introduccion": "Se deberían preparar e implementar las políticas y guías para controlar el negocio y los riesgos de seguridad asociados con los sistemas electrónicos de oficina. Estas proveen oportunidades para una diseminación y compartición más rápida de la información del negocio usando una combinación de: documentos, computadores, computadores móviles, comunicaciones móviles, correo, correo de voz, comunicaciones de voz en general, multimedios, instalaciones y servicios postales y equipos de fax.",
+          "consideraciones_seguridad": "Teniendo en consideración la seguridad y las implicancias en los negocios de la interconexión de tales instalaciones, se debería incluir:",
+          "puntos_consideraciones": [
+            {
+              "letra": "a)",
+              "item": "vulnerabilidades de la información en los sistemas de oficina, por ejemplo, grabación de llamadas o llamadas en conferencia, confidencialidad de las llamadas, almacenamiento de facsímiles, apertura de correo, distribución de correo"
+            },
+            {
+              "letra": "b)",
+              "item": "política y controles apropiados para la administración de compartición de la información, por ejemplo, el uso de un boletín electrónico corporativo (ver 9.1)"
+            },
+            {
+              "letra": "c)",
+              "item": "exclusión de la categoría de información sensible del negocio, si el sistema no provee un apropiado nivel de protección (ver 5.2)"
+            },
+            {
+              "letra": "d)",
+              "item": "restricción de acceso a la información diaria a personas seleccionadas, por ejemplo, el personal que trabaja en proyectos sensibles"
+            },
+            {
+              "letra": "e)",
+              "item": "la conveniencia o no, del sistema para apoyar las aplicaciones en los negocios, tales como comunicaciones de órdenes o autorizaciones"
+            },
+            {
+              "letra": "f)",
+              "item": "categorías del personal, externo o socios del negocio que tienen permitido usar el sistema y las ubicaciones desde las cuales se puede acceder (ver 4.2)"
+            },
+            {
+              "letra": "g)",
+              "item": "restricción a las instalaciones seleccionadas a las categorías específicas de usuarios"
+            },
+            {
+              "letra": "h)",
+              "item": "identificación del estado de los usuarios, por ejemplo, a través de un directorio de empleados de la organización o personal externo, para uso de otros usuarios"
+            },
+            {
+              "letra": "i)",
+              "item": "conservación y respaldo de la información mantenida en el sistema (ver 12.1.3 y 8.4.1)"
+            },
+            {
+              "letra": "j)",
+              "item": "requerimientos y configuraciones de recuperación (ver 11.1)"
+            }
+          ]
+        },
+        {
+          "numero": "8.7.6",
+          "titulo": "Sistemas disponibles públicamente",
+          "proteccion_integridad": "Se debería tener cuidado en proteger la integridad de la información publicada electrónicamente para evitar la modificación no autorizada que podría dañar la reputación de la organización que está publicando la información.",
+          "cumplimiento_legal": "La información en un sistema disponible públicamente, por ejemplo, la información en un servidor WEB accesible a través de internet, puede ser necesario que deba cumplir con las leyes, reglas y reglamentos de la jurisdicción en la cual el sistema está ubicado o donde se realiza la comercialización. Debería existir un proceso de autorización formal antes que la información esté disponible públicamente.",
+          "proteccion_software_datos": "El software, datos y otra información que necesita un alto nivel de integridad, se debería proteger mediante mecanismos adecuados, para dejarla accesible en un sistema disponible públicamente, por ejemplo, por medio de la firma electrónica (ver 10.3.3). Los sistemas que publican en forma electrónica, especialmente aquellos que permiten realimentación y un ingreso directo de información, se deberían controlar cuidadosamente de modo que:",
+          "controles_publicacion_electronica": [
+            {
+              "letra": "a)",
+              "item": "la información se obtenga en cumplimiento con la legislación de protección de datos (ver 12.1.4)"
+            },
+            {
+              "letra": "b)",
+              "item": "la información de entrada y la procesada por el sistema de publicación se procese totalmente y exactamente en forma oportuna"
+            },
+            {
+              "letra": "c)",
+              "item": "la información sensible se protegerá durante el proceso de recolección y cuando se almacene"
+            },
+            {
+              "letra": "d)",
+              "item": "el acceso al sistema de publicación no permita el acceso involuntario a las redes que están conectadas"
+            }
+          ]
+        },
+        {
+          "numero": "8.7.7",
+          "titulo": "Otras formas de intercambio de información",
+          "procedimientos_controles": "Los procedimientos y controles deberían estar en el sitio para proteger el intercambio de información mediante el uso de las instalaciones de comunicaciones de voz, fax y video.",
+          "compromiso_informacion": "La información se podría comprometer debido a la falta de conocimiento de la política o de los procedimientos para el uso de tales instalaciones, por ejemplo, la escucha casual de un teléfono móvil en un lugar público, las máquinas contestadoras que son escuchadas casualmente, acceso no autorizado por discado a sistemas de correo de voz o el envío accidental de facsímiles a personas equivocadas usando equipos de fax.",
+          "interrupcion_negocio": "Las operaciones del negocio se podrían interrumpir y la información se podría comprometer si fallan, se sobrecargan o interrumpen las instalaciones de comunicaciones (ver 7.2 y cláusula 11). La información también se podría comprometer si éstas son accesibles por usuarios no autorizados (ver cláusula 9).",
+          "declaracion_politica": "Se debería tener una declaración de una política clara de los procedimientos que el personal debería seguir en el uso de las comunicaciones de voz, facsímiles y video. Esto incluiría:",
+          "puntos_politica": [
+            {
+              "letra": "a)",
+              "item": "recordar al personal que ellos deberían tomar las precauciones apropiadas, por ejemplo no revelar información sensible, evitando la escucha casual o la interceptación cuando se está haciendo una llamada telefónica, por:",
+              "subpuntos": [
+                "a.1) las personas de su vecindad inmediata, particularmente cuando se usan teléfonos móviles;",
+                "a.2) la interceptación de líneas telefónicas y otras formas de escucha no autorizadas a través de acceso físico a los auriculares de los teléfonos o líneas telefónicas, el uso de receptores de exploración cuando se usan teléfonos móviles análogos;",
+                "a.3) personas en el terminal receptor;"
+              ]
+            },
+            {
+              "letra": "b)",
+              "item": "recordar al personal que ellos no deberían tener conversaciones confidenciales en lugares públicos u oficinas abiertas y lugares de reunión con paredes delgadas;"
+            },
+            {
+              "letra": "c)",
+              "item": "no dejar mensajes en máquinas contestadoras ya que éstas pueden ser escuchadas por personas no autorizadas, almacenar en sistemas comunitarios o almacenar incorrectamente debido a un discado mal realizado;"
+            },
+            {
+              "letra": "d)",
+              "item": "recordar al personal los problemas relacionados con el uso de los equipos de fax, a saber:",
+              "subpuntos": [
+                "d.1) acceso no autorizado al almacén de mensajes predeterminados para recuperarlos;",
+                "d.2) programación deliberada o accidental de los equipos para enviar mensajes a números específicos;",
+                "d.3) envío de documentos y mensajes a un número equivocado por mal discado o uso de un número almacenado equivocado."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

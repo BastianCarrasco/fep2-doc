@@ -1,0 +1,323 @@
+{
+  "titulo_seccion": "7 Seguridad física y del ambiente",
+  "secciones": [
+    {
+      "numero": "7.1",
+      "titulo": "Areas seguras",
+      "subsecciones": [
+        {
+          "numero": "7.1.3",
+          "titulo": "Seguridad de las oficinas y salas",
+          "parrafo_introductorio": "Las áreas seguras, como las oficinas, salas de procesamiento de información o salas de archivo, se deberían proteger por perímetros de seguridad y con barreras de control de acceso apropiadas, incluyendo medidas de disuasión del acceso no autorizado.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "Las instalaciones claves se deberían ubicar de modo de evitar el acceso del público."
+            },
+            {
+              "letra": "b)",
+              "item": "Los edificios deberían ser discretos y dar una mínima indicación de su propósito, sin signos obvios que identifiquen la presencia de actividades de procesamiento de información, en el exterior e interior del mismo."
+            },
+            {
+              "letra": "c)",
+              "item": "Las funciones y equipos de apoyo, por ejemplo, fotocopiadoras, máquinas de fax, se deberían situar apropiadamente dentro del área segura para evitar la petición de acceso a ellos, lo que podría comprometer la información."
+            },
+            {
+              "letra": "d)",
+              "item": "Las puertas y ventanas se deberían cerrar con llave cuando estén sin personas y para las ventanas se debería considerar una protección externa, particularmente cuando están en el primer piso."
+            },
+            {
+              "letra": "e)",
+              "item": "Se deberían colocar sistemas apropiados de detección de intrusos, instalarlos con normas profesionales y probarlos regularmente, para cubrir todas las puertas externas y ventanas accesibles. Las áreas desocupadas deberían tener alarmas todo el tiempo. También se debería proveer esta cobertura en otras áreas, por ejemplo, salas de computadores y comunicaciones."
+            },
+            {
+              "letra": "f)",
+              "item": "Las instalaciones de procesamiento de la información gestionadas por la organización se deberían separar físicamente de aquellas gestionadas por terceras partes."
+            },
+            {
+              "letra": "g)",
+              "item": "Las guías de teléfonos internos y directorios que identifican ubicaciones de equipos de procesamiento de información sensible, no deberían ser fácilmente accesibles por el público."
+            },
+            {
+              "letra": "h)",
+              "item": "Los materiales peligrosos o combustibles se deberían almacenar a una distancia alejada del área segura. Los suministros, tales como los útiles de escritorio no se deberían almacenar dentro de un área segura hasta que sea necesario."
+            },
+            {
+              "letra": "i)",
+              "item": "Los equipos y dispositivos de respaldo se deberían situar a una distancia segura para evitar los daños de un desastre del sitio principal."
+            }
+          ]
+        },
+        {
+          "numero": "7.1.4",
+          "titulo": "Trabajo en áreas seguras",
+          "introduccion": "Se pueden necesitar controles y guías adicionales para reforzar la seguridad de un área segura. Esto incluye controles para el personal y de terceras partes que trabajan en el área segura, así como a las actividades de terceras partes que se realizan allí.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "El personal debería saber de la existencia de un área segura, o tener conocimientos básicos de las actividades dentro del área, solamente si es necesario."
+            },
+            {
+              "letra": "b)",
+              "item": "Se deberían evitar los trabajos no supervisados dentro de un área segura, por razones de seguridad y para prevenir las oportunidades de actividades maliciosas."
+            },
+            {
+              "letra": "c)",
+              "item": "Las áreas seguras vacantes se deberían cerrar físicamente con llave y se deberían revisar periódicamente."
+            },
+            {
+              "letra": "d)",
+              "item": "Se debería otorgar acceso restringido al personal de los servicios de apoyo de terceras partes, a las áreas seguras o a las instalaciones de procesamiento de información sensible y solamente cuando sea necesario. Este acceso se debería autorizar y monitorear. Pueden ser necesarias barreras adicionales y perímetros de control de acceso físico, entre áreas con diferentes requisitos de seguridad internas en el perímetro de seguridad."
+            },
+            {
+              "letra": "e)",
+              "item": "No se deberían permitir los equipos de video, audio, fotografía u otros equipos de grabación, a menos que sea autorizado."
+            }
+          ]
+        },
+        {
+          "numero": "7.1.5",
+          "titulo": "Areas de carga y entrega aisladas",
+          "introduccion": "Se deberían controlar las áreas de carga y entrega y, si es posible, aisladas de los equipos de procesamiento de información, para evitar el acceso no autorizado. Los requisitos de seguridad de tales áreas se deberían determinar por la evaluación del riesgo.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "El acceso al área de suministros desde el exterior del edificio se debería restringir al personal identificado y autorizado."
+            },
+            {
+              "letra": "b)",
+              "item": "El área de suministros se debería designar de modo que las mercaderías se puedan descargar sin dar acceso al personal a otras partes del edificio."
+            },
+            {
+              "letra": "c)",
+              "item": "Las puertas externas del área de suministros se deberían asegurar cuando las puertas internas se abran."
+            },
+            {
+              "letra": "d)",
+              "item": "El material entrante se debería inspeccionar de potenciales peligros [ver 7.2.1 d)] antes de que se traslade desde el área de suministros al punto de uso."
+            },
+            {
+              "letra": "e)",
+              "item": "El material entrante se debería registrar, si es apropiado (ver 5.1), en la entrada al sitio."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "7.2",
+      "titulo": "Seguridad de los equipos",
+      "objetivo": "Prevenir pérdidas, daños o compromiso de los bienes e interrupción de las actividades del negocio.",
+      "introduccion": "Se deberían proteger físicamente los equipos de las amenazas de seguridad y riesgos del ambiente externo. Es necesaria la protección de los equipos (que incluye el que se usa fuera del sitio) para reducir el riesgo de acceso no autorizado a datos y para prevenir la pérdida o daño. Esto también debería considerar la ubicación de los equipos y la eliminación de ítemes en desuso. Se pueden necesitar controles especiales para protegerlos de riesgos o accesos no autorizados, y salvaguardar las instalaciones de apoyo, tales como el suministro eléctrico y la infraestructura de cables.",
+      "subsecciones": [
+        {
+          "numero": "7.2.1",
+          "titulo": "Ubicación y protección de los equipos",
+          "introduccion": "Los equipos se deberían ubicar en un lugar particular o protegerlos para reducir los riesgos de amenazas y peligros ambientales, y oportunidades de acceso no autorizado.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "Los equipos se deberían ubicar de tal forma de minimizar el acceso innecesario a las áreas de trabajo."
+            },
+            {
+              "letra": "b)",
+              "item": "Las instalaciones de almacenaje y procesamiento de información, donde se manipulan datos sensibles se deberían instalar de modo de reducir el riesgo de descuidos durante su uso."
+            },
+            {
+              "letra": "c)",
+              "item": "Los ítemes que requieren protección especial se deberían aislar de modo de reducir el nivel general de protección necesaria."
+            },
+            {
+              "letra": "d)",
+              "item": "Se deberían adoptar controles que minimicen el riesgo de amenazas potenciales, las que incluyen:",
+              "subpuntos": [
+                "d.1) hurto;",
+                "d.2) fuego;",
+                "d.3) explosivos;",
+                "d.4) humo;",
+                "d.5) agua (o falla del suministro);",
+                "d.6) polvo;",
+                "d.7) vibración;",
+                "d.8) efectos químicos;",
+                "d.9) interferencia en el suministro eléctrico;",
+                "d.10) radiación electromagnética."
+              ]
+            },
+            {
+              "letra": "e)",
+              "item": "La organización debería considerar en su política lo que respecta a comer, beber y fumar en la proximidad de las instalaciones de procesamiento de información."
+            },
+            {
+              "letra": "f)",
+              "item": "Se deberían monitorear las condiciones ambientales para determinar las condiciones que podrían afectar adversamente la operación de las instalaciones de procesamiento de información."
+            },
+            {
+              "letra": "g)",
+              "item": "Se debería considerar el uso de métodos de protección especiales, tales como membranas para teclados, para equipos en ambientes industriales."
+            },
+            {
+              "letra": "h)",
+              "item": "Se debería considerar el impacto de la ocurrencia de un desastre en las cercanías de las instalaciones, por ejemplo, fuego en las cercanías del edificio, fuga de agua desde el cielo del edificio o en los pisos bajo el nivel de la tierra o una explosión en la calle."
+            }
+          ]
+        },
+        {
+          "numero": "7.2.2",
+          "titulo": "Suministro de energía eléctrica",
+          "introduccion": "Los equipos se deberían proteger de fallas de suministro de energía y otras anomalías eléctricas. Se debería proveer un suministro de energía eléctrica adecuado, que esté conforme con las especificaciones del fabricante.",
+          "opciones_continuidad": "Las opciones para lograr la continuidad del suministro de energía eléctrica incluyen:",
+          "puntos_opciones": [
+            {
+              "letra": "a)",
+              "item": "alimentación múltiple para prevenir la falla de un solo punto en el suministro de energía eléctrica"
+            },
+            {
+              "letra": "b)",
+              "item": "suministro ininterrumpido de energía eléctrica (UPS)"
+            },
+            { "letra": "c)", "item": "generador de respaldo" }
+          ],
+          "recomendacion_ups": "Se recomienda una UPS para apoyar el cierre ordenado del sistema o para que continúe en operación, en equipos que apoyan las operaciones críticas del negocio. Los planes de contingencia deberían cubrir la acción a tomar cuando falle la UPS. Los equipos UPS se debería verificar regularmente para asegurar su adecuada capacidad y probarlos de acuerdo con las recomendaciones del fabricante.",
+          "generador_respaldo": "Se debería considerar un generador de respaldo si el procesamiento debe continuar aún en caso de una falla prolongada del suministro de energía eléctrica. Si hay generadores instalados, se deberían probar regularmente de acuerdo con las instrucciones del fabricante. Se debería disponer de un adecuado suministro de combustible, para asegurar que el generador puede trabajar por un período prolongado.",
+          "adicionales": "Además, se debería colocar un interruptor de energía eléctrica de emergencia cerca de la salida de emergencia de la sala equipos, para facilitar un rápido corte de la energía eléctrica en caso de una emergencia. Se debería proveer iluminación de emergencia en caso de falla del suministro de energía eléctrica principal. Se debería aplicar protección contra rayos en todos los edificios y los filtros de protección contra rayos deberían ser aptos para todas las líneas externas de comunicaciones."
+        },
+        {
+          "numero": "7.2.3",
+          "titulo": "Seguridad del cableado",
+          "introduccion": "Los cables de energía eléctrica y telecomunicaciones que llevan datos o servicios de apoyo a la información, se deberían proteger de intercepciones o daños.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "Las líneas de energía eléctrica y telecomunicaciones en las instalaciones de procesamiento de información deberían ser subterráneas, cuando sea posible, o sujetas a una protección alternativa adecuada."
+            },
+            {
+              "letra": "b)",
+              "item": "El cableado de redes se debería proteger de la intercepción o daños de personas no autorizadas, por ejemplo, usando canaletas portacables, o evitando rutas que pasen por áreas públicas."
+            },
+            {
+              "letra": "c)",
+              "item": "Los cables de energía eléctrica se deberían separar de los cables de comunicación para evitar interferencias."
+            },
+            {
+              "letra": "d)",
+              "item": "En los sistemas sensibles y críticos además de los controles en consideración, incluir:",
+              "subpuntos": [
+                "d.1) La instalación de canaletas portacables blindadas y salas o cajas con llave en los puntos de inspección y terminación;",
+                "d.2) El uso de rutas o dispositivos de transmisión alternativos;",
+                "d.3) El uso de cables de fibra óptica;",
+                "d.4) Retirar los dispositivos no autorizados que estén junto a los cables."
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "7.2.4",
+          "titulo": "Mantenimiento de los equipos",
+          "introduccion": "Los equipos se deberían mantener correctamente para asegurar su integridad y disponibilidad continua.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "Los equipos deberían tener su mantenimiento de acuerdo con las especificaciones e intervalos de servicios recomendados por el proveedor."
+            },
+            {
+              "letra": "b)",
+              "item": "Solamente el personal de mantenimiento autorizado debería realizar las reparaciones y servicios de los equipos."
+            },
+            {
+              "letra": "c)",
+              "item": "Se deberían guardar los registros de todas las fallas sospechosas o reales y de los mantenimientos correctivos y preventivos."
+            },
+            {
+              "letra": "d)",
+              "item": "Se deberían tomar en cuenta los controles apropiados cuando se envían equipos de las instalaciones para mantenimiento, (ver también 7.2.6 respecto a la anulación, borrado, y sobre-escritura de datos). Se deberían cumplir todos los requisitos impuestos por las políticas de seguridad."
+            }
+          ]
+        },
+        {
+          "numero": "7.2.5",
+          "titulo": "Seguridad de los equipos fuera de la organización",
+          "introduccion": "Independiente de la propiedad, la dirección debería autorizar si es pertinente el uso fuera de la organización de cualquier equipo para el procesamiento de información. La seguridad debería ser equivalente a la que tienen los equipos cuando está en el sitio de uso normal, para el mismo propósito, tomando en cuenta los riesgos de trabajar externamente a las instalaciones de la organización. Los equipos de procesamiento de información incluyen todas las formas de computadores personales, organizadores, teléfonos móviles, papel u otra forma que se usa para trabajar en el hogar o que se transporta desde el sitio normal de trabajo a otro lugar.",
+          "guias_considerar": "Se deberían considerar las guías siguientes:",
+          "puntos_guias": [
+            {
+              "letra": "a)",
+              "item": "Los equipos y los dispositivos que se ocupan fuera de las instalaciones de la organización no se deberían dejar desatendidos en lugares públicos. Los computadores portátiles se deberían llevar en un bolso de mano y disimulados durante un viaje, cuando sea posible."
+            },
+            {
+              "letra": "b)",
+              "item": "Las instrucciones de protección del fabricante de los equipos se deberían observar todo el tiempo, por ejemplo, la protección a la exposición de campos electromagnéticos intensos."
+            },
+            {
+              "letra": "c)",
+              "item": "Los controles del trabajo realizado en el hogar se deberían determinar mediante la evaluación del riesgo y aplicar los controles adecuados cuando sea apropiado, por ejemplo, gabinetes de archivo con llaves, política de escritorio limpio y controles de acceso a los computadores."
+            },
+            {
+              "letra": "d)",
+              "item": "Se debería tener la cobertura de seguros adecuados para proteger los equipos fuera del sitio normal."
+            }
+          ],
+          "riesgos_seguridad_variados": "Los riesgos de la seguridad, por ejemplo, de daño, robo y escucha prohibida, pueden variar considerablemente entre ubicaciones y se debería tomar en cuenta en la determinación de los controles más apropiados. En 9.8.1 se puede encontrar más información con respecto a otros aspectos de protección de equipos móviles."
+        },
+        {
+          "numero": "7.2.6",
+          "titulo": "Seguridad en la eliminación de ítemes en desuso o reuso de equipos",
+          "introduccion": "La información se puede comprometer debido a un descuido en la eliminación de ítemes en desuso o a un reuso de equipos (ver también 8.6.4). Los dispositivos de almacenamiento que contienen información sensible se deberían destruir físicamente o sobrescribir en forma segura usando una función de borrado estandarizado.",
+          "revision_dispositivos": "Todos los ítemes de los equipos que contienen dispositivos de almacenamiento, por ejemplo, discos duros fijos, se deberían revisar para asegurar que cualquier dato sensible y licencia de software se haya sacado o sobrescrito antes de la eliminación. Los dispositivos de almacenamiento que contienen datos sensibles pueden necesitar una evaluación del riesgo, para determinar si los ítemes se deberían destruir, reparar o descartar."
+        }
+      ]
+    },
+    {
+      "numero": "7.3",
+      "titulo": "Controles generales",
+      "objetivo": "Prevenir que se comprometa o se robe la información y equipos de procesamiento de información.",
+      "introduccion": "La información y los equipos de procesamiento de información se deberían proteger de la divulgación, modificación o del robo por personas no autorizadas, y los controles se deberían realizar en el sitio para minimizar la pérdida o daño.",
+      "referencia_adicional": "En 8.6.3 se consideran los procedimientos de manipulación y almacenamiento.",
+      "subsecciones": [
+        {
+          "numero": "7.3.1",
+          "titulo": "Política de escritorio limpio y pantalla limpia",
+          "introduccion": "Las organizaciones deberían considerar la adopción de la política de escritorio limpio, para los papeles y dispositivos removibles de almacenamiento y una política de pantalla limpia, para los equipos de procesamiento de información con el fin de reducir los riesgos de acceso no autorizado, pérdida y daño de la información durante y fuera de las horas normales de trabajo. La política debería tomar en cuenta las clasificaciones de la seguridad de la información (ver 5.2), los riesgos correspondientes y los aspectos culturales de la organización.",
+          "daño_desastre": "La información que se deja sobre los escritorios también es probable que se dañe o destruya por un desastre tal como fuego, inundación o explosión.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "Cuando sea apropiado, el papel y los dispositivos del computador, cuando no se usen, se deberían almacenar en gabinetes adecuados con llave y/o o en otras formas de muebles con seguridad especialmente fuera de las horas de trabajo."
+            },
+            {
+              "letra": "b)",
+              "item": "La información crítica o sensible del negocio, se debería colocar alejada del sitio con llave, (idealmente en una caja de seguridad o gabinete resistente al fuego) cuando no se necesite, especialmente cuando la oficina esté desocupada."
+            },
+            {
+              "letra": "c)",
+              "item": "Los computadores personales, los terminales de computadores y las impresoras no se deberían dejar con la sesión abierta, cuando estén desatendidos y cuando no se usen se deberían proteger con llaves con clave, contraseña y otros controles."
+            },
+            {
+              "letra": "d)",
+              "item": "Los puntos de correo salientes y entrantes, máquinas de fax y telex no atendidos se deberían proteger."
+            },
+            {
+              "letra": "e)",
+              "item": "Las fotocopiadoras se deberían tener con llave (o protegidas de alguna manera de los usuarios no autorizados) fuera de las horas normales de trabajo."
+            },
+            {
+              "letra": "f)",
+              "item": "La información clasificada o sensible, cuando se imprima se debería retirar inmediatamente de las impresoras."
+            }
+          ]
+        },
+        {
+          "numero": "7.3.2",
+          "titulo": "Remoción de bienes",
+          "introduccion": "Los equipos, la información o software no se deberían ocupar fuera del sitio sin autorización. Cuando sea necesario y apropiado, los equipos deberían quedar con las sesiones cerradas y cuando vuelva a su lugar se deberían reiniciar las sesiones. Se debería realizar la revisión de los puestos de trabajo para detectar la remoción no autorizada de algún inmueble. Se les debería hacer conciencia a las personas que se realizarán revisiones a los puestos de trabajo."
+        }
+      ]
+    }
+  ]
+}

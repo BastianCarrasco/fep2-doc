@@ -1,0 +1,100 @@
+{
+  "titulo_capitulo": "CAPÍTULO 1: ANTECEDENTES Y MARCO NORMATIVO",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 1°",
+      "titulo": "IDENTIFICACIÓN DE LA LICITACIÓN",
+      "contenido": "La presente Licitación Pública Internacional, identificada como LICITACIÓN N° TFEP-01/2025, tiene por objeto la contratación del desarrollo, implementación y puesta en marcha del \"Proyecto de Software y Plataforma Operacional\", en adelante \"el PROYECTO\", conforme a las especificaciones técnicas y administrativas contenidas en los documentos que forman parte integrante del presente proceso licitatorio."
+    },
+    {
+      "numero": "ARTÍCULO 2°",
+      "titulo": "ENTIDAD CONVOCANTE",
+      "contenido": "Para efectos de las presentes Bases, la entidad convocante será denominada como \"el CLIENTE\", quien actuará como mandante y contraparte técnica durante todo el proceso de licitación, evaluación, adjudicación y ejecución contractual."
+    },
+    {
+      "numero": "ARTÍCULO 3°",
+      "titulo": "DEFINICIONES",
+      "introduccion": "Para la correcta interpretación de las presentes Bases Administrativas, se establecen las siguientes definiciones:",
+      "definiciones": [
+        {
+          "numero": "3.1",
+          "termino": "ADJUDICATARIO",
+          "definicion": "Proponente a quien se le adjudica la licitación mediante acto administrativo formal."
+        },
+        {
+          "numero": "3.2",
+          "termino": "BASES",
+          "definicion": "Conjunto de documentos conformado por las Bases Administrativas, Bases Técnicas y sus respectivos anexos."
+        },
+        {
+          "numero": "3.3",
+          "termino": "CLIENTE",
+          "definicion": "Entidad convocante y mandante del proceso licitatorio."
+        },
+        {
+          "numero": "3.4",
+          "termino": "CONSORCIO",
+          "definicion": "Agrupación de dos o más personas jurídicas que presentan una oferta conjunta."
+        },
+        {
+          "numero": "3.5",
+          "termino": "CONTRATO",
+          "definicion": "Instrumento jurídico que perfecciona la adjudicación y regula la relación contractual."
+        },
+        {
+          "numero": "3.6",
+          "termino": "OFERENTE o PROPONENTE",
+          "definicion": "Persona natural o jurídica que presenta una propuesta en el proceso."
+        },
+        {
+          "numero": "3.7",
+          "termino": "PARTICIPANTE",
+          "definicion": "Toda persona natural o jurídica que haya adquirido las Bases de Licitación."
+        },
+        {
+          "numero": "3.8",
+          "termino": "PROYECTO",
+          "definicion": "Conjunto de servicios, productos y entregables objetos de la presente licitación."
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 4°",
+      "titulo": "MARCO LEGAL Y NORMATIVO",
+      "introduccion_rigencia": "La presente licitación se regirá por:",
+      "rigencia_puntos": [
+        "Las presentes Bases Administrativas",
+        "Las Bases Técnicas y sus anexos",
+        "La normativa chilena vigente aplicable",
+        "Los principios generales del derecho administrativo",
+        "La Ley N° 19.886 y su reglamento, en lo que resulte aplicable"
+      ],
+      "cumplimiento_participantes": "Los participantes deberán conocer y cumplir con toda la normativa nacional aplicable, incluyendo, pero no limitándose a:",
+      "normativa_puntos": [
+        "Legislación laboral y previsional",
+        "Normativa tributaria y aduanera",
+        "Regulaciones ambientales",
+        "Ley N° 19.628 sobre Protección de Datos Personales",
+        "Normas ISO 27001 y NIST en materia de seguridad informática"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 5°",
+      "titulo": "DOCUMENTOS QUE RIGEN LA LICITACIÓN",
+      "orden_precedencia_introduccion": "Los documentos que rigen el presente proceso, en orden de precedencia, son:",
+      "orden_precedencia": [
+        "1. Bases Administrativas y sus modificaciones",
+        "2. Bases Técnicas y sus anexos",
+        "3. Consultas y Respuestas oficiales del CLIENTE",
+        "4. Aclaraciones y Modificaciones emitidas por el CLIENTE",
+        "5. Oferta Técnica del PROPONENTE adjudicado",
+        "6. Oferta Económica del PROPONENTE adjudicado",
+        "7. Resolución de Adjudicación",
+        "8. Contrato y sus Anexos",
+        "9. Otros antecedentes documentados que proporcione el CLIENTE"
+      ],
+      "integracion_documentos": "Los documentos señalados forman un todo integrado y se complementan recíprocamente. Cualquier obligación que aparezca en uno de ellos se considerará parte del Contrato.",
+      "discrepancia_documentos": "En caso de discrepancia entre los documentos, prevalecerá el orden de precedencia establecido en el numeral 5.1."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "titulo_capitulo": "CAPÍTULO 3: PARTICIPANTES",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 11°",
+      "titulo": "QUIÉNES PUEDEN PARTICIPAR",
+      "introduccion_participacion": "Podrán participar en esta licitación:",
+      "tipos_participantes": [
+        "• Personas jurídicas nacionales o extranjeras",
+        "• Consorcios o asociaciones de empresas",
+        "• Uniones temporales de proveedores"
+      ],
+      "requisitos_participantes": "Los participantes deberán:",
+      "puntos_requisitos": [
+        "• Tener giro social compatible con el objeto de la licitación",
+        "• Cumplir con todos los requisitos establecidos en estas Bases",
+        "• No encontrarse afectos a prohibiciones o inhabilidades"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 12°",
+      "titulo": "PROHIBICIONES E INHABILIDADES",
+      "introduccion_prohibiciones": "No podrán participar quienes:",
+      "prohibiciones_puntos": [
+        "• Se encuentren en alguna de las situaciones del Artículo 4° de la Ley N° 19.886",
+        "• Tengan vigente declaratoria de quiebra o se encuentren en proceso de reorganización judicial",
+        "• Registren incumplimientos contractuales graves con el CLIENTE en los últimos 3 años",
+        "• Mantengan litigios pendientes con el CLIENTE",
+        "• Hayan sido sancionados por infracciones laborales o tributarias graves en los últimos 2 años"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 13°",
+      "titulo": "CONSORCIOS Y ASOCIACIONES",
+      "introduccion_consorcios": "Los consorcios deberán:",
+      "consorcios_requisitos": [
+        "• Designar un representante único con poder suficiente",
+        "• Establecer responsabilidad solidaria entre todos sus integrantes",
+        "• Presentar promesa de constitución formal en caso de adjudicación",
+        "• Indicar participación porcentual de cada integrante"
+      ],
+      "restriccion_participacion": "Ningún integrante podrá participar en más de un consorcio o individualmente en la misma licitación.",
+      "evaluacion_experiencia": "Los antecedentes de experiencia y capacidad se evaluarán considerando la suma de los integrantes."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "titulo_capitulo": "CAPÍTULO 2: CONDICIONES GENERALES DEL PROCESO",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 6°",
+      "titulo": "TIPO Y MODALIDAD DE LICITACIÓN",
+      "contenido": [
+        {
+          "punto": "1.",
+          "descripcion": "Tipo: Licitación Pública Internacional"
+        },
+        {
+          "punto": "2.",
+          "descripcion": "Modalidad: Etapa única con presentación simultánea de:",
+          "subpuntos": [
+            "• Antecedentes Administrativos",
+            "• Oferta Técnica",
+            "• Oferta Económica"
+          ]
+        },
+        {
+          "punto": "3.",
+          "descripcion": "Sistema de Evaluación: Ponderación técnico-económica conforme a los criterios establecidos en estas Bases."
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 7°",
+      "titulo": "IDIOMA OFICIAL",
+      "contenido": [
+        {
+          "punto": "1.",
+          "descripcion": "El idioma oficial para todos los efectos de la licitación será el español."
+        },
+        {
+          "punto": "2.",
+          "descripcion": "Todos los documentos deberán presentarse en español, con excepción de:",
+          "subpuntos": [
+            "• Folletos técnicos",
+            "• Catálogos de productos",
+            "• Certificaciones internacionales"
+          ]
+        },
+        {
+          "punto": "3,",
+          "descripcion": "Los documentos exceptuados podrán presentarse en español o inglés. En caso de discrepancia, prevalecerá la versión en español."
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 8°",
+      "titulo": "MONEDA Y VALORES",
+      "moneda_introduccion": "Las ofertas económicas deberán expresarse en:",
+      "monedas": [
+        "• Dólares de Estados Unidos de América (USD)",
+        "• Unidades de Fomento (UF)",
+        "• Pesos Chilenos (CLP)"
+      ],
+      "valores_introduccion": "Todos los valores deberán indicarse con detalle de:",
+      "valores_detalle": [
+        "• Valores netos",
+        "• Impuesto al Valor Agregado (IVA)",
+        "• Totales"
+      ],
+      "evaluacion_cambio": "Para efectos de evaluación, se considerará el tipo de cambio indicado en el Formulario E-24 ."
+    },
+    {
+      "numero": "ARTÍCULO 9°",
+      "titulo": "CUMPLIMIENTO DE PLAZOS",
+      "contenido": [
+        {
+          "punto": "1.",
+          "descripcion": "Todos los plazos establecidos en estas Bases son de días hábiles (lunes a viernes), salvo indicación expresa en contrario."
+        },
+        {
+          "punto": "2.",
+          "descripcion": "Los plazos son fatales e improrrogables. Su incumplimiento implicará la exclusión automática del proceso."
+        },
+        {
+          "punto": "3.",
+          "descripcion": "Excepcionalmente, el CLIENTE podrá modificar plazos por razones fundadas, lo que será comunicado oportunamente a todos los participantes registrados."
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 10°",
+      "titulo": "GASTOS DEL PROCESO",
+      "introduccion_gastos": "Todos los gastos en que incurran los proponentes con motivo de la preparación y presentación de sus ofertas serán de su exclusivo cargo.",
+      "reembolsos": "El CLIENTE no efectuará reembolsos ni indemnizaciones por estos conceptos, cualquiera sea el resultado del proceso.",
+      "incluye_gastos": "Los gastos incluyen, pero no se limitan a:",
+      "gastos_detalle": [
+        "• Estudios y análisis",
+        "• Preparación de documentación",
+        "• Garantías y seguros",
+        "• Traducciones y legalizaciones",
+        "• Viajes y traslados",
+        "• Asesorías externas"
+      ]
+    }
+  ]
+}

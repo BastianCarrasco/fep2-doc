@@ -1,0 +1,182 @@
+{
+  "titulo_seccion": "0 Introducción",
+  "que_es_seguridad_informacion": {
+    "introduccion": "La información es un bien con valor para una organización y necesita ser protegida. La seguridad de la información protege la información de amenazas para asegurar la continuidad del negocio, minimizar daños y maximizar retorno de inversión y oportunidades.",
+    "formas_informacion": "La información puede existir impresa, escrita, almacenada electrónicamente, transmitida por correo o medios electrónicos, mostrada en películas o hablada. Siempre debe estar protegida adecuadamente, sin importar su forma o dispositivo de almacenamiento/intercambio.",
+    "caracteristicas_seguridad": {
+      "descripcion": "La seguridad de la información se caracteriza por la preservación de:",
+      "puntos": [
+        {
+          "letra": "a)",
+          "concepto": "confidencialidad",
+          "definicion": "asegurar que la información sea accesible sólo por aquellos usuarios autorizados para tener acceso"
+        },
+        {
+          "letra": "b)",
+          "concepto": "integridad",
+          "definicion": "salvaguardar que la información y los métodos de procesamiento sean exactos y completos"
+        },
+        {
+          "letra": "c)",
+          "concepto": "disponibilidad",
+          "definicion": "asegurar que los usuarios autorizados tengan acceso a la información y bienes asociados cuando lo requieran"
+        }
+      ]
+    },
+    "implementacion": "La seguridad de la información se logra mediante la implementación de un conjunto adecuado de controles (políticas, prácticas, procedimientos, estructuras organizacionales, funciones de software) para cumplir los objetivos de seguridad específicos de la organización."
+  },
+  "por_que_es_necesaria_seguridad_informacion": {
+    "importancia_activos": "La información y los procesos de apoyo, sistemas y redes son bienes importantes. La confidencialidad, integridad y disponibilidad son esenciales para mantener la competitividad, flujo de caja, utilidad, cumplimiento legal e imagen del negocio.",
+    "amenazas_crecientes": "Las organizaciones enfrentan crecientes amenazas de seguridad (fraudes, espionaje, sabotaje, vandalismo, desastres naturales). Fuentes como virus, hacking y ataques de denegación de servicio son más comunes, ambiciosas y sofisticadas.",
+    "vulnerabilidad": "La dependencia en sistemas de información y servicios aumenta la vulnerabilidad. La interconexión de redes y la compartición de recursos dificultan el control de acceso. Los sistemas distribuidos han debilitado el control centralizado.",
+    "limitaciones_tecnicas": "Muchos sistemas no se diseñaron para ser seguros. La seguridad lograda por dispositivos técnicos es limitada y debe ser apoyada por procedimientos y gestión apropiada. Identificar y ubicar los controles requiere planificación y atención detallada.",
+    "participacion_necesaria": "La gestión de seguridad de la información requiere la participación mínima de todos los empleados, y puede incluir a proveedores, clientes, accionistas y especialistas externos.",
+    "costo_beneficio_diseño": "Los controles de seguridad son más económicos y efectivos si se incorporan en la etapa de diseño y especificación de requisitos."
+  },
+  "como_establecer_requisitos_seguridad": {
+    "esencial": "Es esencial que una organización identifique sus requisitos de seguridad.",
+    "fuentes_principales": [
+      {
+        "orden": "La primera fuente",
+        "descripcion": "se obtiene al evaluar los riesgos para la organización. Esto implica identificar amenazas a los bienes, vulnerabilidades, evaluar la probabilidad de ocurrencia y estimar el impacto potencial."
+      },
+      {
+        "orden": "La segunda fuente",
+        "descripcion": "son los requisitos legales, estatutarios, regulatorios y contractuales que deben satisfacer la organización, sus socios comerciales, proveedores y personal externo de servicios."
+      },
+      {
+        "orden": "La tercera fuente",
+        "descripcion": "es un conjunto particular de principios, objetivos y requisitos para el procesamiento de la información que una organización ha desarrollado para el apoyo de sus operaciones."
+      }
+    ]
+  },
+  "evaluacion_riesgos_seguridad": {
+    "metodo_identificacion": "Los requisitos de seguridad se identifican mediante una evaluación metódica de los riesgos. El gasto en controles debe compararse con el perjuicio probable de las fallas de seguridad.",
+    "aplicacion": "Las técnicas de evaluación de riesgos pueden aplicarse a toda la organización, a partes de ella, a sistemas de información individuales, componentes específicos o servicios, cuando sea práctico y útil.",
+    "consideracion_sistematica": {
+      "descripcion": "La evaluación del riesgo es la consideración sistemática de:",
+      "puntos": [
+        {
+          "letra": "a)",
+          "item": "El probable perjuicio al negocio que resulte de una falla en la seguridad, tomando en cuenta las consecuencias potenciales de una pérdida de confidencialidad, integridad o disponibilidad de la información y otros bienes."
+        },
+        {
+          "letra": "b)",
+          "item": "La probabilidad realista de que tal falla ocurra, en vista de las amenazas y vulnerabilidades efectivas, y los controles actualmente implementados."
+        }
+      ]
+    },
+    "resultados_guia": "Los resultados guiarán la acción de gestión, prioridades de gestión de riesgos y selección de controles para proteger de estos riesgos. Puede ser necesario repetir el proceso para diferentes partes de la organización o sistemas.",
+    "revisiones_periodicas": {
+      "descripcion": "Es importante realizar revisiones periódicas de los riesgos de seguridad e implementar controles para:",
+      "puntos": [
+        {
+          "letra": "a)",
+          "item": "tomar en cuenta los cambios de las prioridades y requisitos del negocio"
+        },
+        {
+          "letra": "b)",
+          "item": "considerar nuevas amenazas y vulnerabilidades"
+        },
+        {
+          "letra": "c)",
+          "item": "confirmar que los controles permanecen efectivos y apropiados"
+        }
+      ]
+    },
+    "niveles_profundidad_revision": "Las revisiones deben tener diferentes niveles de profundidad según evaluaciones previas y niveles de riesgo aceptados. A menudo, se realizan primero a alto nivel para priorizar recursos, y luego en detalle para riesgos específicos."
+  },
+  "seleccion_controles": {
+    "criterios": "Una vez identificados los requisitos, se deben seleccionar e implementar controles para reducir los riesgos a un nivel aceptable.",
+    "fuentes_controles": "Los controles pueden seleccionarse de este documento, de otros conjuntos o diseñarse nuevos. Este documento provee ejemplos de enfoques habituales, pero no todos los controles son aplicables o prácticos para todas las organizaciones (ej. separación de obligaciones en pequeñas organizaciones o monitoreo de eventos en conflicto con legislación de privacidad).",
+    "bases_seleccion": "Los controles deben seleccionarse en base a los costos de implementación versus el riesgo a reducir y las pérdidas potenciales por violación de seguridad. También se deben considerar factores no monetarios como la pérdida de reputación.",
+    "principios_guias": "Algunos controles en este documento se consideran principios guías (Punto de partida de la seguridad de la información) y son aplicables a la mayoría de las organizaciones."
+  },
+  "punto_partida_seguridad_informacion": {
+    "descripcion": "Cierto número de controles se consideran principios guía que proveen un buen punto de partida para la implementación de la seguridad de la información, basados en requisitos legislativos esenciales o mejores prácticas comunes.",
+    "controles_esenciales_legislativos": {
+      "descripcion": "Los controles considerados esenciales desde el punto de vista legislativo incluyen:",
+      "puntos": [
+        {
+          "letra": "a)",
+          "item": "protección de los datos y privacidad de la información personal (ver 12.1.4)"
+        },
+        {
+          "letra": "b)",
+          "item": "salvaguardia de los registros de la organización (ver 12.1.3)"
+        },
+        {
+          "letra": "c)",
+          "item": "derechos de propiedad intelectual (ver 12.1.2)"
+        }
+      ]
+    },
+    "controles_mejor_practica": {
+      "descripcion": "Los controles considerados comúnmente como la mejor práctica de seguridad de la información, incluyen:",
+      "puntos": [
+        {
+          "letra": "a)",
+          "item": "documentación de la política de seguridad de la información (ver 3.1)"
+        },
+        {
+          "letra": "b)",
+          "item": "asignación de responsabilidades en la seguridad de la información (ver 4.1.3)"
+        },
+        {
+          "letra": "c)",
+          "item": "educación y entrenamiento en la seguridad de la información (ver 6.2.1)"
+        },
+        {
+          "letra": "d)",
+          "item": "informes de incidentes en la seguridad (ver 6.3.1)"
+        },
+        {
+          "letra": "e)",
+          "item": "gestión de continuidad del negocio (ver 11.1)"
+        }
+      ]
+    },
+    "consideracion_final": "Estos controles se aplican en la mayoría de las organizaciones y ambientes. La relevancia de cualquier control debe determinarse en vista del riesgo específico que enfrenta una organización. El punto de partida no reemplaza la selección de controles basada en una evaluación del riesgo."
+  },
+  "factores_criticos_exito": {
+    "descripcion": "La experiencia ha mostrado que los siguientes factores son a menudo críticos en la implementación exitosa de la seguridad de la información dentro de una organización:",
+    "puntos": [
+      {
+        "letra": "a)",
+        "item": "política, objetivos y actividades de seguridad que reflejen los objetivos del negocio"
+      },
+      {
+        "letra": "b)",
+        "item": "una aproximación para la implementación de la seguridad que sea consistente con la cultura organizacional"
+      },
+      {
+        "letra": "c)",
+        "item": "apoyo visible y compromiso de la dirección"
+      },
+      {
+        "letra": "d)",
+        "item": "buen entendimiento de los requisitos de seguridad, evaluación y gestión del riesgo"
+      },
+      {
+        "letra": "e)",
+        "item": "difusión efectiva de la seguridad por todos los directivos y empleados"
+      },
+      {
+        "letra": "f)",
+        "item": "distribución de las normas y de la guía de la política de seguridad de la información a todos los empleados y personal externo"
+      },
+      {
+        "letra": "g)",
+        "item": "provisión de entrenamiento y educación adecuada"
+      },
+      {
+        "letra": "h)",
+        "item": "utilización de un sistema de medición equilibrado y completo para evaluar el comportamiento de la gestión de seguridad de la información y la realimentación de sugerencias para su mejoramiento"
+      }
+    ]
+  },
+  "desarrollo_guias_propias": {
+    "consideracion_codigo": "Este código de práctica puede considerarse un punto de partida para desarrollar una guía en una organización específica. No toda la guía y controles pueden ser aplicables, y pueden ser necesarios controles adicionales no incluidos.",
+    "referencias_cruzadas": "Cuando se añadan controles, es útil conservar referencias cruzadas para facilitar la verificación del cumplimiento por auditores y socios del negocio."
+  }
+}

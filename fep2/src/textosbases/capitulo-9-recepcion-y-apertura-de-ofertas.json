@@ -1,0 +1,95 @@
+{
+  "titulo_capitulo": "CAPÍTULO 9: RECEPCIÓN Y APERTURA DE OFERTAS",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 24°",
+      "titulo": "PRESENTACIÓN DE OFERTAS",
+      "introduccion": "Las ofertas se presentarán en TRES sobres separados:",
+      "sobres_presentacion": [
+        "• Sobre N° 1: Antecedentes Administrativos y Garantía (Formato Físico)",
+        "• Sobre N° 2: Oferta Técnica (Formato Electrónico)",
+        "• Sobre N° 3: Oferta Económica (Formato electrónico)"
+      ],
+      "condicion_plazo": "Según calendario (Formulario T-20). No se recibirán ofertas fuera del plazo establecido"
+    },
+    {
+      "numero": "ARTÍCULO 25°",
+      "titulo": "SOBRE N° 1 - ANTECEDENTES ADMINISTRATIVOS",
+      "caratula_fisico": {
+        "titulo": "Carátula del sobre físico:",
+        "contenido": [
+          "LICITACIÓN N° TFEP-01/2025",
+          "Proyecto de Software y Plataforma Operacional",
+          "SOBRE N° 1: ANTECEDENTES DEL OFERENTE",
+          "[Nombre del Proponente]",
+          "[Nombre del Representante Legal]",
+          "[Email del Representante / Celular]"
+        ]
+      },
+      "contenido_sobre": {
+        "titulo": "Contenido:",
+        "puntos": [
+          "• Todos los documentos del Artículo 16°",
+          "• Boleta de Garantía de Seriedad (original)",
+          "• Índice con folio de inicio de cada sección",
+          "• Documentos debidamente foliados y firmados"
+        ]
+      },
+      "formato_digital": {
+        "titulo": "Formato digital (si corresponde):",
+        "puntos": [
+          "• Archivo: SOBRE1_[EMPRESA]_ANTECEDENTES_OFERENTE_YYYYMMDD.ZIP",
+          "• Documentos escaneados con firmas y folios visibles"
+        ]
+      }
+    },
+    {
+      "numero": "ARTÍCULO 26°",
+      "titulo": "SOBRE N° 2 - OFERTA TÉCNICA",
+      "contenido_obligatorio": "1. Contenido obligatorio (según Formulario T-7):",
+      "restriccion": "2. Restricción: No incluir información de precios (causal de exclusión)",
+      "formato_digital": {
+        "titulo": "3. Formato digital:",
+        "puntos": ["• Archivo: SOBRE2_[EMPRESA]_OFERTA_TECNICA_YYYYMMDD.ZIP"]
+      }
+    },
+    {
+      "numero": "ARTÍCULO 27°",
+      "titulo": "SOBRE N° 3 - OFERTA ECONÓMICA",
+      "contenido_obligatorio": "1. Contenido obligatorio (según Formulario E-21):",
+      "formato_presentacion": {
+        "titulo": "2. Formato de presentación:",
+        "puntos": [
+          "• Valores en USD, UF y CLP",
+          "• Valores netos",
+          "• IVA desglosado",
+          "• Totales por ítem y general"
+        ]
+      },
+      "formato_digital": {
+        "titulo": "3. Formato digital:",
+        "puntos": ["• Archivo: SOBRE3_[EMPRESA]_OFERTA_ECONOMICA_YYYYMMDD.ZIP"]
+      }
+    },
+    {
+      "numero": "ARTÍCULO 28°",
+      "titulo": "ACTO DE APERTURA",
+      "apertura_sobre_1": {
+        "titulo": "1. Apertura Sobre N° 1 (Día de recepción):",
+        "puntos": [
+          "• Verificación de Garantía de Seriedad",
+          "• Revisión de documentación administrativa",
+          "• Levantamiento de acta",
+          "• Exclusión de ofertas que no cumplan requisitos"
+        ]
+      },
+      "custodia": {
+        "titulo": "2. Custodia:",
+        "puntos": [
+          "• Sobres N° 2 y 3 quedan en custodia",
+          "• Apertura posterior según evaluación"
+        ]
+      }
+    }
+  ]
+}

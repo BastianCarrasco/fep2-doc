@@ -1,0 +1,210 @@
+{
+  "titulo": "Tecnología de la información - Código de práctica para la gestión de seguridad de la información",
+  "preambulo": {
+    "organismo_nacional": {
+      "nombre": "Instituto Nacional de Normalización (INN)",
+      "rol": "organismo a cargo del estudio y preparación de normas técnicas a nivel nacional",
+      "afiliaciones": [
+        "INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO)",
+        "COMISION PANAMERICANA DE NORMAS TECNICAS (COPANT)"
+      ],
+      "representacion_ante": "Chile ante esos organismos"
+    },
+    "preparacion_norma": {
+      "nombre_norma": "NCh2777 - ISO/IEC 17799: 2000",
+      "preparado_por": "División de Normas del Instituto Nacional de Normalización",
+      "participantes": [
+        {
+          "organismo": "Armada de Chile",
+          "persona": "Bernard Johnson H."
+        },
+        {
+          "organismo": "Banco del Estado",
+          "persona": "Héctor Monje V."
+        },
+        {
+          "organismo": "Banco Santander",
+          "persona": "Marcelo Muñoz A."
+        },
+        {
+          "organismo": "Cámara Nacional de Comercio - ONCE",
+          "personas": ["Bernardino Arance M.", "Paula Silva B."]
+        },
+        {
+          "organismo": "Certibanc - Enable",
+          "persona": "Roberto Riveros D."
+        },
+        {
+          "organismo": "Corporación de Fomento de la Producción, CORFO",
+          "persona": "Paul Saffery G."
+        },
+        {
+          "organismo": "Corporación de Investigación Tecnológica de Chile - INTEC",
+          "personas": ["Verónica Acha A.", "Patricio Escobar R."]
+        },
+        {
+          "organismo": "e-Cert Chile",
+          "persona": "Esteban Segura R."
+        },
+        {
+          "organismo": "Instituto Nacional de Normalización, INN",
+          "personas": ["Leonor Ceruti M.", "Jorge Muñoz C.", "Andrés Tabja R."]
+        },
+        {
+          "organismo": "Ministerio de Salud - DIPLAP",
+          "persona": "Christian Yáñez V."
+        },
+        {
+          "organismo": "Orión",
+          "persona": "Claudio Ordóñez U."
+        },
+        {
+          "organismo": "Orión 2000",
+          "persona": "Andrés Boré P."
+        },
+        {
+          "organismo": "Servicio de Impuestos Internos, SII",
+          "personas": ["Fernando Barraza L.", "Jaime Labbé S."]
+        },
+        {
+          "organismo": "Subsecretaría de Economía",
+          "persona": "Raúl Arrieta C."
+        },
+        {
+          "organismo": "Subsecretaría de Telecomunicaciones",
+          "persona": "Claudio Pezoa L."
+        },
+        {
+          "organismo": "Subsecretaría Secretaría General de la Presidencia",
+          "personas": ["Daniel Cortés E.", "Gonzalo Martner F."]
+        },
+        {
+          "organismo": "Superintendencia de Bancos e Instituciones Financieras",
+          "persona": "Renato Córdova G."
+        },
+        {
+          "organismo": "Universidad de Santiago - Depto. de Ingeniería Informática",
+          "persona": "Rogers Atero"
+        },
+        {
+          "organismo": "Universidad Técnica Federico Santa María - Depto. de Industrias",
+          "persona": "Alejandro Bedini"
+        }
+      ]
+    },
+    "objetivo_norma": "Establecer las recomendaciones sobre la gestión de seguridad de la información para las personas responsables de implementar y mantener esta seguridad en la organización.",
+    "homologacion_internacional": {
+      "norma_original": "ISO/IEC 17799: 2000 Information technology - Code of practice for information security management",
+      "identidad_con_original": "idéntica a la misma",
+      "acuerdos_comite_tecnico_inn": [
+        "no traducir ciertos términos debido a que son de uso común en la literatura técnica",
+        "traducir algunos términos indicando el término original en inglés para un mejor entendimiento",
+        "incluir los términos indicados en los puntos anteriores en una tabla en el preámbulo de la norma para no modificar la norma ISO/IEC 17799:2000, ya que esta norma chilena es una homologación idéntica a la misma"
+      ],
+      "terminos_tecnicos": [
+        {
+          "ingles_iso_iec_17799_2000": "management",
+          "termino_norma_chilena": "dirección/gestión",
+          "otros_terminos_uso_habitual_pais": "gerencia/ administración"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "manager",
+          "termino_norma_chilena": "directivo, encargado",
+          "otros_terminos_uso_habitual_pais": "gerente"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "fora, forum",
+          "termino_norma_chilena": "comité",
+          "otros_terminos_uso_habitual_pais": "foro"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "denial of service attack",
+          "termino_norma_chilena": "ataque de denegación de servicio",
+          "otros_terminos_uso_habitual_pais": "ataque de negación de servicio"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "hacking",
+          "termino_norma_chilena": "hacking",
+          "otros_terminos_uso_habitual_pais": "piratería"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "user IDs",
+          "termino_norma_chilena": "user IDs",
+          "otros_terminos_uso_habitual_pais": "identificación de usuario"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "worms",
+          "termino_norma_chilena": "worms",
+          "otros_terminos_uso_habitual_pais": "gusanos"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "courier",
+          "termino_norma_chilena": "courier",
+          "otros_terminos_uso_habitual_pais": "mensajero, correo"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "token",
+          "termino_norma_chilena": "token",
+          "otros_terminos_uso_habitual_pais": "dispositivo de hardware"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "smart card",
+          "termino_norma_chilena": "tarjeta inteligente",
+          "otros_terminos_uso_habitual_pais": null
+        },
+        {
+          "ingles_iso_iec_17799_2000": "batch",
+          "termino_norma_chilena": "batch",
+          "otros_terminos_uso_habitual_pais": "por lotes"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "logged on",
+          "termino_norma_chilena": "sesión abierta",
+          "otros_terminos_uso_habitual_pais": null
+        },
+        {
+          "ingles_iso_iec_17799_2000": "logged out",
+          "termino_norma_chilena": "sesión cerrada",
+          "otros_terminos_uso_habitual_pais": null
+        },
+        {
+          "ingles_iso_iec_17799_2000": "logged back",
+          "termino_norma_chilena": "sesión reiniciada",
+          "otros_terminos_uso_habitual_pais": null
+        },
+        {
+          "ingles_iso_iec_17799_2000": "firewall",
+          "termino_norma_chilena": "firewall",
+          "otros_terminos_uso_habitual_pais": "equipo muro cortafuego"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "gateway",
+          "termino_norma_chilena": "gateway",
+          "otros_terminos_uso_habitual_pais": "equipo puerta de acceso"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "time slot",
+          "termino_norma_chilena": "intervalo de tiempo",
+          "otros_terminos_uso_habitual_pais": null
+        },
+        {
+          "ingles_iso_iec_17799_2000": "joint venture",
+          "termino_norma_chilena": "joint venture",
+          "otros_terminos_uso_habitual_pais": "socio del negocio"
+        },
+        {
+          "ingles_iso_iec_17799_2000": "call forwarding",
+          "termino_norma_chilena": "desvío de llamadas",
+          "otros_terminos_uso_habitual_pais": null
+        }
+      ]
+    },
+    "aprobacion_oficializacion": {
+      "aprobado_por": "Consejo del Instituto Nacional de Normalización",
+      "fecha_aprobacion": "27 de Diciembre de 2002",
+      "declarada_oficial_por": "Resolución Exenta N°92, del Ministerio de Economía, Fomento y Reconstrucción",
+      "fecha_resolucion": "07 de Marzo de 2003",
+      "publicada_en": "Diario Oficial del 13 de Marzo de 2003"
+    }
+  }
+}

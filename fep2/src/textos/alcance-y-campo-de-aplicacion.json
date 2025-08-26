@@ -1,0 +1,14 @@
+{
+  "titulo_seccion": "1 Alcance y campo de aplicación",
+  "introduccion": "Este código de práctica presenta un conjunto de controles que cubren un amplio espectro de sistemas de información para ayudar a las organizaciones a garantizar la seguridad de su información.",
+  "alcance_y_aplicabilidad": {
+    "descripcion": "Esta norma es aplicable a todas las organizaciones. Se puede utilizar para implementar la seguridad de la información en una organización o como un documento guía para un programa de seguridad de la información.",
+    "factores_considerar": "El código de práctica presenta una guía genérica, pero la implementación de los controles sugeridos debería ser consistente con:",
+    "puntos_factores": [
+      "la dirección de la organización;",
+      "el marco de referencia legal, estatutario, regulatorio y contractual;",
+      "el ambiente específico de operación."
+    ],
+    "no_especifica": "Este código de práctica no especifica los controles de seguridad que se aplican a los sistemas de información individualmente o a los productos. Tampoco provee un programa de gestión comprensivo."
+  }
+}

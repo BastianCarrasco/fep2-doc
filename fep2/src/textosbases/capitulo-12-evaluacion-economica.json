@@ -1,0 +1,40 @@
+{
+  "titulo_capitulo": "CAPÍTULO 12: EVALUACIÓN ECONÓMICA",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 34°",
+      "titulo": "APERTURA DE OFERTAS ECONÓMICAS",
+      "condicion": "Sólo se abrirán ofertas económicas de proponentes con puntaje técnico ≥ 60.",
+      "acta": "Se levantará acta con montos ofertados"
+    },
+    {
+      "numero": "ARTÍCULO 35°",
+      "titulo": "METODOLOGÍA DE EVALUACIÓN ECONÓMICA",
+      "titulo_seccion": "Determinación del Intervalo de Confianza:",
+      "introduccion": "La definición descrita a continuación para la definición de un intervalo de confianza, de manera de establecer un límite superior e inferior para los precios ofertados. de acuerdo a lo que se detalla a continuación:",
+      "formula_ic": "IC=[ P - nS, P + nS ]",
+      "definicion_donde": "Donde:",
+      "variables": [
+        "IC= Intervalo de Confianza",
+        "P= Promedio",
+        "n = Ponderador determinado en base a los datos de la muestra.",
+        "S = Desviación estándar"
+      ],
+      "definicion_desviacion_estandar": "Se entenderá por Desviación Estándar a la dispersión de los datos respecto al valor promedio.",
+      "formula_desviacion_estandar": "𝐷𝑒𝑠𝑣𝑖𝑎𝑐𝑖ó𝑛 𝐸𝑠𝑡á𝑛𝑑𝑎𝑟 = 𝑆 = √ 1\n𝑁 − 1 ∑(𝑥𝑖 − 𝑝𝑟𝑜𝑚𝑒𝑑𝑖𝑜)2\n𝑁\n𝑖=1",
+      "banda_precios": "Con la formula IC antes referida, se definirá un intervalo de confianza donde se determinará una banda de precios. En el caso de los valores que se encuentren sobre el límite superior y bajo el límite inferior serán descartados del proceso de evaluación de ofertas.",
+      "exclusion": "Exclusión: Ofertas fuera del intervalo serán evaluadas con 0 puntos"
+    },
+    {
+      "numero": "ARTÍCULO 36°",
+      "titulo": "ASIGNACIÓN DE PUNTAJE ECONÓMICO",
+      "introduccion": "Para asignar este puntaje que se encuentran dentro del intervalo de confianza, se aplicará la siguiente formula:",
+      "formula_asignacion_titulo": "Fórmula de asignación:",
+      "formula_asignacion_contenido": "Puntaje Precio = 100 - (0.5 × (Valor Oferente - Valor Mínimo) / Valor Oferente) × 100",
+      "criterios_puntaje": [
+        "Mejor precio dentro del intervalo: 100 puntos",
+        "Ofertas fuera del intervalo: 0 puntos"
+      ]
+    }
+  ]
+}

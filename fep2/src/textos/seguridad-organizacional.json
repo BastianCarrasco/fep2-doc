@@ -1,0 +1,364 @@
+{
+  "titulo_seccion": "4 Seguridad organizacional",
+  "secciones": [
+    {
+      "numero": "4.1",
+      "titulo": "Infraestructura de la seguridad de la información",
+      "subsecciones": [
+        {
+          "numero": "4.1.1",
+          "titulo": "Comité de la dirección para la seguridad de la información",
+          "parrafo_introductorio": "La dirección debería establecer un foro apropiado (un comité) para gestionar la seguridad de la información dentro de la organización, de acuerdo con una política de seguridad de la información aprobada por la dirección (ver cláusula 3).",
+          "promocion_seguridad": "Este comité debería promover la seguridad dentro de la organización a través de compromisos apropiados y recursos adecuados. El comité puede ser parte de un grupo existente de la dirección. Típicamente, tal comité lleva a cabo lo siguiente:",
+          "funciones_comite": [
+            {
+              "letra": "a)",
+              "item": "revisión y aprobación de la política de seguridad de la información y de las responsabilidades generales"
+            },
+            {
+              "letra": "b)",
+              "item": "monitoreo de los cambios significativos en la exposición de los bienes de información a amenazas mayores"
+            },
+            {
+              "letra": "c)",
+              "item": "revisión y monitoreo de los incidentes de seguridad de la información"
+            },
+            {
+              "letra": "d)",
+              "item": "aprobación de iniciativas importantes para mejorar la seguridad de la información"
+            }
+          ],
+          "responsable_general": "Un directivo debería ser responsable de todas las actividades relacionadas con la seguridad."
+        },
+        {
+          "numero": "4.1.2",
+          "titulo": "Coordinación de la seguridad de la información",
+          "parrafo_introductorio": "En una organización grande puede ser necesario un comité de representantes de la dirección con funciones transversales, de partes importantes de la organización, para coordinar la implementación de los controles de la seguridad de la información.",
+          "funciones_coordinacion": [
+            {
+              "letra": "a)",
+              "item": "acuerda roles y responsabilidades específicos para la seguridad de la información en toda la organización"
+            },
+            {
+              "letra": "b)",
+              "item": "acuerda metodologías y procesos específicos para la seguridad de la información, por ejemplo, evaluación del riesgo, sistema de clasificación de la seguridad"
+            },
+            {
+              "letra": "c)",
+              "item": "acuerda y apoya las iniciativas de seguridad de la información en toda la organización, por ejemplo, un programa de sensibilización sobre seguridad"
+            },
+            {
+              "letra": "d)",
+              "item": "garantiza que la seguridad sea parte del proceso de planificación de la información"
+            },
+            {
+              "letra": "e)",
+              "item": "evalúa la adecuación de los controles de seguridad de una información específica, y coordina la implementación para los nuevos sistemas o servicios"
+            },
+            {
+              "letra": "f)",
+              "item": "revisa los incidentes de seguridad de la información"
+            },
+            {
+              "letra": "g)",
+              "item": "promueve la visibilidad del apoyo del negocio a la seguridad de la información en toda la organización"
+            }
+          ]
+        },
+        {
+          "numero": "4.1.3",
+          "titulo": "Asignación de responsabilidades en la seguridad de la información",
+          "introduccion": "Deberían estar claramente definidas las responsabilidades para la protección de bienes individuales y para llevar a cabo procesos de seguridad específicos.",
+          "guia_general": "La política de seguridad de la información (ver cláusula 3) debería entregar una guía general en la asignación de responsabilidades en la organización. Esto se debería complementar, cuando sea necesario, con una guía más detallada de sitios, sistemas o servicios específicos. Deberían estar claramente definidas las responsabilidades locales para los bienes físicos individuales y de información, así como los procesos de seguridad, tales como la planificación de la continuidad del negocio.",
+          "encargado_seguridad": "En muchas organizaciones se designará un encargado de seguridad de la información, quien tomará toda la responsabilidad para el desarrollo e implementación de la seguridad y para apoyar en la identificación de los controles.",
+          "responsabilidad_directivos_dueños": "Sin embargo, la responsabilidad por los recursos y la implementación de los controles a menudo permanece en los directivos individuales. Una práctica habitual es designar un dueño para cada bien de información quien se hace responsable de su seguridad en el día a día.",
+          "delegacion_responsabilidades": "Los dueños de los bienes de información pueden delegar sus responsabilidades de seguridad a los directivos individuales o proveedores de servicio. Sin embargo, el dueño permanece como último responsable de la seguridad del bien y debería ser capaz de determinar que la responsabilidad delegada se ha encargado correctamente.",
+          "areas_responsabilidad_esenciales": "Es esencial que las áreas de las cuales cada directivo es responsable estén claramente establecidas; en particular debería ocurrir lo siguiente:",
+          "puntos_esenciales": [
+            {
+              "letra": "a)",
+              "item": "Se deberían identificar y definir claramente los diversos bienes y los procesos de seguridad asociados con cada sistema individual."
+            },
+            {
+              "letra": "b)",
+              "item": "El directivo responsable de cada bien o proceso de seguridad debería estar de acuerdo y debería documentar los detalles de esta responsabilidad."
+            },
+            {
+              "letra": "c)",
+              "item": "Los niveles de autorización se deberían definir claramente y documentar."
+            }
+          ]
+        },
+        {
+          "numero": "4.1.4",
+          "titulo": "Procesos de autorización para las instalaciones de procesamiento de información",
+          "introduccion": "Se debería establecer una gestión del proceso de autorización para las instalaciones de procesamiento de información nuevas.",
+          "controles_considerar": "Se deberían considerar los controles siguientes:",
+          "puntos_controles": [
+            {
+              "letra": "a)",
+              "item": "Las instalaciones nuevas deberían tener una apropiada aprobación de la dirección usuaria, autorización de su propósito y uso. Se debería obtener además la aprobación del directivo responsable del mantenimiento del ambiente de seguridad del sistema de información local, para asegurar que se cumplan todos los requisitos y políticas importantes de seguridad."
+            },
+            {
+              "letra": "b)",
+              "item": "Cuando sea necesario, se debería revisar el hardware y software para asegurar que sean compatibles con otros componentes del sistema."
+            },
+            {
+              "letra": "c)",
+              "item": "El uso de instalaciones de procesamiento de la información personal para el procesamiento de la información del negocio y cualquier control necesario debería ser autorizado."
+            },
+            {
+              "letra": "d)",
+              "item": "El uso de instalaciones de procesamiento de la información personal en los lugares de trabajo puede causar nuevas vulnerabilidades y por lo tanto deberían ser evaluadas y autorizadas."
+            }
+          ],
+          "nota_b": "NOTA - Para ciertas conexiones puede ser requerida una aprobación tipo.",
+          "importancia_red": "Estos controles son especialmente importantes en un ambiente de red."
+        },
+        {
+          "numero": "4.1.5",
+          "titulo": "Consejo de un especialista en seguridad de la información",
+          "necesidad_consejo": "Probablemente en muchas organizaciones sea necesario el consejo de un especialista en seguridad. Idealmente, éste lo debería dar un asesor interno experimentado en seguridad.",
+          "organizaciones_pequenas": "No todas las organizaciones pueden emplear a un asesor especialista, en tales casos, se recomienda que una persona específica con experiencia y conocimientos coordine internamente, para asegurar la consistencia, y proveer ayuda en la toma de decisiones relacionadas con la seguridad. Ellos deberían también tener acceso apropiado a las opiniones de los especialistas asesores externos, además de su experiencia.",
+          "mision_asesores": "Los asesores de seguridad de la información o las personas equivalentes de contacto deberían tener la misión de proveer consejos en todos los aspectos de la seguridad de la información, usando su propia opinión o la externa. La calidad de su evaluación de las amenazas a la seguridad y consejo sobre los controles determinará la efectividad de la seguridad de la información de la organización. Para una máxima efectividad e impacto, a ellos se les debería permitir el acceso directo a la gestión de toda la organización.",
+          "consulta_incidentes": "El asesor de seguridad de la información o la persona de contacto deberían ser consultados en la etapa más temprana posible a continuación de una sospecha de incidente o violación de la seguridad, para proveer una guía experta o recursos de investigación. Aunque la mayoría de las investigaciones internas de seguridad se realizarán normalmente bajo el control de la dirección, se puede llamar al consultor de seguridad de información para opinar, guiar o conducir la investigación."
+        },
+        {
+          "numero": "4.1.6",
+          "titulo": "Cooperación entre organizaciones",
+          "contactos_apropiados": "Se deberían mantener los contactos apropiados con las autoridades encargadas de la aplicación de las leyes, cuerpos regulatorios, proveedores de servicios de información y operadores de telecomunicaciones, para asegurar que en el evento de un incidente de seguridad se tomen rápidamente las acciones apropiadas, y se obtenga un consejo. Similarmente, se deberían considerar los miembros de los grupos de seguridad y de los comités de la industria.",
+          "restriccion_informacion": "Los intercambios de información de seguridad se deberían restringir para asegurar que la información confidencial de la organización no sea entregada a personas no autorizadas."
+        },
+        {
+          "numero": "4.1.7",
+          "titulo": "Revisión independiente de la seguridad de la información",
+          "introduccion": "Los documentos de la política (ver 3.1) de seguridad de la información, fijan la política y las responsabilidades de la seguridad de información. Su implementación se debería revisar independientemente para dar la garantía de que las prácticas de la organización reflejan apropiadamente la política, y que ésta es factible y efectiva (ver 12.2).",
+          "quien_realiza_revision": "Tal revisión la puede realizar un auditor interno, un directivo independiente o una organización de tercera parte, especializada en tales revisiones, cuando estos candidatos tengan la habilidad y experiencia apropiada."
+        }
+      ]
+    },
+    {
+      "numero": "4.2",
+      "titulo": "Seguridad del acceso de una tercera parte",
+      "objetivo": "Mantener la seguridad de las instalaciones de procesamiento de información organizacional y de los bienes de información accesados por terceras partes.",
+      "control_acceso": "Se debería controlar el acceso de terceras partes a las instalaciones de procesamiento de información de la organización.",
+      "evaluacion_riesgos": "Cuando exista una necesidad del negocio para el acceso de una tercera parte, se debería realizar una evaluación del riesgo para determinar las implicancias en la seguridad y los requisitos de control. Los controles se deberían acordar y definir en un contrato con la tercera parte.",
+      "otros_participantes": "El acceso de la tercera parte también puede involucrar a otros participantes. Los contratos que otorgan accesos de terceras partes deberían incluir el permiso para designar a otros participantes elegibles y las condiciones para su acceso.",
+      "base_contratos": "Esta norma se podría usar como base para tales contratos y cuando se considere la externalización del procesamiento de la información.",
+      "subsecciones": [
+        {
+          "numero": "4.2.1",
+          "titulo": "Identificación de los riesgos del acceso de una tercera parte",
+          "sub_subsecciones": [
+            {
+              "numero": "4.2.1.1",
+              "titulo": "Tipos de acceso",
+              "introduccion": "El tipo de acceso dado a una tercera parte es de especial importancia. Por ejemplo, los riesgos de acceso a través de una conexión de red son diferentes de los riesgos que resultan de un acceso físico. Los tipos de acceso que se deberían considerar son:",
+              "tipos": [
+                {
+                  "letra": "a)",
+                  "item": "acceso físico, por ejemplo, a las oficinas, salas de computadores, gabinetes de archivos"
+                },
+                {
+                  "letra": "b)",
+                  "item": "acceso lógico, por ejemplo a una base de datos, a los sistemas de información de una organización"
+                }
+              ]
+            },
+            {
+              "numero": "4.2.1.2",
+              "titulo": "Razones para el acceso",
+              "introduccion": "A las terceras partes se les puede conceder acceso por varias razones. Por ejemplo, existe una tercera parte que provee servicios para una organización y no está ubicada en el sitio, a ellos se les puede dar acceso lógico y físico, tales como:",
+              "ejemplos": [
+                {
+                  "letra": "a)",
+                  "item": "personal de apoyo de software y hardware, quien necesita acceso a nivel de sistema o a bajo nivel de funcionalidad de la aplicación"
+                },
+                {
+                  "letra": "b)",
+                  "item": "a los socios del negocio o joint ventures, quienes pueden intercambiar información, acceder a los sistemas de información o compartir bases de datos"
+                }
+              ],
+              "riesgo_informacion": "La información se puede poner en riesgo debido al acceso de terceras partes, por una inadecuada gestión de seguridad. Cuando hay una necesidad del negocio para conectar un sitio de una tercera parte, se debería realizar una evaluación del riesgo para identificar cualquier requisito de control específico. Se debería tomar en cuenta el tipo de acceso requerido, el valor de la información, los controles empleados por la tercera parte y las implicancias de este acceso a la seguridad de la información de la organización."
+            },
+            {
+              "numero": "4.2.1.3",
+              "titulo": "Personal externo en el sitio",
+              "introduccion": "Las terceras partes que están ubicadas en el sitio por un período de tiempo definido en sus contratos, también pueden dar origen a una debilidad de la seguridad. Los ejemplos de terceras partes en el sitio incluyen:",
+              "ejemplos_personal_externo": [
+                {
+                  "letra": "a)",
+                  "item": "personal de apoyo y mantenimiento de hardware y software"
+                },
+                {
+                  "letra": "b)",
+                  "item": "servicios de aseo, de alimentación, guardias de seguridad y otros servicios de apoyo externalizados"
+                },
+                {
+                  "letra": "c)",
+                  "item": "empleo de estudiantes y otros empleos ocasionales de corto tiempo"
+                },
+                {
+                  "letra": "d)",
+                  "item": "consultores"
+                }
+              ],
+              "controles_necesarios": "Es esencial entender que los controles son necesarios para administrar el acceso de la tercera parte a las instalaciones de procesamiento de información. Generalmente, todos los requisitos de seguridad o controles internos que resultan del acceso de la tercera parte se deberían reflejar en el contrato de esta tercera parte (ver 4.2.2). Por ejemplo, si hay una necesidad especial de confidencialidad de la información, se puede usar un acuerdo de no divulgación (ver 6.1.3).",
+              "autorizacion_acceso": "El acceso por terceras partes a la información y a las instalaciones de procesamiento de información, no se debería autorizar hasta que se hayan implementado los controles apropiados y se haya firmado un contrato definiendo los términos de la conexión o acceso."
+            }
+          ]
+        },
+        {
+          "numero": "4.2.2",
+          "titulo": "Requisitos de seguridad en los contratos con terceras partes",
+          "introduccion": "Los convenios que involucran el acceso de una tercera parte a las instalaciones de procesamiento de la información organizacional, deberían estar basados en un contrato formal que contenga o haga referencia a todos los requisitos de seguridad para asegurar el cumplimiento de las políticas y normas de seguridad de la organización. El contrato debería asegurar que no haya malos entendidos entre la organización y la tercera parte.",
+          "indemnizacion": "Las organizaciones deberían satisfacer por sí mismas cómo serán indemnizadas por sus proveedores. Se deberían considerar los términos siguientes para incluirlos en el contrato:",
+          "terminos_contrato": [
+            {
+              "letra": "a)",
+              "item": "política general de la seguridad de la información"
+            },
+            {
+              "letra": "b)",
+              "item": "protección de los bienes, incluyendo:",
+              "subpuntos": [
+                "b.1) procedimientos para proteger los bienes de la organización, incluyendo la información y el software;",
+                "b.2) procedimientos para determinar si ha ocurrido algún compromiso en los bienes, por ejemplo, pérdida o modificación de los datos;",
+                "b.3) controles para asegurar la devolución o destrucción de la información y bienes al final del contrato, o de común acuerdo, en una fecha durante la vigencia del mismo;",
+                "b.4) integridad y disponibilidad;",
+                "b.5) restricciones en el copiado y divulgación de la información;"
+              ]
+            },
+            {
+              "letra": "c)",
+              "item": "una descripción de cada servicio que va a estar disponible"
+            },
+            {
+              "letra": "d)",
+              "item": "el nivel presupuestado del servicio y los niveles inaceptables"
+            },
+            {
+              "letra": "e)",
+              "item": "estipulación de transferencia de personal cuando sea apropiado"
+            },
+            {
+              "letra": "f)",
+              "item": "las respectivas obligaciones de las partes en el acuerdo"
+            },
+            {
+              "letra": "g)",
+              "item": "responsabilidades con respecto a las materias legales, por ejemplo, legislación de protección de los datos, especialmente tomando en cuenta los diferentes sistemas legales nacionales si el contrato involucra la cooperación con organizaciones de otros países (ver 12.1)"
+            },
+            {
+              "letra": "h)",
+              "item": "derechos de propiedad intelectual (DPIs) y asignación de los derechos de autor (ver 12.1.2) y protección de cualquier trabajo colaborativo (ver también 6.1.3)"
+            },
+            {
+              "letra": "i)",
+              "item": "acuerdos de control de acceso, que cubran:",
+              "subpuntos": [
+                "i.1) los métodos de acceso permitidos y el control y uso de identificadores únicos tales como user IDs y contraseñas;",
+                "i.2) un proceso de autorización para el acceso y privilegios de usuario;",
+                "i.3) un requisito de mantener una lista de las personas autorizadas a usar los servicios que se hagan disponibles y cuáles son sus derechos y privilegios con respecto a tal uso;"
+              ]
+            },
+            {
+              "letra": "j)",
+              "item": "la definición de un criterio verificable de comportamiento, su monitoreo e informe"
+            },
+            {
+              "letra": "k)",
+              "item": "el derecho para monitorear y revocar la actividad del usuario"
+            },
+            {
+              "letra": "l)",
+              "item": "el derecho para auditar las responsabilidades contractuales o realizar estas auditorías mediante una tercera parte"
+            },
+            {
+              "letra": "m)",
+              "item": "el establecimiento de un proceso de escalamiento para la resolución de problemas; también se deberían considerar, cuando sea apropiado disposiciones de contingencia"
+            },
+            {
+              "letra": "n)",
+              "item": "responsabilidades concernientes a la instalación y mantenimiento de hardware y software"
+            },
+            {
+              "letra": "o)",
+              "item": "una clara estructura de informes y formatos acordados por las partes"
+            },
+            {
+              "letra": "p)",
+              "item": "un proceso de gestión de cambio claro y específico"
+            },
+            {
+              "letra": "q)",
+              "item": "cualquier control necesario de protección física y los mecanismos para asegurar que estos controles se cumplan"
+            },
+            {
+              "letra": "r)",
+              "item": "entrenamiento en los métodos, procedimientos y seguridad al usuario y administrador"
+            },
+            {
+              "letra": "s)",
+              "item": "controles para asegurar la protección contra software maliciosos (ver 8.3)"
+            },
+            {
+              "letra": "t)",
+              "item": "disposiciones para informar, notificar e investigar los incidentes y las violaciones a la seguridad"
+            },
+            {
+              "letra": "u)",
+              "item": "involucramiento de la tercera parte con el personal externo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "4.3",
+      "titulo": "Externalización",
+      "objetivo": "Mantener la seguridad de la información cuando la responsabilidad del procesamiento de la información se haya externalizado a otra organización.",
+      "disposiciones_contrato": "Las disposiciones de externalización deberían consignar en el contrato entre las partes los riesgos, los controles de seguridad y los procedimientos para los sistemas de información, ambientes de redes y/o computadores personales.",
+      "subsecciones": [
+        {
+          "numero": "4.3.1",
+          "titulo": "Requisitos de seguridad en los contratos de externalización",
+          "introduccion": "Los requisitos de seguridad de una organización que externaliza la gestión y control de todos o algunos de sus sistemas de información, ambientes de redes y/o computadores personales se deberían consignar en un contrato acordado entre las partes.",
+          "ejemplos_contrato": "Por ejemplo, el contrato debería consignar:",
+          "puntos_ejemplos": [
+            {
+              "letra": "a)",
+              "item": "cómo se van a cumplir los requisitos legales, por ejemplo, la legislación de protección de datos"
+            },
+            {
+              "letra": "b)",
+              "item": "qué disposiciones tendrán lugar para asegurar que todas las partes involucradas en la externalización, incluidos los subcontratistas, están conscientes de sus responsabilidades en la seguridad"
+            },
+            {
+              "letra": "c)",
+              "item": "cómo se van a mantener y probar la integridad y la confidencialidad de los bienes del negocio de la organización"
+            },
+            {
+              "letra": "d)",
+              "item": "qué controles físicos y lógicos se usarán con los usuarios autorizados, para restringir y limitar el acceso a la información sensible del negocio de la organización"
+            },
+            {
+              "letra": "e)",
+              "item": "cómo se va a mantener la disponibilidad de los servicios en el evento de un desastre"
+            },
+            {
+              "letra": "f)",
+              "item": "qué niveles de seguridad física se suministrarán para los equipos externalizados"
+            },
+            {
+              "letra": "g)",
+              "item": "el derecho de auditar"
+            }
+          ],
+          "consideraciones_adicionales": "Los términos indicados en la lista en 4.2.2 también se deberían considerar como parte de este contrato. El contrato debería permitir que los requisitos de seguridad y los procedimientos puedan ser desarrollados en un plan de gestión de seguridad a ser acordado entre las dos partes.",
+          "punto_de_partida": "Aunque los contratos de externalización pueden plantear algunas preguntas complejas de seguridad, los controles incluidos en este código de práctica podrían servir como un punto de partida para acordar la estructura y contenido del plan de gestión de seguridad."
+        }
+      ]
+    }
+  ]
+}

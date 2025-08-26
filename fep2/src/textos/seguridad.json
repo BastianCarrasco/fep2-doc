@@ -1,0 +1,66 @@
+{
+  "titulo_seccion": "3 Política de seguridad",
+  "secciones": [
+    {
+      "numero": "3.1",
+      "titulo": "Política de seguridad de la información",
+      "objetivo": "Fijar la orientación y el apoyo de la dirección a la seguridad de la información. La dirección debería fijar una política de orientación clara y demostrar el apoyo y el compromiso con la seguridad de la información mediante la publicación y mantenimiento de una política de seguridad de la información en toda la organización.",
+      "subsecciones": [
+        {
+          "numero": "3.1.1",
+          "titulo": "Documentación de la política de seguridad de la información",
+          "parrafo_introductorio": "La dirección debería aprobar un documento de la política de seguridad, publicarlo y comunicarlo, cuando sea apropiado, a todos los empleados. Esto establecería un compromiso de la dirección y fijaría el tratamiento de la organización para gestionar la seguridad de la información. Como mínimo, se debería incluir la guía siguiente:",
+          "puntos_guia": [
+            {
+              "letra": "a)",
+              "descripcion": "una definición de seguridad de la información, sus objetivos globales y alcance y la importancia de la seguridad como un mecanismo que permita compartir la información (ver introducción)"
+            },
+            {
+              "letra": "b)",
+              "descripcion": "una declaración de intención de la dirección, como apoyo a las metas y principios de la seguridad de la información"
+            },
+            {
+              "letra": "c)",
+              "descripcion": "una breve explicación de las políticas de seguridad, principios, normas y requisitos de cumplimiento necesarios de particular importancia en la organización, por ejemplo:",
+              "subpuntos": [
+                "c.1) cumplimiento con los requisitos legislativos y contractuales;",
+                "c.2) requisitos de educación en la seguridad;",
+                "c.3) prevención y detección de virus y otros software maliciosos;",
+                "c.4) gestión de la continuidad del negocio;",
+                "c.5) consecuencias de las violaciones a la política de seguridad;"
+              ]
+            },
+            {
+              "letra": "d)",
+              "descripcion": "una definición de las responsabilidades generales y específicas de gestión de seguridad de la información, que incluya un informe de incidentes en la seguridad"
+            },
+            {
+              "letra": "e)",
+              "descripcion": "referencias a la documentación que puede apoyar la política, por ejemplo, políticas de seguridad más detalladas y procedimientos para sistemas de información específicos o reglas de seguridad que debieran cumplir los usuarios"
+            }
+          ],
+          "comunicacion": "Esta política se debería comunicar a los usuarios de toda la organización en una forma que sea pertinente, accesible y entendible por el lector objetivo."
+        },
+        {
+          "numero": "3.1.2",
+          "titulo": "Revisión y evaluación",
+          "parrafo_introductorio": "La política debería tener un dueño el cual es responsable de su mantenimiento y revisión de acuerdo al proceso de revisión definido. Este proceso debería asegurar que se realiza una revisión en respuesta a cualquier cambio que afecte las bases de la evaluación original del riesgo, por ejemplo, incidentes significativos en la seguridad, nuevas vulnerabilidades o cambios en la infraestructura técnica u organizacional. Se debería además tener un cronograma de revisiones periódicas sobre lo siguiente:",
+          "puntos_revision": [
+            {
+              "letra": "a)",
+              "descripcion": "la efectividad de la política, demostrada por la naturaleza, número e impacto de los incidentes registrados en la seguridad"
+            },
+            {
+              "letra": "b)",
+              "descripcion": "costo e impacto de los controles en la eficiencia del negocio"
+            },
+            {
+              "letra": "c)",
+              "descripcion": "efectos de los cambios de tecnología"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "titulo_capitulo": "CAPÍTULO 7: CONSULTAS Y ACLARACIONES",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 20°",
+      "titulo": "PERÍODO DE CONSULTAS",
+      "introduccion_periodo": "Las consultas deberán realizarse exclusivamente durante el período establecido (Formulario T-20).",
+      "formato_consultas": "Formato de consultas (Excel):",
+      "columnas_excel": [
+        "• Columna A: Número correlativo",
+        "• Columna B: Nombre empresa",
+        "• Columna C: Fecha",
+        "• Columna D: Tipo (Administrativa/Técnica/Anexo)",
+        "• Columna E: Sección y página",
+        "• Columna F: Consulta detallada"
+      ],
+      "nombre_archivo": "Nombre del Archivo:",
+      "ejemplo_archivo": "Archivo: CONSULTAS_[EMPRESA]_YYYYMMDD.XLSX",
+      "cliente_respondera": "El CLIENTE responderá sólo consultas:",
+      "criterios_respuesta": [
+        "• Pertinentes al proceso",
+        "• Concretas y precisas",
+        "• Que no involucren información confidencial"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 21°",
+      "titulo": "ACLARACIONES Y MODIFICACIONES",
+      "introduccion_aclaraciones": "El CLIENTE podrá emitir aclaraciones de oficio hasta 5 días antes del cierre. Las modificaciones a las Bases podrán realizarse hasta 5 días corridos antes de la recepción de ofertas.",
+      "notificacion_modificaciones": "Toda modificación será notificada a todos los participantes registrados, las modificaciones formarán parte integrante de las Bases."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "titulo_capitulo": "CAPÍTULO 4: GARANTÍAS",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 14°",
+      "titulo": "GARANTÍA DE SERIEDAD DE LA OFERTA",
+      "introduccion_garantia": "Cada PROPONENTE debe entregar una Boleta de Garantía de Seriedad de la Propuesta, tomada en un banco comercial con oficinas en Valparaíso de Chile, a la Vista, irrevocable y a la orden de “CLIENTE”, expresada en Dólares de Estados Unidos de América, por la cantidad de quinientos mil dólares (US$ 500.000), con la siguiente glosa “Boleta de Garantía de Seriedad de la Oferta para la Licitación Internacional del NUEVO SISTEMA“, debiendo mantener una vigencia inicial de a lo menos ciento cincuenta (150) días contados desde la fecha de entrega de la propuesta respectiva y renovarse antes de su vencimiento por períodos de a lo menos treinta y cinco (35) días, manteniendo de esta forma su vigencia durante todo el proceso de licitación y hasta el décimo día hábil siguiente a la fecha de Inicio del Contrato.",
+      "ejecucion_boleta": "El CLIENTE podrá hacer efectiva esta boleta en cualquiera de los siguientes casos:",
+      "casos_ejecucion": [
+        "• Que se compruebe que cualquiera de los antecedentes entregados por el PROPONENTE no corresponde a la realidad",
+        "• Que el PROPONENTE se desista de su propuesta o la retire unilateralmente sin expresar motivos fundados",
+        "• Que el ADJUDICATARIO no cumpla con los plazos máximos establecidos para la firma del Contrato"
+      ],
+      "devolucion_garantia": "Esta Boleta de Garantía será devuelta a los PROPONENTES no adjudicados a partir del undécimo día hábil siguiente de firmado el contrato con la empresa ADJUDICADA.",
+      "presentacion_requisito": "• La Boleta de Garantía de Seriedad de la Propuesta, sólo deberá presentarse en original, en la forma señalada en estas Bases Administrativas, en la fecha y hora establecida para la Apertura de las Ofertas señalada en el Calendario de Actividades de estas Bases (Formulario T-20)."
+    },
+    {
+      "numero": "ARTÍCULO 15°",
+      "titulo": "GARANTÍA DE FIEL CUMPLIMIENTO DEL CONTRATO",
+      "introduccion_garantia": "Cada PROPONENTE debe entregar una Boleta Fiel Cumplimiento Contrato - Proyecto TFEP-01/2025, tomada en un banco comercial con oficinas en Valparaíso de Chile, a la Vista, irrevocable y a la orden de “CLIENTE”, expresada en dólares de Estados Unidos de América, según las siguientes instrucciones:",
+      "instrucciones_garantia": [
+        "• Tipo: Boleta Bancaria, Vale Vista o Depósito a Plazo",
+        "• Monto: USD $1.000.000 (un millón de dólares)",
+        "• Beneficiario: CLIENTE",
+        "• Glosa: \"Garantía Fiel Cumplimiento Contrato - Proyecto TFEP-01/2025\"",
+        "• Vigencia: Desde firma del contrato hasta 12 meses posteriores a su término"
+      ],
+      "entrega_reemplazo": "El adjudicatario deberá entregar esta garantía dentro de los 10 días hábiles siguientes a la notificación de adjudicación. Esta garantía reemplazará la Garantía de Seriedad de la Oferta."
+    }
+  ]
+}

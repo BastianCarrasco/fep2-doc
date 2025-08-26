@@ -1,0 +1,90 @@
+{
+  "titulo_capitulo": "CAPÍTULO 5: REQUISITOS ADMINISTRATIVOS",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 16°",
+      "titulo": "DOCUMENTACIÓN ADMINISTRATIVA OBLIGATORIA",
+      "introduccion": "Los proponentes deberán presentar:",
+      "categorias_documentacion": [
+        {
+          "numero": "1.",
+          "titulo": "Identificación y Antecedentes Legales:",
+          "documentos": [
+            "• Formulario A-1: Identificación del Proponente",
+            "• Fotocopia legalizada ante Notario de la cédula de identidad del representante legal del PROPONENTE",
+            "• RUT de la empresa",
+            "• Certificado de vigencia (no mayor a 30 días)",
+            "• Fotocopia legalizada ante Notario de la patente comercial al día",
+            "• Escritura de constitución y modificaciones",
+            "• Poderes del representante legal",
+            "• Individualización completa de los socios y de sus asociados en caso de consorcio y porcentaje de participación en la empresa cuando corresponda"
+          ]
+        },
+        {
+          "numero": "2.",
+          "titulo": "Antecedentes Financieros:",
+          "documentos": [
+            "• Certificado de deudas tributarias",
+            "• Estados financieros auditados últimos 3 años",
+            "• Certificado de antecedentes comerciales",
+            "• Boletín Laboral y Previsional de la Dirección del Trabajo"
+          ]
+        },
+        {
+          "numero": "3.",
+          "titulo": "Declaraciones Juradas (ante Notario):",
+          "documentos": [
+            "• No afectación por prohibiciones del Art. 4° Ley 19.886",
+            "• No encontrarse en quiebra",
+            "• Aceptación de las Bases",
+            "• Constitución de domicilio en Valparaíso"
+          ]
+        },
+        {
+          "numero": "4.",
+          "titulo": "Antecedentes Técnicos:",
+          "documentos": [
+            "• Carta de presentación del PROPONENTE contratos suscritos por servicios similares",
+            "• Cartas compromiso de otras empresas",
+            "• Formulario A-5: Presentación de antecedentes"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 17°",
+      "titulo": "REQUISITOS DE FORMA Y PRESENTACIÓN",
+      "introduccion": "Los proponentes deberán presentar la documentación administrativa de manera física y con las siguientes consideraciones:",
+      "consideraciones": [
+        {
+          "numero": "1.",
+          "titulo": "Foliación:",
+          "puntos": [
+            "• Todas las páginas numeradas correlativamente",
+            "• Sin saltos ni páginas sin numeración",
+            "• Zona visible en esquina inferior derecha",
+            "• Requisito excluyente: La falta de foliación implica exclusión automática"
+          ]
+        },
+        {
+          "numero": "2.",
+          "titulo": "Firmas:",
+          "puntos": [
+            "• Media firma en esquina inferior derecha de cada página",
+            "• Firma completa en carátula y documentos principales",
+            "• Firma del representante legal o apoderado"
+          ]
+        },
+        {
+          "numero": "3.",
+          "titulo": "Índices:",
+          "puntos": [
+            "• Hoja resumen al inicio del sobre",
+            "• Indicación de folio inicial de cada sección",
+            "• Correspondencia exacta con foliación"
+          ]
+        }
+      ]
+    }
+  ]
+}
