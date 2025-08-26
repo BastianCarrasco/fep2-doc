@@ -1,0 +1,78 @@
+{
+  "titulo_capitulo": "CAPÍTULO 6: EXPECTATIVAS DE LA NUEVA SOLUCIÓN",
+  "secciones_principales": [
+    {
+      "numero": "6.1",
+      "titulo": "Expectativas de Negocio",
+      "puntos": [
+        "• Reducir costos de transacción en 80%",
+        "• Aumentar participación de PYMES en 200%",
+        "• Generar ahorros por 3,000 millones anuales",
+        "• ROI positivo en 24 meses",
+        "• Eliminar corrupción sistémica"
+      ]
+    },
+    {
+      "numero": "6.2",
+      "titulo": "Expectativas Funcionales",
+      "puntos": [
+        "• Onboarding 100% digital",
+        "• Marketplace unificado",
+        "• Firma electrónica integrada",
+        "• Pagos electrónicos",
+        "• Trazabilidad blockchain",
+        "• IA para recomendaciones"
+      ]
+    },
+    {
+      "numero": "6.3",
+      "titulo": "Expectativas No Funcionales",
+      "puntos": [
+        "• Disponibilidad 99.95%",
+        "• Respuesta <3 segundos",
+        "• 10,000 usuarios concurrentes",
+        "• Seguridad nivel bancario",
+        "• Escalabilidad ilimitada"
+      ]
+    },
+    {
+      "numero": "6.4",
+      "titulo": "Expectativas de Crecimiento",
+      "puntos": [
+        "• 100,000 proveedores en 3 años",
+        "• 5 millones transacciones/año",
+        "• Integración con 1,000 ERPs",
+        "• Expansión internacional"
+      ]
+    },
+    {
+      "numero": "6.5",
+      "titulo": "Expectativas Ambientales",
+      "puntos": [
+        "• Paperless 100%",
+        "• Reducción huella carbono 50%",
+        "• Economía circular habilitada"
+      ]
+    },
+    {
+      "numero": "6.6",
+      "titulo": "Expectativas de Posicionamiento",
+      "puntos": [
+        "• Líder regional en compras públicas",
+        "• Caso de estudio internacional",
+        "• Exportación del modelo"
+      ]
+    },
+    {
+      "numero": "6.7",
+      "titulo": "Visión a 20 Años",
+      "puntos": [
+        "• Plataforma de comercio B2B nacional",
+        "• Integración con mercados internacionales",
+        "• IA gobernando las compras",
+        "• Blockchain como estándar",
+        "• Marketplace autónomo"
+      ]
+    }
+  ]
+}

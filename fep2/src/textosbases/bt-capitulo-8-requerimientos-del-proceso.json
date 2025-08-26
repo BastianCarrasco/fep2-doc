@@ -1,0 +1,644 @@
+{
+  "titulo_capitulo": "CAPÍTULO 8: REQUERIMIENTOS DEL PROCESO",
+  "secciones_principales": [
+    {
+      "numero": "8.1",
+      "titulo": "Gestión de Licitaciones",
+      "funcionalidades_comprador": {
+        "titulo": "Funcionalidades Comprador:",
+        "puntos": [
+          "• Crear licitación",
+          "• Adjuntar documentos",
+          "• Informar licitación",
+          "• Calendario de eventos",
+          "• Modificar licitación",
+          "• Administración de garantías",
+          "• Publicar y evaluar",
+          "• Acta de adjudicación"
+        ]
+      },
+      "funcionalidades_proveedor": {
+        "titulo": "Funcionalidades Proveedor:",
+        "puntos": [
+          "• Buscar licitaciones",
+          "• Notificaciones",
+          "• Revisar bases",
+          "• Confirmar participación",
+          "• Envío consultas",
+          "• Presentar ofertas",
+          "• Seguimiento"
+        ]
+      },
+      "gestion": {
+        "titulo": "Gestión:",
+        "puntos": [
+          "• Tabla de licitaciones",
+          "• Seguimiento eventos",
+          "• Consultar tiempos",
+          "• Auditar licitación",
+          "• Reportes"
+        ]
+      }
+    },
+    {
+      "numero": "8.2",
+      "titulo": "Gestión de Cotizaciones",
+      "introduccion": "Similar estructura con modalidades:",
+      "modalidades": [
+        "• Abierta",
+        "• Cerrada",
+        "• Inversa",
+        "• Quick (simplificada)"
+      ]
+    },
+    {
+      "numero": "8.3",
+      "titulo": "Ciclo de Orden de Compra",
+      "puntos": [
+        "• Generación automática post-adjudicación",
+        "• Aprobaciones workflow",
+        "• Firma electrónica",
+        "• Transmisión al proveedor",
+        "• Modificaciones controladas",
+        "• Trazabilidad completa"
+      ]
+    },
+    {
+      "numero": "8.4",
+      "titulo": "Onboarding Digital",
+      "proceso_registro": {
+        "titulo": "Proceso de Registro:",
+        "puntos": [
+          "• Validación biométrica",
+          "• Verificación identidad",
+          "• Documentos digitales",
+          "• Firma electrónica avanzada",
+          "• Activación inmediata"
+        ]
+      }
+    },
+    {
+      "numero": "8.5",
+      "titulo": "Portal y Aplicación Móvil",
+      "puntos": [
+        "• Diseño responsive",
+        "• Apps nativas iOS/Android",
+        "• Funcionalidad offline",
+        "• Sincronización automática",
+        "• Notificaciones push"
+      ]
+    },
+    {
+      "numero": "8.6",
+      "titulo": "Administrar el Sistema",
+      "funcionalidades_comprador": {
+        "titulo": "Funcionalidades Comprador:",
+        "puntos": [
+          "• Creación de perfiles de usuarios y niveles de acceso dentro de la institución",
+          "• Mantener perfiles de acceso",
+          "• Definición de roles y permisos",
+          "• Gestión de delegaciones y subrogancias",
+          "• Configuración de flujos de aprobación",
+          "• Personalización de plantillas de documentos",
+          "• Definición de alertas y notificaciones",
+          "• Configuración de reglas de negocio"
+        ]
+      },
+      "funcionalidades_proveedor": {
+        "titulo": "Funcionalidades Proveedor:",
+        "puntos": [
+          "• Creación de perfiles de usuarios y niveles de acceso dentro de la institución",
+          "• Mantener perfiles de acceso",
+          "• Gestión de sucursales y representantes",
+          "• Configuración de certificaciones y poderes",
+          "• Administración de documentos legales",
+          "• Gestión de usuarios secundarios"
+        ]
+      },
+      "gestion": {
+        "titulo": "Gestión:",
+        "puntos": [
+          "• Consultar usuarios activos",
+          "• Consultas por uso del sistema en sus distintas partes",
+          "• Auditoría de accesos y transacciones",
+          "• Monitoreo de actividad por perfil",
+          "• Gestión de sesiones activas",
+          "• Control de intentos de acceso fallidos"
+        ]
+      },
+      "administracion": {
+        "titulo": "Administración:",
+        "puntos": [
+          "• Definir administradores por organización",
+          "• Actualización de tablas del sistema",
+          "• Gestión de parámetros globales",
+          "• Configuración de integraciones",
+          "• Administración de catálogos maestros",
+          "• Gestión de templates y formularios"
+        ]
+      }
+    },
+    {
+      "numero": "8.7",
+      "titulo": "Consultar Información",
+      "funcionalidades_comprador": {
+        "titulo": "Funcionalidades Comprador:",
+        "puntos": [
+          "• Consultas estadísticas de uso del sistema",
+          "• Consultar procesos en curso",
+          "• Consultar actividad por usuario, rubro, proveedor, tipo de consumo, etc.",
+          "• Dashboards personalizados",
+          "• Reportes de cumplimiento",
+          "• Análisis de tendencias de compra",
+          "• Comparativos históricos",
+          "• Indicadores de gestión"
+        ]
+      },
+      "funcionalidades_proveedor": {
+        "titulo": "Funcionalidades Proveedor:",
+        "puntos": [
+          "• Gestión de venta realizada",
+          "• Consulta a catálogo",
+          "• Revisión de licitaciones y cotizaciones desarrolladas por rubro",
+          "• Estadísticas de participación",
+          "• Análisis de competitividad",
+          "• Histórico de adjudicaciones",
+          "• Proyección de oportunidades"
+        ]
+      },
+      "gestion": {
+        "titulo": "Gestión:",
+        "puntos": [
+          "• Reportes ejecutivos consolidados",
+          "• Análisis de mercado",
+          "• Benchmarking sectorial",
+          "• Indicadores de transparencia",
+          "• Métricas de eficiencia"
+        ]
+      },
+      "administracion": {
+        "titulo": "Administración:",
+        "puntos": [
+          "• Gestión de uso del sistema",
+          "• Reportes de errores y excepciones",
+          "• Logs de auditoría",
+          "• Análisis de performance",
+          "• Estadísticas de disponibilidad"
+        ]
+      }
+    },
+    {
+      "numero": "8.8",
+      "titulo": "Ambiente Público",
+      "portal_ciudadano": {
+        "titulo": "Portal Ciudadano:",
+        "puntos": [
+          "• Consulta de licitaciones públicas",
+          "• Visualización de adjudicaciones",
+          "• Acceso a contratos públicos",
+          "• Estadísticas de compras por institución",
+          "• Ranking de proveedores",
+          "• Denuncias ciudadanas",
+          "• Transparencia activa",
+          "• APIs públicas para datos abiertos"
+        ]
+      },
+      "portal_proveedores_no_registrados": {
+        "titulo": "Portal de Proveedores No Registrados:",
+        "puntos": [
+          "• Información sobre cómo participar",
+          "• Requisitos de registro",
+          "• Calendario de oportunidades",
+          "• Tutoriales y capacitación",
+          "• Simulador de ofertas",
+          "• Preguntas frecuentes"
+        ]
+      }
+    },
+    {
+      "numero": "8.9",
+      "titulo": "Gestión de Convenios Marco",
+      "funcionalidades_comprador": {
+        "titulo": "Funcionalidades Comprador:",
+        "puntos": [
+          "• Consulta convenios marco activos",
+          "• Búsqueda por categoría de productos/servicios",
+          "• Comparación de opciones disponibles",
+          "• Generación directa de órdenes de compra",
+          "• Solicitud de productos fuera de catálogo",
+          "• Evaluación de proveedores del convenio"
+        ]
+      },
+      "funcionalidades_proveedor": {
+        "titulo": "Funcionalidades Proveedor:",
+        "puntos": [
+          "• Postulación a convenios marco",
+          "• Actualización de catálogos",
+          "• Gestión de precios y condiciones",
+          "• Administración de stock disponible",
+          "• Notificación de cambios",
+          "• Gestión de órdenes recibidas"
+        ]
+      },
+      "gestion": {
+        "titulo": "Gestión:",
+        "puntos": [
+          "• Administración de convenios",
+          "• Monitoreo de cumplimiento",
+          "• Análisis de uso por convenio",
+          "• Gestión de renovaciones",
+          "• Evaluación de proveedores"
+        ]
+      }
+    },
+    {
+      "numero": "8.10",
+      "titulo": "Gestión de Garantías",
+      "tipos_garantias": {
+        "titulo": "Tipos de Garantías:",
+        "puntos": [
+          "• Seriedad de la oferta",
+          "• Fiel cumplimiento de contrato",
+          "• Anticipo",
+          "• Correcta ejecución",
+          "• Garantías especiales"
+        ]
+      },
+      "funcionalidades": {
+        "titulo": "Funcionalidades:",
+        "puntos": [
+          "• Registro de garantías",
+          "• Validación de documentos",
+          "• Alertas de vencimiento",
+          "• Gestión de cobros",
+          "• Liberación automática",
+          "• Trazabilidad completa",
+          "• Integración con instituciones financieras"
+        ]
+      }
+    },
+    {
+      "numero": "8.11",
+      "titulo": "Gestión de Contratos",
+      "ciclo_vida": {
+        "titulo": "Ciclo de Vida del Contrato:",
+        "puntos": [
+          "• Creación desde adjudicación",
+          "• Negociación de términos",
+          "• Firma electrónica",
+          "• Modificaciones y addendums",
+          "• Gestión de hitos",
+          "• Control de entregables",
+          "• Renovaciones automáticas",
+          "• Término y finiquito"
+        ]
+      },
+      "funcionalidades_adicionales": {
+        "titulo": "Funcionalidades Adicionales:",
+        "puntos": [
+          "• Biblioteca de cláusulas tipo",
+          "• Workflow de aprobaciones",
+          "• Gestión de multas y sanciones",
+          "• Evaluación de proveedores",
+          "• Alertas de vencimiento",
+          "• KPIs de cumplimiento"
+        ]
+      }
+    },
+    {
+      "numero": "8.12",
+      "titulo": "Gestión de Reclamos e Impugnaciones",
+      "proceso_reclamos": {
+        "titulo": "Proceso de Reclamos:",
+        "puntos": [
+          "• Registro formal de reclamos",
+          "• Clasificación y priorización",
+          "• Asignación a responsables",
+          "• Tracking de resolución",
+          "• Comunicación con afectados",
+          "• Escalamiento automático",
+          "• Registro de resoluciones",
+          "• Análisis de causas raíz"
+        ]
+      },
+      "proceso_impugnaciones": {
+        "titulo": "Proceso de Impugnaciones:",
+        "puntos": [
+          "• Recepción de impugnaciones",
+          "• Validación de admisibilidad",
+          "• Gestión de plazos legales",
+          "• Coordinación con área legal",
+          "• Publicación de resoluciones",
+          "• Gestión de apelaciones"
+        ]
+      }
+    },
+    {
+      "numero": "8.13",
+      "titulo": "Gestión de Evaluación de Proveedores",
+      "sistema_evaluacion": {
+        "titulo": "Sistema de Evaluación:",
+        "puntos": [
+          "• Criterios parametrizables",
+          "• Evaluación por contrato/orden",
+          "• Scoring automático",
+          "• Ranking de proveedores",
+          "• Certificaciones de desempeño",
+          "• Penalizaciones automáticas",
+          "• Inhabilitaciones temporales",
+          "• Reportes de comportamiento"
+        ]
+      },
+      "indicadores": {
+        "titulo": "Indicadores:",
+        "puntos": [
+          "• Cumplimiento de plazos",
+          "• Calidad del servicio/producto",
+          "• Atención post-venta",
+          "• Cumplimiento administrativo",
+          "• Precio vs mercado",
+          "• Innovación propuesta"
+        ]
+      }
+    },
+    {
+      "numero": "8.14",
+      "titulo": "Gestión Presupuestaria",
+      "control_presupuestario": {
+        "titulo": "Control Presupuestario:",
+        "puntos": [
+          "• Integración con sistemas financieros",
+          "• Control de disponibilidad presupuestaria",
+          "• Compromisos presupuestarios automáticos",
+          "• Alertas de sobregiro",
+          "• Proyección de gastos",
+          "• Control por centro de costo",
+          "• Imputación contable automática",
+          "• Reportes de ejecución"
+        ]
+      }
+    },
+    {
+      "numero": "8.15",
+      "titulo": "Gestión de Inventarios y Almacenes",
+      "para_compradores": {
+        "titulo": "Para Compradores:",
+        "puntos": [
+          "• Control de stock",
+          "• Puntos de reorden automático",
+          "• Gestión de bodegas múltiples",
+          "• Trazabilidad de productos",
+          "• Control de vencimientos",
+          "• Inventarios rotativos",
+          "• Mermas y ajustes"
+        ]
+      },
+      "integracion_compras": {
+        "titulo": "Integración con Compras:",
+        "puntos": [
+          "• Generación automática de solicitudes",
+          "• Recepción contra orden de compra",
+          "• Control de calidad en recepción",
+          "• Distribución interna",
+          "• Valorización de inventarios"
+        ]
+      }
+    },
+    {
+      "numero": "8.16",
+      "titulo": "Business Intelligence y Analytics",
+      "dashboards_ejecutivos": {
+        "titulo": "Dashboards Ejecutivos:",
+        "puntos": [
+          "• KPIs en tiempo real",
+          "• Análisis predictivo",
+          "• Detección de anomalías",
+          "• Benchmarking automático",
+          "• Alertas inteligentes",
+          "• Drill-down interactivo"
+        ]
+      },
+      "analisis_avanzado": {
+        "titulo": "Análisis Avanzado:",
+        "puntos": [
+          "• Machine Learning para predicción de demanda",
+          "• Análisis de sentimiento en reclamos",
+          "• Optimización de precios",
+          "• Segmentación de proveedores",
+          "• Patrones de consumo",
+          "• Detección de fraude"
+        ]
+      }
+    },
+    {
+      "numero": "8.17",
+      "titulo": "Integración con Sistemas Externos",
+      "integraciones_requeridas": {
+        "titulo": "Integraciones Requeridas:",
+        "puntos": [
+          "• ERP institucionales",
+          "• Sistemas de pago (Tesorería)",
+          "• Registro Civil (validación identidad)",
+          "• SII (facturación electrónica)",
+          "• Bancos (garantías)",
+          "• ChileProveedores",
+          "• SIGFE (Sistema financiero del Estado)",
+          "• Contraloría General"
+        ]
+      },
+      "metodos_integracion": {
+        "titulo": "Métodos de Integración:",
+        "puntos": [
+          "• APIs REST",
+          "• Web Services SOAP",
+          "• Transferencia de archivos",
+          "• Mensajería asíncrona",
+          "• Eventos en tiempo real"
+        ]
+      }
+    },
+    {
+      "numero": "8.18",
+      "titulo": "Gestión Documental",
+      "repositorio_centralizado": {
+        "titulo": "Repositorio Centralizado:",
+        "puntos": [
+          "• Almacenamiento seguro",
+          "• Versionado de documentos",
+          "• Control de acceso granular",
+          "• Búsqueda full-text",
+          "• OCR automático",
+          "• Metadatos personalizables",
+          "• Retención según normativa",
+          "• Firma y timbraje electrónico"
+        ]
+      }
+    },
+    {
+      "numero": "8.19",
+      "titulo": "Gestión de Comunicaciones",
+      "canales_comunicacion": {
+        "titulo": "Canales de Comunicación:",
+        "puntos": [
+          "• Mensajería interna",
+          "• Notificaciones push",
+          "• Email automático",
+          "• SMS para alertas críticas",
+          "• Integración con WhatsApp Business",
+          "• Videollamadas para aclaraciones",
+          "• Foros de consultas",
+          "• Chat en línea"
+        ]
+      }
+    },
+    {
+      "numero": "8.20",
+      "titulo": "Módulo de Capacitación",
+      "elearning_integrado": {
+        "titulo": "E-Learning Integrado:",
+        "puntos": [
+          "• Cursos por rol",
+          "• Certificación online",
+          "• Simuladores de proceso",
+          "• Videos tutoriales",
+          "• Base de conocimiento",
+          "• Evaluaciones periódicas",
+          "• Gamificación",
+          "• Soporte contextual"
+        ]
+      }
+    },
+    {
+      "numero": "8.21",
+      "titulo": "Gestión de Auditoría",
+      "trazabilidad_completa": {
+        "titulo": "Trazabilidad Completa:",
+        "puntos": [
+          "• Log de todas las transacciones",
+          "• Registro de cambios",
+          "• Pista de auditoría inmutable",
+          "• Reportes de cumplimiento",
+          "• Análisis forense",
+          "• Detección de irregularidades",
+          "• Cumplimiento normativo",
+          "• Exportación para fiscalización"
+        ]
+      }
+    },
+    {
+      "numero": "8.22",
+      "titulo": "Marketplace B2B",
+      "funcionalidades_marketplace": {
+        "titulo": "Funcionalidades del Marketplace:",
+        "puntos": [
+          "• Catálogo unificado de productos",
+          "• Comparador de precios",
+          "• Recomendaciones personalizadas",
+          "• Subastas inversas",
+          "• Compras agrupadas",
+          "• Negociación en línea",
+          "• Calificaciones y reseñas",
+          "• Programa de fidelización"
+        ]
+      }
+    },
+    {
+      "numero": "8.23",
+      "titulo": "Gestión de Servicios",
+      "para_servicios_continuos": {
+        "titulo": "Para Servicios Continuos:",
+        "puntos": [
+          "• Contratos de servicios recurrentes",
+          "• Control de niveles de servicio (SLA)",
+          "• Medición de KPIs",
+          "• Facturación periódica",
+          "• Evaluación continua",
+          "• Gestión de incidencias",
+          "• Renovaciones automáticas"
+        ]
+      }
+    },
+    {
+      "numero": "8.24",
+      "titulo": "Portal Móvil",
+      "aplicaciones_nativas": {
+        "titulo": "Aplicaciones Nativas:",
+        "puntos": [
+          "• App para compradores (iOS/Android)",
+          "• App para proveedores",
+          "• App para autorización",
+          "• App para supervisión",
+          "• Funcionalidad offline",
+          "• Sincronización automática",
+          "• Notificaciones push",
+          "• Geolocalización"
+        ]
+      }
+    },
+    {
+      "numero": "8.25",
+      "titulo": "Gestión de Sustentabilidad",
+      "compras_verdes": {
+        "titulo": "Compras Verdes:",
+        "puntos": [
+          "• Criterios de sustentabilidad",
+          "• Certificaciones ambientales",
+          "• Huella de carbono",
+          "• Productos eco-amigables",
+          "• Proveedores sustentables",
+          "• Reportes de impacto ambiental",
+          "• Economía circular",
+          "• Objetivos de desarrollo sostenible"
+        ]
+      }
+    },
+    {
+      "numero": "8.26",
+      "titulo": "Gestión de Innovación",
+      "portal_innovacion": {
+        "titulo": "Portal de Innovación:",
+        "puntos": [
+          "• Desafíos de innovación",
+          "• Propuestas de mejora",
+          "• Pilotos y pruebas de concepto",
+          "• Evaluación de nuevas tecnologías",
+          "• Colaboración público-privada",
+          "• Sandbox regulatorio",
+          "• Aceleración de startups"
+        ]
+      }
+    },
+    {
+      "numero": "8.27",
+      "titulo": "Gestión de Riesgos",
+      "sistema_gestion_riesgos": {
+        "titulo": "Sistema de Gestión de Riesgos:",
+        "puntos": [
+          "• Matriz de riesgos",
+          "• Evaluación de proveedores críticos",
+          "• Planes de contingencia",
+          "• Alertas tempranas",
+          "• Análisis de impacto",
+          "• Gestión de crisis",
+          "• Continuidad operacional"
+        ]
+      }
+    },
+    {
+      "numero": "8.28",
+      "titulo": "Interoperabilidad Internacional",
+      "estandares_internacionales": {
+        "titulo": "Estándares Internacionales:",
+        "puntos": [
+          "• PEPPOL (Pan-European Public Procurement Online)",
+          "• UN/CEFACT",
+          "• OASIS UBL",
+          "• ISO 20022",
+          "• Cross-border procurement",
+          "• Traducción automática",
+          "• Conversión de moneda"
+        ]
+      }
+    }
+  ]
+}

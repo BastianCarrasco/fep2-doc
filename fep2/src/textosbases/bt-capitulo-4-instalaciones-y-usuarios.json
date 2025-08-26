@@ -1,0 +1,61 @@
+{
+  "titulo_capitulo": "CAPÍTULO 4: INSTALACIONES Y USUARIOS",
+  "secciones_principales": [
+    {
+      "numero": "4.1",
+      "titulo": "Identificación de Instalaciones",
+      "subsecciones": [
+        {
+          "titulo_subseccion": "Actuales:",
+          "puntos": [
+            "• Datacenter principal: Espacio de 65m x 70m disponible",
+            "• Oficinas administrativas: 20 puestos de trabajo backoffice",
+            "• Instalaciones en edificio institucional"
+          ]
+        },
+        {
+          "titulo_subseccion": "Proyectadas:",
+          "puntos": [
+            "• Datacenter secundario en nube",
+            "• Oficinas remotas conectadas",
+            "• Puntos de atención regional"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "4.2",
+      "titulo": "Usuarios Potenciales",
+      "categorias_usuarios": [
+        {
+          "titulo_categoria": "Sector Público:",
+          "puntos": [
+            "• 200 Servicios Públicos del Gobierno Central",
+            "• 340 Municipalidades",
+            "• 60 Empresas públicas",
+            "• Total: 600 organizaciones"
+          ]
+        },
+        {
+          "titulo_categoria": "Sector Privado:",
+          "puntos": [
+            "• 1,294,136 empresas en Chile",
+            "• 30,000 proveedores activos actualmente",
+            "• Potencial de crecimiento: 100,000 en 3 años"
+          ]
+        },
+        {
+          "titulo_categoria": "Usuarios del Sistema:",
+          "puntos": [
+            "• Compradores públicos: 5,000",
+            "• Gestores de contratos: 2,000",
+            "• Proveedores activos: 30,000",
+            "• Administradores: 500",
+            "• Auditores: 200",
+            "• Ciudadanos (consulta): Ilimitado"
+          ]
+        }
+      ]
+    }
+  ]
+}

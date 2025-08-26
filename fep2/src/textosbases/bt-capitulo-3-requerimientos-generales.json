@@ -1,0 +1,139 @@
+{
+  "titulo_capitulo": "CAPÍTULO 3: REQUERIMIENTOS GENERALES",
+  "secciones_principales": [
+    {
+      "numero": "3.1",
+      "titulo": "Desarrollo de las Soluciones Requeridas e Integración",
+      "subsecciones": [
+        {
+          "titulo_subseccion": "Dos Etapas",
+          "contenido": [
+            {
+              "titulo": "Primera Etapa - 12 meses",
+              "puntos": [
+                "• Desarrollo del núcleo transaccional",
+                "• Portal web y aplicaciones móviles",
+                "• Sistema de autenticación y onboarding digital",
+                "• Módulos de licitaciones y cotizaciones",
+                "• Integración con sistemas de pago",
+                "• CRM y call center omnicanal",
+                "• Implementación datacenter principal",
+                "• Migración de datos históricos"
+              ]
+            },
+            {
+              "titulo": "Segunda Etapa - 8 meses posteriores (Meses 13-20)",
+              "puntos": [
+                "• Contratos marco y catálogos",
+                "• Analytics y business intelligence",
+                "• Blockchain para trazabilidad",
+                "• IA para detección de anomalías",
+                "• Marketplace B2B",
+                "• APIs para integración con ERPs",
+                "• Expansión de servicios de valor agregado"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "3.2",
+      "titulo": "Habilitar la Plataforma Tecnológica Principal",
+      "subsecciones": [
+        {
+          "titulo_subseccion": "Infraestructura Mixta:",
+          "puntos": [
+            "• Datacenter principal interno (instalaciones del CLIENTE)",
+            "• Datacenter secundario en la nube",
+            "• Arquitectura de microservicios",
+            "• Contenedores con orquestación",
+            "• Modelo serverless para servicios escalables"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "3.3",
+      "titulo": "Plataforma de Pre-producción y Entrenamiento",
+      "subsecciones": [
+        {
+          "titulo_subseccion": "Infraestructura en la Nube:",
+          "puntos": [
+            "• Ambiente de pre-producción",
+            "• Ambiente de entrenamiento",
+            "• Ambiente de desarrollo",
+            "• Escalabilidad según demanda"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "3.4",
+      "titulo": "Plataforma Tecnológica de Comunicaciones",
+      "subsecciones": [
+        {
+          "titulo_subseccion": "Infraestructura cuando se requiera:",
+          "puntos": [
+            "• Enlaces redundantes",
+            "• Comunicaciones unificadas",
+            "• Redes privadas virtuales",
+            "• Conectividad móvil empresarial"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "3.5",
+      "titulo": "Sistemas de Apoyo a la Operación",
+      "puntos": [
+        "• Monitoreo 24x7",
+        "• Gestión de logs y auditoría",
+        "• Automatización de procesos",
+        "• Orquestación de servicios",
+        "• Gestión de APIs"
+      ]
+    },
+    {
+      "numero": "3.6",
+      "titulo": "Servicios de Apoyo para Integración",
+      "puntos": [
+        "• Integración de todos los componentes",
+        "• Interoperabilidad con sistemas externos",
+        "• Sincronización en tiempo real",
+        "• Migración de datos históricos"
+      ]
+    },
+    {
+      "numero": "3.7",
+      "titulo": "Servicios de Seguridad de la Información",
+      "puntos": [
+        "• Disponibilidad 99.95%",
+        "• Confiabilidad transaccional",
+        "• Confidencialidad de datos",
+        "• Integridad de información",
+        "• Auditoría completa"
+      ]
+    },
+    {
+      "numero": "3.8",
+      "titulo": "Respaldo de Propuestas Hardware/Software",
+      "puntos": [
+        "• Especificaciones técnicas detalladas",
+        "• Ventajas específicas para la solución",
+        "• Casos de éxito comprobables",
+        "• Roadmap de evolución"
+      ]
+    },
+    {
+      "numero": "3.9",
+      "titulo": "Operación por 4 Años",
+      "puntos": [
+        "• Año 1: Implementación",
+        "• Años 2-4: Operación y mantenimiento",
+        "• Soporte 07:00 a 24:00",
+        "• Lunes a domingo"
+      ]
+    }
+  ]
+}

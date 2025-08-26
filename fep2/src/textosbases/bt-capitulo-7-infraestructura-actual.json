@@ -1,0 +1,13 @@
+{
+  "titulo_capitulo": "CAPÍTULO 7: INFRAESTRUCTURA ACTUAL",
+  "introduccion": "100% a ser reemplazada:",
+  "infraestructura_actual": [
+    "• Servidores Windows Server 2012",
+    "• Bases de datos fragmentadas",
+    "• Aplicaciones desktop obsoletas",
+    "• Sin integración",
+    "• Sin respaldos confiables",
+    "• Seguridad vulnerable",
+    "• Redes no segmentadas"
+  ]
+}

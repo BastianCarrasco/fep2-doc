@@ -56,6 +56,14 @@ import Capitulo22GestionDelCambioYCapacitacionView from './views/Capitulo22Gesti
 // Vistas TFEP-01/2025 (Bases Técnicas)
 import BtCapitulo1IntroduccionView from './views/BtCapitulo1IntroduccionView.vue';
 import BtCapitulo2AntecedentesView from './views/BtCapitulo2AntecedentesView.vue';
+import BtCapitulo3RequerimientosGeneralesView from './views/BtCapitulo3RequerimientosGeneralesView.vue'; // ¡Nuevo!
+import BtCapitulo4InstalacionesYUsuariosView from './views/BtCapitulo4InstalacionesYUsuariosView.vue'; // ¡Nuevo!
+import BtCapitulo5ProblemasActualesView from './views/BtCapitulo5ProblemasActualesView.vue'; // ¡Nuevo!
+import BtCapitulo6ExpectativasDeLaNuevaSolucionView from './views/BtCapitulo6ExpectativasDeLaNuevaSolucionView.vue'; // ¡Nuevo!
+import BtCapitulo7InfraestructuraActualView from './views/BtCapitulo7InfraestructuraActualView.vue'; // ¡Nuevo!
+import BtCapitulo8RequerimientosDelProcesoView from './views/BtCapitulo8RequerimientosDelProcesoView.vue'; // ¡Nuevo!
+
+
 // ====================================================================================
 
 // Define la vista que se mostrará por defecto al cargar la aplicación
@@ -123,7 +131,13 @@ const formatTitle = (id) => {
     'capitulo-21-solucion-de-controversias': 'Capítulo 21: Solución de Controversias (TFEP-01/2025)',
     'capitulo-22-gestion-del-cambio-y-capacitacion': 'Capítulo 22: Gestión del Cambio y Capacitación (TFEP-01/2025)',
     'bt-capitulo-1-introduccion': 'Bases Técnicas - Capítulo 1: Introducción (TFEP-01/2025)',
-    'bt-capitulo-2-antecedentes': 'Bases Técnicas - Capítulo 2: Antecedentes (TFEP-01/2025)'
+    'bt-capitulo-2-antecedentes': 'Bases Técnicas - Capítulo 2: Antecedentes (TFEP-01/2025)',
+    'bt-capitulo-3-requerimientos-generales': 'Bases Técnicas - Capítulo 3: Requerimientos Generales (TFEP-01/2025)',
+    'bt-capitulo-4-instalaciones-y-usuarios': 'Bases Técnicas - Capítulo 4: Instalaciones y Usuarios (TFEP-01/2025)',
+    'bt-capitulo-5-problemas-actuales': 'Bases Técnicas - Capítulo 5: Problemas Actuales (TFEP-01/2025)',
+    'bt-capitulo-6-expectativas-de-la-nueva-solucion': 'Bases Técnicas - Capítulo 6: Expectativas de la Nueva Solución (TFEP-01/2025)',
+    'bt-capitulo-7-infraestructura-actual': 'Bases Técnicas - Capítulo 7: Infraestructura Actual (TFEP-01/2025)',
+    'bt-capitulo-8-requerimientos-del-proceso': 'Bases Técnicas - Capítulo 8: Requerimientos del Proceso (TFEP-01/2025)'
   };
   // Intenta encontrar el título en el mapa, si no lo encuentra, formatea el ID a "Título de Ejemplo"
   return titles[id] || id.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -179,6 +193,19 @@ const formatTitle = (id) => {
         v-else-if="currentViewId === 'capitulo-22-gestion-del-cambio-y-capacitacion'" />
       <BtCapitulo1IntroduccionView v-else-if="currentViewId === 'bt-capitulo-1-introduccion'" /> <!-- ¡Nuevo! -->
       <BtCapitulo2AntecedentesView v-else-if="currentViewId === 'bt-capitulo-2-antecedentes'" /> <!-- ¡Nuevo! -->
+      <BtCapitulo3RequerimientosGeneralesView v-else-if="currentViewId === 'bt-capitulo-3-requerimientos-generales'" />
+      <!-- ¡Nuevo! -->
+      <BtCapitulo4InstalacionesYUsuariosView v-else-if="currentViewId === 'bt-capitulo-4-instalaciones-y-usuarios'" />
+      <!-- ¡Nuevo! -->
+      <BtCapitulo5ProblemasActualesView v-else-if="currentViewId === 'bt-capitulo-5-problemas-actuales'" />
+      <BtCapitulo6ExpectativasDeLaNuevaSolucionView
+        v-else-if="currentViewId === 'bt-capitulo-6-expectativas-de-la-nueva-solucion'" /> <!-- ¡Nuevo! -->
+      <BtCapitulo7InfraestructuraActualView v-else-if="currentViewId === 'bt-capitulo-7-infraestructura-actual'" />
+
+      <BtCapitulo8RequerimientosDelProcesoView
+        v-else-if="currentViewId === 'bt-capitulo-8-requerimientos-del-proceso'" />
+      <!-- ¡Nuevo! -->
+      <!-- ¡Nuevo! -->
       <!-- Vistas del documento NCh2777 -->
       <PreambuloView v-else-if="currentViewId === 'preambulo'" />
       <IntroView v-else-if="currentViewId === 'introduccion'" />

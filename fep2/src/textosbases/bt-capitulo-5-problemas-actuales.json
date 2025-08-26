@@ -1,0 +1,75 @@
+{
+  "titulo_capitulo": "CAPÍTULO 5: PROBLEMAS ACTUALES",
+  "secciones_principales": [
+    {
+      "numero": "5.1",
+      "titulo": "KPIs Deficientes",
+      "subsecciones": [
+        {
+          "titulo_subseccion": "Operacionales:",
+          "puntos": [
+            "• Tiempo registro proveedor: 6 meses → Objetivo: 1 día",
+            "• Errores en publicaciones: 40% → Objetivo: <1%",
+            "• Transacciones en portal: 3% → Objetivo: 50%",
+            "• Integración sistemas: 0% → Objetivo: 100%",
+            "• Disponibilidad: 95% → Objetivo: 99.95%"
+          ]
+        },
+        {
+          "titulo_subseccion": "Transparencia:",
+          "puntos": [
+            "• Trazabilidad: 20% → Objetivo: 100%",
+            "• Detección anomalías: Manual → Objetivo: Automática",
+            "• Auditoría: Posterior → Objetivo: Tiempo real",
+            "• Acceso información: Limitado → Objetivo: Total"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "5.2",
+      "titulo": "Productividad",
+      "puntos": [
+        "• Horas/licitación: 40 → Objetivo: 5",
+        "• Días/proceso compra: 60 → Objetivo: 15",
+        "• Costo transacción: $50,000 → Objetivo: $5,000"
+      ]
+    },
+    {
+      "numero": "5.3",
+      "titulo": "Dolores Actuales",
+      "subsecciones": [
+        {
+          "titulo_subseccion": "Para Proveedores:",
+          "puntos": [
+            "• Registro complejo y lento",
+            "• Múltiples sistemas sin integración",
+            "• Falta de visibilidad de oportunidades",
+            "• Barreras tecnológicas para PYMES",
+            "• Sin pagos electrónicos integrados"
+          ]
+        },
+        {
+          "titulo_subseccion": "Para Compradores:",
+          "puntos": [
+            "• Procesos manuales intensivos",
+            "• Sin herramientas de análisis",
+            "• Imposible comparar ofertas eficientemente",
+            "• Riesgo de errores y impugnaciones",
+            "• Sin soporte para decisiones"
+          ]
+        },
+        {
+          "titulo_subseccion": "Para la Administración:",
+          "puntos": [
+            "• Sin visibilidad consolidada",
+            "• Imposible detectar patrones anómalos",
+            "• Vulnerabilidad a fraudes",
+            "• Costos operativos elevados",
+            "• Imagen pública deteriorada"
+          ]
+        }
+      ]
+    }
+  ]
+}
