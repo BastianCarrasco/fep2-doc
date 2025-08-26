@@ -1,0 +1,80 @@
+{
+  "titulo_capitulo": "CAPÍTULO 18: NIVELES DE SERVICIO Y PENALIDADES",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 50°",
+      "titulo": "NIVELES DE SERVICIO (SLA)",
+      "introduccion": "Definiciones de Niveles de Servicio:",
+      "definiciones_sla": [
+        {
+          "numero": "1.",
+          "titulo": "Disponibilidad:",
+          "puntos": [
+            "• Crítico: 99.9% mensual",
+            "• Alto: 99.5% mensual",
+            "• Medio: 99.0% mensual",
+            "• Bajo: 98.0% mensual"
+          ]
+        },
+        {
+          "numero": "2.",
+          "titulo": "Tiempos de respuesta:",
+          "puntos": [
+            "• Crítico: 15 minutos",
+            "• Alto: 1 hora",
+            "• Medio: 4 horas",
+            "• Bajo: 8 horas"
+          ]
+        },
+        {
+          "numero": "3.",
+          "titulo": "Tiempos de resolución:",
+          "puntos": [
+            "• Crítico: 4 horas",
+            "• Alto: 8 horas",
+            "• Medio: 24 horas",
+            "• Bajo: 48 horas"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 51°",
+      "titulo": "MULTAS Y PENALIDADES",
+      "introduccion": "Definiciones de Multas:",
+      "definiciones_multas": [
+        {
+          "numero": "1.",
+          "titulo": "Por atraso en entregables:",
+          "puntos": [
+            "• 0.5% del valor del hito por día de atraso",
+            "• Máximo: 10% del valor del hito"
+          ]
+        },
+        {
+          "numero": "2.",
+          "titulo": "Por incumplimiento de SLA:",
+          "puntos": [
+            "• 1% del valor mensual por cada punto porcentual bajo el SLA",
+            "• Máximo: 10% del valor mensual"
+          ]
+        },
+        {
+          "numero": "3.",
+          "titulo": "Por incumplimiento de confidencialidad:",
+          "puntos": ["• 10% del valor total del contrato"]
+        },
+        {
+          "numero": "4.",
+          "titulo": "Procedimiento:",
+          "puntos": [
+            "• Notificación del incumplimiento",
+            "• Plazo de 5 días para descargos",
+            "• Resolución fundada",
+            "• Descuento en siguiente pago"
+          ]
+        }
+      ]
+    }
+  ]
+}

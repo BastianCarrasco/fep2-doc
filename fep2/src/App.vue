@@ -35,9 +35,27 @@ import Capitulo6ObtencionDeBasesYComunicacionesView from './views/Capitulo6Obten
 import Capitulo7ConsultasYAclaracionesView from './views/Capitulo7ConsultasYAclaracionesView.vue';
 import Capitulo8PresentacionesPreparatoriasView from './views/Capitulo8PresentacionesPreparatoriasView.vue';
 import Capitulo9RecepcionYAperturaDeOfertasView from './views/Capitulo9RecepcionYAperturaDeOfertasView.vue';
+// ... (imports existentes) ...
+import Capitulo10ProcesoDeEvaluacionView from './views/Capitulo10ProcesoDeEvaluacionView.vue';
+import Capitulo11EvaluacionTecnicaView from './views/Capitulo11EvaluacionTecnicaView.vue';
+import Capitulo12EvaluacionEconomicaView from './views/Capitulo12EvaluacionEconomicaView.vue';
+import Capitulo13EvaluacionFinalYAdjudicacionView from './views/Capitulo13EvaluacionFinalYAdjudicacionView.vue';
+import Capitulo14EvaluacionAcademicaView from './views/Capitulo14EvaluacionAcademicaView.vue';
+
+// ... (imports existentes) ...
+import Capitulo15FormalizacionDelContratoView from './views/Capitulo15FormalizacionDelContratoView.vue';
+import Capitulo16GestionContractualView from './views/Capitulo16GestionContractualView.vue';
+import Capitulo17ObligacionesDelContratistaView from './views/Capitulo17ObligacionesDelContratistaView.vue';
+import Capitulo18NivelesDeServicioYPenalidadesView from './views/Capitulo18NivelesDeServicioYPenalidadesView.vue';
+import Capitulo19TerminoDelContratoView from './views/Capitulo19TerminoDelContratoView.vue';
+import Capitulo20ConfidencialidadYPropiedadIntelectualView from './views/Capitulo20ConfidencialidadYPropiedadIntelectualView.vue';
+import Capitulo21SolucionDeControversiasView from './views/Capitulo21SolucionDeControversiasView.vue';
+import Capitulo22GestionDelCambioYCapacitacionView from './views/Capitulo22GestionDelCambioYCapacitacionView.vue';
 
 
-// Agrega aquí más capítulos del TFEP cuando los desarrolles
+// Vistas TFEP-01/2025 (Bases Técnicas)
+import BtCapitulo1IntroduccionView from './views/BtCapitulo1IntroduccionView.vue';
+import BtCapitulo2AntecedentesView from './views/BtCapitulo2AntecedentesView.vue';
 // ====================================================================================
 
 // Define la vista que se mostrará por defecto al cargar la aplicación
@@ -91,6 +109,21 @@ const formatTitle = (id) => {
     'capitulo-7-consultas-y-aclaraciones': 'Capítulo 7: Consultas y Aclaraciones (TFEP-01/2025)',
     'capitulo-8-presentaciones-preparatorias': 'Capítulo 8: Presentaciones Preparatorias (TFEP-01/2025)',
     'capitulo-9-recepcion-y-apertura-de-ofertas': 'Capítulo 9: Recepción y Apertura de Ofertas (TFEP-01/2025)',
+    'capitulo-10-proceso-de-evaluacion': 'Capítulo 10: Proceso de Evaluación (TFEP-01/2025)',
+    'capitulo-11-evaluacion-tecnica': 'Capítulo 11: Evaluación Técnica (TFEP-01/2025)',
+    'capitulo-12-evaluacion-economica': 'Capítulo 12: Evaluación Económica (TFEP-01/2025)',
+    'capitulo-13-evaluacion-final-y-adjudicacion': 'Capítulo 13: Evaluación Final y Adjudicación (TFEP-01/2025)',
+    'capitulo-14-evaluacion-academica': 'Capítulo 14: Evaluación Académica (TFEP-01/2025)',
+    'capitulo-15-formalizacion-del-contrato': 'Capítulo 15: Formalización del Contrato (TFEP-01/2025)',
+    'capitulo-16-gestion-contractual': 'Capítulo 16: Gestión Contractual (TFEP-01/2025)',
+    'capitulo-17-obligaciones-del-contratista': 'Capítulo 17: Obligaciones del Contratista (TFEP-01/2025)',
+    'capitulo-18-niveles-de-servicio-y-penalidades': 'Capítulo 18: Niveles de Servicio y Penalidades (TFEP-01/2025)',
+    'capitulo-19-termino-del-contrato': 'Capítulo 19: Término del Contrato (TFEP-01/2025)',
+    'capitulo-20-confidencialidad-y-propiedad-intelectual': 'Capítulo 20: Confidencialidad y Propiedad Intelectual (TFEP-01/2025)',
+    'capitulo-21-solucion-de-controversias': 'Capítulo 21: Solución de Controversias (TFEP-01/2025)',
+    'capitulo-22-gestion-del-cambio-y-capacitacion': 'Capítulo 22: Gestión del Cambio y Capacitación (TFEP-01/2025)',
+    'bt-capitulo-1-introduccion': 'Bases Técnicas - Capítulo 1: Introducción (TFEP-01/2025)',
+    'bt-capitulo-2-antecedentes': 'Bases Técnicas - Capítulo 2: Antecedentes (TFEP-01/2025)'
   };
   // Intenta encontrar el título en el mapa, si no lo encuentra, formatea el ID a "Título de Ejemplo"
   return titles[id] || id.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -124,6 +157,28 @@ const formatTitle = (id) => {
       <Capitulo9RecepcionYAperturaDeOfertasView
         v-else-if="currentViewId === 'capitulo-9-recepcion-y-apertura-de-ofertas'" />
 
+      <Capitulo10ProcesoDeEvaluacionView v-else-if="currentViewId === 'capitulo-10-proceso-de-evaluacion'" />
+      <Capitulo11EvaluacionTecnicaView v-else-if="currentViewId === 'capitulo-11-evaluacion-tecnica'" />
+      <Capitulo12EvaluacionEconomicaView v-else-if="currentViewId === 'capitulo-12-evaluacion-economica'" />
+      <Capitulo13EvaluacionFinalYAdjudicacionView
+        v-else-if="currentViewId === 'capitulo-13-evaluacion-final-y-adjudicacion'" />
+      <!-- ... (vistas existentes de TFEP) ... -->
+      <Capitulo14EvaluacionAcademicaView v-else-if="currentViewId === 'capitulo-14-evaluacion-academica'" />
+      <!-- ¡Nuevas vistas aquí! -->
+      <Capitulo15FormalizacionDelContratoView v-else-if="currentViewId === 'capitulo-15-formalizacion-del-contrato'" />
+      <Capitulo16GestionContractualView v-else-if="currentViewId === 'capitulo-16-gestion-contractual'" />
+      <Capitulo17ObligacionesDelContratistaView
+        v-else-if="currentViewId === 'capitulo-17-obligaciones-del-contratista'" />
+      <Capitulo18NivelesDeServicioYPenalidadesView
+        v-else-if="currentViewId === 'capitulo-18-niveles-de-servicio-y-penalidades'" />
+      <Capitulo19TerminoDelContratoView v-else-if="currentViewId === 'capitulo-19-termino-del-contrato'" />
+      <Capitulo20ConfidencialidadYPropiedadIntelectualView
+        v-else-if="currentViewId === 'capitulo-20-confidencialidad-y-propiedad-intelectual'" />
+      <Capitulo21SolucionDeControversiasView v-else-if="currentViewId === 'capitulo-21-solucion-de-controversias'" />
+      <Capitulo22GestionDelCambioYCapacitacionView
+        v-else-if="currentViewId === 'capitulo-22-gestion-del-cambio-y-capacitacion'" />
+      <BtCapitulo1IntroduccionView v-else-if="currentViewId === 'bt-capitulo-1-introduccion'" /> <!-- ¡Nuevo! -->
+      <BtCapitulo2AntecedentesView v-else-if="currentViewId === 'bt-capitulo-2-antecedentes'" /> <!-- ¡Nuevo! -->
       <!-- Vistas del documento NCh2777 -->
       <PreambuloView v-else-if="currentViewId === 'preambulo'" />
       <IntroView v-else-if="currentViewId === 'introduccion'" />

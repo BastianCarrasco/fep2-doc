@@ -1,0 +1,42 @@
+{
+  "titulo_capitulo": "CAPÍTULO 17: OBLIGACIONES DEL CONTRATISTA",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 47°",
+      "titulo": "OBLIGACIONES GENERALES",
+      "introduccion": "El contratista deberá:",
+      "obligaciones": [
+        "1. Ejecutar el proyecto conforme a lo ofertado",
+        "2. Mantener vigentes las garantías",
+        "3. Cumplir toda la normativa aplicable",
+        "4. Mantener confidencialidad absoluta",
+        "5. Reportar avances según lo establecido",
+        "6. Facilitar auditorías y fiscalizaciones"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 48°",
+      "titulo": "OBLIGACIONES LABORALES Y PREVISIONALES",
+      "introduccion": "El contratista deberá:",
+      "obligaciones": [
+        "1. Cumplir legislación laboral vigente",
+        "2. Mantener al día pagos previsionales",
+        "3. Presentar certificados de cumplimiento mensual",
+        "4. Responder por accidentes del trabajo",
+        "5. Mantener seguros vigentes"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 49°",
+      "titulo": "TRANSFERENCIA TECNOLÓGICA",
+      "introduccion": "El contratista deberá:",
+      "obligaciones": [
+        "1. Capacitación completa al personal",
+        "2. Entrega de documentación técnica",
+        "3. Códigos fuente (si aplica)",
+        "4. Manuales de operación y mantenimiento",
+        "5. Base de conocimiento"
+      ]
+    }
+  ]
+}

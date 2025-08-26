@@ -1,0 +1,33 @@
+{
+  "titulo_capitulo": "CAPÍTULO 2: ANTECEDENTES",
+  "seccion": "Historia de la Empresa",
+  "parrafos_historia": [
+    "El sistema de adquisiciones y contrataciones tiene sus raíces en la modernización del Estado iniciada en 1998, cuando se creó la primera plataforma electrónica de compras públicas. Lo que comenzó como un proyecto piloto con 10 servicios públicos, procesando 500 transacciones mensuales, se ha convertido en el eje central del comercio B2B y B2G del país.",
+    "La evolución ha sido gradual pero constante. En 2003, se incorporaron las municipalidades. En 2008, las empresas públicas. En 2015, se abrió la plataforma para transacciones entre privados. Cada expansión trajo nuevos desafíos y expuso las limitaciones de una arquitectura diseñada para volúmenes mucho menores.",
+    "\"Hemos crecido como un edificio al que se le agregan pisos sin reforzar los cimientos\", reflexiona Eduardo Ramírez, quien ha visto la evolución del sistema durante 20 años. \"Cada administración agregó funcionalidades, pero nunca se replanteó la arquitectura base.\""
+  ],
+  "cifras_actuales": {
+    "introduccion": "El sistema actual maneja cifras impresionantes pero preocupantes:",
+    "puntos": [
+      "• 1,000,000 de transacciones anuales",
+      "• 600 organismos públicos conectados",
+      "• 30,000 proveedores activos",
+      "• 1.3 millones de empresas potenciales",
+      "• Solo 30,000 transacciones en el portal principal (3%)"
+    ],
+    "paradoja": "La paradoja es evidente: tenemos la demanda, tenemos la oferta, pero la plataforma es una barrera en lugar de un facilitador."
+  },
+  "fragmentacion_tecnologica": {
+    "introduccion": "La fragmentación tecnológica es crítica:",
+    "puntos": [
+      "• 7 sistemas diferentes sin integración",
+      "• Bases de datos duplicadas",
+      "• Procesos manuales que deberían ser automáticos",
+      "• Sin capacidad de análisis en tiempo real",
+      "• Vulnerabilidades de seguridad identificadas pero no resueltas"
+    ],
+    "cita_munoz": "Como señala Patricia Muñoz: \"Es como tener una autopista de 10 pistas que se convierte en un camino de tierra en el punto más crítico. La tecnología, en lugar de facilitar, se ha convertido en el cuello de botella.\""
+  },
+  "crisis_sistemica": "La crisis actual no es solo tecnológica, es sistémica. Los pequeños proveedores están excluidos de facto. Los compradores públicos trabajan con herramientas obsoletas. La ciudadanía desconfía de la transparencia. Los organismos de control no tienen herramientas para auditar efectivamente.",
+  "punto_inflexion": "Esta licitación representa un punto de inflexión. No es una actualización, es una refundación. Es la oportunidad de construir desde cero la plataforma que el país necesita y merece."
+}

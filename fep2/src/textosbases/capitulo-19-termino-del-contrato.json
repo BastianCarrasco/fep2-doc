@@ -1,0 +1,47 @@
+{
+  "titulo_capitulo": "CAPÍTULO 19: TÉRMINO DEL CONTRATO",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 52°",
+      "titulo": "CAUSALES DE TÉRMINO",
+      "introduccion": "1. Término normal: Cumplimiento total de obligaciones",
+      "causales": [
+        {
+          "numero": "2.",
+          "descripcion": "Término anticipado por mutuo acuerdo"
+        },
+        {
+          "numero": "3.",
+          "descripcion": "Término por incumplimiento grave:",
+          "subpuntos": [
+            "• Atraso superior a 30 días",
+            "• Incumplimiento reiterado de SLA",
+            "• Quiebra o insolvencia",
+            "• Pérdida de certificaciones esenciales",
+            "• Violación de confidencialidad"
+          ]
+        },
+        {
+          "numero": "4.",
+          "descripcion": "Término por causas sobrevinientes:",
+          "subpuntos": [
+            "• Caso fortuito o fuerza mayor",
+            "• Acto de autoridad",
+            "• Imposibilidad absoluta de cumplimiento"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 53°",
+      "titulo": "PROCEDIMIENTO DE TÉRMINO",
+      "introduccion": "1. Notificación con 30 días de anticipación",
+      "procedimientos": [
+        "2. Acta de cierre con estado de avances",
+        "3. Liquidación de pagos pendientes",
+        "4. Devolución de garantías (si procede)",
+        "5. Entrega de documentación y códigos"
+      ]
+    }
+  ]
+}

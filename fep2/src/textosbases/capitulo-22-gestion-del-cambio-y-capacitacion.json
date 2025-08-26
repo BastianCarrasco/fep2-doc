@@ -1,0 +1,51 @@
+{
+  "titulo_capitulo": "CAPÍTULO 22: GESTIÓN DEL CAMBIO Y CAPACITACIÓN",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 58°",
+      "titulo": "GESTIÓN DEL CAMBIO",
+      "introduccion": "Se debe considerar:",
+      "consideraciones": [
+        "• Plan de gestión del cambio organizacional",
+        "• Comunicación a stakeholders",
+        "• Identificación de agentes de cambio",
+        "• Mitigación de resistencias",
+        "• Medición de adopción"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 62°",
+      "titulo": "CAPACITACIÓN",
+      "plan_capacitacion": {
+        "numero": "1.",
+        "titulo": "Plan de capacitación integral:",
+        "puntos": [
+          "• Usuarios finales",
+          "• Administradores",
+          "• Equipo técnico",
+          "• Soporte nivel 1 y 2"
+        ]
+      },
+      "modalidades": {
+        "numero": "2.",
+        "titulo": "Modalidades:",
+        "puntos": [
+          "• Presencial",
+          "• E-learning",
+          "• Documentación",
+          "• Videos tutoriales"
+        ]
+      },
+      "materiales": {
+        "numero": "3.",
+        "titulo": "Materiales:",
+        "puntos": [
+          "• Manuales por perfil",
+          "• Guías rápidas",
+          "• FAQs",
+          "• Base de conocimiento"
+        ]
+      }
+    }
+  ]
+}

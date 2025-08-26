@@ -1,0 +1,37 @@
+{
+  "titulo_capitulo": "CAPÍTULO 21: SOLUCIÓN DE CONTROVERSIAS",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 56°",
+      "titulo": "MECANISMOS DE RESOLUCIÓN",
+      "introduccion": "Los mecanismos de resolución serán:",
+      "mecanismos": [
+        {
+          "punto": "1.",
+          "descripcion": "Primera instancia: Negociación directa (30 días)"
+        },
+        {
+          "punto": "2.",
+          "descripcion": "Segunda instancia: Mediación (30 días)"
+        },
+        {
+          "punto": "3.",
+          "descripcion": "Tercera instancia: Arbitraje",
+          "subpuntos": [
+            "• Arbitraje de derecho",
+            "• Centro de Arbitraje y Mediación de Santiago",
+            "• Árbitro único",
+            "• Procedimiento según reglamento del Centro"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 57°",
+      "titulo": "DOMICILIO Y JURISDICCIÓN",
+      "domicilio": "Domicilio: Ciudad de Valparaíso",
+      "legislacion_aplicable": "Legislación aplicable: Chilena",
+      "tribunales_competentes": "Tribunales competentes: Ordinarios de Valparaíso (si no hay arbitraje)"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "titulo_capitulo": "CAPÍTULO 20: CONFIDENCIALIDAD Y PROPIEDAD INTELECTUAL",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 54°",
+      "titulo": "CONFIDENCIALIDAD",
+      "introduccion": "Definiciones de Confidencial:",
+      "definiciones_confidencial": [
+        "• Alcance: Toda información del CLIENTE es confidencial",
+        "• Vigencia: Permanente, incluso post-contractual",
+        "• Extensión: Incluye personal, subcontratistas y asesores",
+        "• Excepciones: Sólo información pública o requerida por ley",
+        "• Sanciones: Ejecución de garantía y acciones legales"
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 55°",
+      "titulo": "PROPIEDAD INTELECTUAL",
+      "introduccion": "Consideraciones:",
+      "consideraciones_pi": [
+        "• Todo desarrollo específico será propiedad del CLIENTE",
+        "• Licencias de software de terceros a nombre del CLIENTE",
+        "• Documentación y manuales de propiedad del CLIENTE",
+        "• Prohibición de uso para otros clientes sin autorización"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "titulo_capitulo": "CAPÍTULO 16: GESTIÓN CONTRACTUAL",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 44°",
+      "titulo": "ADMINISTRACIÓN DEL CONTRATO",
+      "administrador_contrato": {
+        "numero": "1.",
+        "titulo": "Administrador del Contrato (CLIENTE):",
+        "responsabilidades": [
+          "• Supervisar cumplimiento",
+          "• Aprobar estados de pago",
+          "• Gestionar modificaciones",
+          "• Aplicar multas y sanciones"
+        ]
+      },
+      "contraparte_tecnica": {
+        "numero": "2.",
+        "titulo": "Contraparte Técnica:",
+        "responsabilidades": [
+          "• Validar entregables",
+          "• Aprobar avances técnicos",
+          "• Coordinar pruebas",
+          "• Emitir conformidades"
+        ]
+      }
+    },
+    {
+      "numero": "ARTÍCULO 45°",
+      "titulo": "MODIFICACIONES CONTRACTUALES",
+      "condiciones": [
+        {
+          "punto": "1.",
+          "descripcion": "Sólo por acuerdo escrito de ambas partes"
+        },
+        {
+          "punto": "2.",
+          "descripcion": "Límite: 20% del valor original del contrato"
+        },
+        {
+          "punto": "3.",
+          "descripcion": "No podrán modificarse:",
+          "subpuntos": [
+            "• Objeto principal",
+            "• Naturaleza del contrato",
+            "• Garantías mínimas"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 46°",
+      "titulo": "SUBCONTRATACIÓN",
+      "introduccion": "Requiere autorización previa y escrita del CLIENTE, con un límite: 40% del valor del contrato.",
+      "responsabilidad": "Responsabilidad solidaria del contratista principal, los subcontratistas deben cumplir mismos estándares."
+    }
+  ]
+}

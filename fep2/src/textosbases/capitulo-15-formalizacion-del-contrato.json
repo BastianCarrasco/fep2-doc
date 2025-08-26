@@ -1,0 +1,75 @@
+{
+  "titulo_capitulo": "CAPÍTULO 15: FORMALIZACIÓN DEL CONTRATO",
+  "articulos": [
+    {
+      "numero": "ARTÍCULO 41°",
+      "titulo": "DOCUMENTACIÓN PARA CONTRATAR",
+      "introduccion": "El adjudicatario deberá presentar dentro de 10 días hábiles:",
+      "documentacion": [
+        {
+          "numero": "1.",
+          "titulo": "Documentación legal:",
+          "puntos": [
+            "• Escritura de constitución y modificaciones",
+            "• Certificado de vigencia (30 días máximo)",
+            "• Poderes del representante legal",
+            "• Inscripciones y publicaciones legales"
+          ]
+        },
+        {
+          "numero": "2.",
+          "titulo": "Documentación tributaria:",
+          "puntos": [
+            "• Inicio de actividades",
+            "• Último balance tributario",
+            "• Certificado de cumplimiento tributario"
+          ]
+        },
+        {
+          "numero": "3.",
+          "titulo": "Garantía de Fiel Cumplimiento"
+        },
+        {
+          "numero": "4.",
+          "titulo": "Pólizas de seguro (si corresponde):",
+          "puntos": ["• Responsabilidad civil", "• Seguro de todo riesgo"]
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 42°",
+      "titulo": "PLAZO Y CONDICIONES DE FIRMA",
+      "condiciones": [
+        {
+          "punto": "1.",
+          "descripcion": "Plazo para firmar: 10 días hábiles desde entrega de documentación"
+        },
+        {
+          "punto": "2.",
+          "descripcion": "Lugar: Notaría designada por el CLIENTE"
+        },
+        {
+          "punto": "3.",
+          "descripcion": "Gastos notariales: A cargo del adjudicatario"
+        }
+      ]
+    },
+    {
+      "numero": "ARTÍCULO 43°",
+      "titulo": "CONTENIDO DEL CONTRATO",
+      "introduccion": "El contrato incluirá:",
+      "contenido_contrato": [
+        "• Identificación de las partes",
+        "• Objeto y alcance detallado",
+        "• Plazo de ejecución y cronograma",
+        "• Precio y forma de pago",
+        "• Garantías y seguros",
+        "• Obligaciones de las partes",
+        "• Niveles de servicio (SLA)",
+        "• Penalidades y multas",
+        "• Causales de término",
+        "• Mecanismos de solución de controversias"
+      ]
+    }
+  ]
+}
