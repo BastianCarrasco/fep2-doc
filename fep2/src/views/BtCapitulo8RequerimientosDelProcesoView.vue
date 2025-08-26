@@ -23,10 +23,10 @@ onMounted(async () => {
             <div v-for="seccion in capituloData.secciones_principales" :key="seccion.numero" class="section-block">
                 <h2 class="section-title">{{ seccion.numero }} {{ seccion.titulo }}</h2>
 
-                <!-- Renderiza la introducción si existe -->
+                <!-- Renderiza la introducción si existe (para 8.2) -->
                 <p v-if="seccion.introduccion">{{ seccion.introduccion }}</p>
 
-                <!-- Si la sección tiene puntos directos (ej. 8.3, 8.5) -->
+                <!-- Si la sección tiene puntos directos (ej. 8.3 Ciclo de Orden de Compra, 8.5 Portal y Aplicación Móvil) -->
                 <ul v-if="seccion.puntos && !seccion.funcionalidades_comprador && !seccion.modalidades"
                     class="styled-list">
                     <li v-for="(punto, index) in seccion.puntos" :key="index">{{ punto }}</li>
@@ -37,9 +37,10 @@ onMounted(async () => {
                     <li v-for="(modalidad, index) in seccion.modalidades" :key="index">{{ modalidad }}</li>
                 </ul>
 
-                <!-- Para secciones con grupos de funcionalidades (Comprador, Proveedor, Gestión, Administración) -->
+                <!-- Para todas las sub-estructuras con títulos y listas de puntos -->
+                <!-- Simplificamos la condición del v-if envolvente -->
                 <template
-                    v-if="seccion.funcionalidades_comprador || seccion.funcionalidades_proveedor || seccion.gestion || seccion.administracion || seccion.portal_ciudadano || seccion.portal_proveedores_no_registrados || seccion.tipos_garantias || seccion.funcionalidades || seccion.ciclo_vida || seccion.funcionalidades_adicionales || seccion.proceso_reclamos || seccion.proceso_impugnaciones || seccion.sistema_evaluacion || seccion.indicadores || seccion.control_presupuestario || seccion.para_compradores || seccion.integracion_compras || seccion.dashboards_ejecutivos || seccion.analisis_avanzado || seccion.integraciones_requeridas || seccion.metodos_integracion || seccion.repositorio_centralizado || seccion.canales_comunicacion || seccion.elearning_integrado || seccion.trazabilidad_completa || seccion.funcionalidades_marketplace || seccion.para_servicios_continuos || seccion.aplicaciones_nativas || seccion.compras_verdes || seccion.portal_innovacion || seccion.sistema_gestion_riesgos || seccion.estandares_internacionales">
+                    v-if="seccion.funcionalidades_comprador || seccion.funcionalidades_proveedor || seccion.gestion || seccion.administracion || seccion.portal_ciudadano || seccion.portal_proveedores_no_registrados || seccion.tipos_garantias || seccion.funcionalidades || seccion.ciclo_vida || seccion.funcionalidades_adicionales || seccion.proceso_reclamos || seccion.proceso_impugnaciones || seccion.sistema_evaluacion || seccion.indicadores || seccion.control_presupuestario || seccion.para_compradores || seccion.integracion_compras || seccion.dashboards_ejecutivos || seccion.analisis_avanzado || seccion.integraciones_requeridas || seccion.metodos_integracion || seccion.repositorio_centralizado || seccion.canales_comunicacion || seccion.elearning_integrado || seccion.trazabilidad_completa || seccion.funcionalidades_marketplace || seccion.para_servicios_continuos || seccion.aplicaciones_nativas || seccion.compras_verdes || seccion.portal_innovacion || seccion.sistema_gestion_riesgos || seccion.estandares_internacionales || seccion.proceso_registro /* <-- ¡Añadido aquí! */">
                     <div class="sub-section-group">
                         <template v-if="seccion.funcionalidades_comprador">
                             <h3 class="subsection-title">{{ seccion.funcionalidades_comprador.titulo }}</h3>
@@ -120,7 +121,7 @@ onMounted(async () => {
                             <h3 class="subsection-title">{{ seccion.proceso_impugnaciones.titulo }}</h3>
                             <ul class="styled-list">
                                 <li v-for="(punto, index) in seccion.proceso_impugnaciones.puntos" :key="index">{{ punto
-                                    }}</li>
+                                }}</li>
                             </ul>
                         </template>
                         <template v-if="seccion.sistema_evaluacion">
@@ -154,14 +155,14 @@ onMounted(async () => {
                             <h3 class="subsection-title">{{ seccion.integracion_compras.titulo }}</h3>
                             <ul class="styled-list">
                                 <li v-for="(punto, index) in seccion.integracion_compras.puntos" :key="index">{{ punto
-                                    }}</li>
+                                }}</li>
                             </ul>
                         </template>
                         <template v-if="seccion.dashboards_ejecutivos">
                             <h3 class="subsection-title">{{ seccion.dashboards_ejecutivos.titulo }}</h3>
                             <ul class="styled-list">
                                 <li v-for="(punto, index) in seccion.dashboards_ejecutivos.puntos" :key="index">{{ punto
-                                    }}</li>
+                                }}</li>
                             </ul>
                         </template>
                         <template v-if="seccion.analisis_avanzado">
@@ -182,7 +183,7 @@ onMounted(async () => {
                             <h3 class="subsection-title">{{ seccion.metodos_integracion.titulo }}</h3>
                             <ul class="styled-list">
                                 <li v-for="(punto, index) in seccion.metodos_integracion.puntos" :key="index">{{ punto
-                                    }}</li>
+                                }}</li>
                             </ul>
                         </template>
                         <template v-if="seccion.repositorio_centralizado">
@@ -196,21 +197,21 @@ onMounted(async () => {
                             <h3 class="subsection-title">{{ seccion.canales_comunicacion.titulo }}</h3>
                             <ul class="styled-list">
                                 <li v-for="(punto, index) in seccion.canales_comunicacion.puntos" :key="index">{{ punto
-                                    }}</li>
+                                }}</li>
                             </ul>
                         </template>
                         <template v-if="seccion.elearning_integrado">
                             <h3 class="subsection-title">{{ seccion.elearning_integrado.titulo }}</h3>
                             <ul class="styled-list">
                                 <li v-for="(punto, index) in seccion.elearning_integrado.puntos" :key="index">{{ punto
-                                    }}</li>
+                                }}</li>
                             </ul>
                         </template>
                         <template v-if="seccion.trazabilidad_completa">
                             <h3 class="subsection-title">{{ seccion.trazabilidad_completa.titulo }}</h3>
                             <ul class="styled-list">
                                 <li v-for="(punto, index) in seccion.trazabilidad_completa.puntos" :key="index">{{ punto
-                                    }}</li>
+                                }}</li>
                             </ul>
                         </template>
                         <template v-if="seccion.funcionalidades_marketplace">
@@ -231,7 +232,7 @@ onMounted(async () => {
                             <h3 class="subsection-title">{{ seccion.aplicaciones_nativas.titulo }}</h3>
                             <ul class="styled-list">
                                 <li v-for="(punto, index) in seccion.aplicaciones_nativas.puntos" :key="index">{{ punto
-                                    }}</li>
+                                }}</li>
                             </ul>
                         </template>
                         <template v-if="seccion.compras_verdes">
@@ -260,6 +261,14 @@ onMounted(async () => {
                             <ul class="styled-list">
                                 <li v-for="(punto, index) in seccion.estandares_internacionales.puntos" :key="index">{{
                                     punto }}</li>
+                            </ul>
+                        </template>
+                        <!-- AÑADIDO: Renderizado para `proceso_registro` -->
+                        <template v-if="seccion.proceso_registro">
+                            <h3 class="subsection-title">{{ seccion.proceso_registro.titulo }}</h3>
+                            <ul class="styled-list">
+                                <li v-for="(punto, index) in seccion.proceso_registro.puntos" :key="index">{{ punto }}
+                                </li>
                             </ul>
                         </template>
                     </div>
