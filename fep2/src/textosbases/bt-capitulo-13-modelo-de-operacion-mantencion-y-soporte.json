@@ -1,0 +1,106 @@
+{
+  "titulo_capitulo": "CAPÍTULO 13: MODELO DE OPERACIÓN, MANTENCIÓN Y SOPORTE",
+  "secciones_principales": [
+    {
+      "numero": "13.1",
+      "titulo": "Estructura Operativa",
+      "puntos": [
+        "• NOC 24x7",
+        "• Personal especializado",
+        "• Gerente servicio dedicado",
+        "• Especialistas por tecnología"
+      ],
+      "nota_mapa_conceptual": "Zona de control y seguridad. Acceso principal. Salida de emergencias. 65 metros. 70 metros."
+    },
+    {
+      "numero": "13.2",
+      "titulo": "Call Center",
+      "introduccion": "Este ámbito es central para darle continuidad y seguimiento al esfuerzo de incorporación y adopción. Los requerimientos mínimos en esta área son los siguientes:",
+      "requerimientos_call_center": [
+        "• Call Center, para soportar integralmente las consultas. Se espera que el oferente demuestre contar con un servicio de Call Center adecuado, o que subcontrate la operación de esta parte con un operador de buen nivel.",
+        "• Call Center que cumpla con un tiempo de atención al usuario final de un 80% antes de 20 segundos, y una resolución al primer llamado (FCR) del 70% respuesta. Este punto será especificado en el contrato con el proveedor del servicio.",
+        "• Orientación funcional, con distintos grados de complejidad, para resolver desde preguntas simples hasta situaciones complejas.",
+        "• Atención de preguntas de tipo técnico que resulten más frecuentes en la relación con la aplicación o el ambiente en el que ésta es utilizada.",
+        "• Registro histórico de actividades de soporte que permita monitorear y gestionar los principales requerimientos.",
+        "• Proceso de aprendizaje del centro de soporte, que permita ir acumulando un conocimiento respecto de las complejidades de la operación y las necesidades de los clientes.",
+        "• Servicios de capacitación en línea en modalidad de e-learning, con registro de avance para efectos de monitoreo.",
+        "• Espacios de interacción entre entidades usuarias del sistema, de modo que permita interactuar y compartir experiencias de uso del sistema.",
+        "• Indicadores claves del proceso de soporte abiertos al público, e indicadores específicos accesibles a distintos niveles de seguridad."
+      ],
+      "sla_minimos": {
+        "titulo": "SLA Mínimos:",
+        "puntos": [
+          "• Atención: 8:00-20:00",
+          "• Respuesta: 80% <20 segundos",
+          "• FCR: 70%",
+          "• Abandono: <5%"
+        ]
+      }
+    },
+    {
+      "numero": "13.3",
+      "titulo": "Mesa de Ayuda",
+      "nivel_1": {
+        "titulo": "Nivel 1:",
+        "descripcion": "Recibe las llamadas de los Usuarios Internos y Externos sobre cualquier requerimiento de la Plataforma.",
+        "requerimientos": [
+          "• Recepción llamadas",
+          "• Registro tickets",
+          "• Soluciones básicas"
+        ]
+      },
+      "nivel_2": {
+        "titulo": "Nivel 2:",
+        "descripcion": "En el nivel 2 los agentes de Mesa de Ayuda que prestan el soporte técnico cuentan con mayores conocimientos o son especialistas en el sistema y las aplicaciones provistas por el PROPONENTE, y deben resolver los incidentes derivados del nivel 1. Usualmente los agentes de Mesa de Ayuda usan manuales o guías donde se muestran los pasos que el usuario debe seguir para resolver un problema en caso de no llegar a la solución. Los incidentes relacionados con los procedimientos propios de la operación o con aplicaciones del CLIENTE no provistas por el PROPONENTE, son de responsabilidad del CLIENTE y no serán derivados a la Mesa de Ayuda.",
+        "requerimientos": [
+          "• Soporte especializado",
+          "• Configuraciones",
+          "• Troubleshooting"
+        ]
+      },
+      "nivel_3": {
+        "titulo": "Nivel 3:",
+        "descripcion": "El soporte nivel 3 implica métodos de solución a nivel de expertos y análisis avanzado de la Solución y las aplicaciones provistas por el PROPONENTE. Los técnicos especialistas asignados a este nivel son expertos y son responsables, no solo para ayudar al personal de los otros niveles 1 y 2 sino también para investigación y desarrollo de soluciones a los problemas nuevos o desconocidos. Cabe indicar, que si es necesario activar el soporte nivel 2 o 3 especialistas en zonas alejadas debe viajar en caso de necesidad con disponibilidad de tiempo suficiente para dar solución al problema o mantención que deba realizar, sin la necesidad de alterar la atención normal de las oficinas El traslado de los técnicos a oficinas alejadas deberá ser por el medio más rápido disponible, principalmente cuando la comuna cuenta con traslado aéreo. Ejemplo Porvenir, entre otras localidades donde el servicio cuente con una oficina.",
+        "requerimientos": [
+          "• Expertos tecnología",
+          "• Desarrollo soluciones",
+          "• Análisis avanzado"
+        ]
+      },
+      "nivel_4": {
+        "titulo": "Nivel 4:",
+        "descripcion": "El soporte de nivel 4 generalmente no se encuentra en el ámbito directo del PROPONENTE del sistema, sino que al “fabricante” de componentes de software o hardware utilizados. No obstante, es responsabilidad del PROPONENTE realizar o tomar todos los resguardos para obtener dicho soporte en caso de requerirse a razón de algún incidente o por requerimiento del CLIENTE, lo cual en ningún caso exime de responsabilidad al PROPONENTE. Este soporte como mínimo se espera cuente con conocimientos de investigación y desarrollo del producto, que frente a incidentes operacionales o funcionales tiene la factibilidad de plantear desarrollos o soluciones de mayor alcance, las que deberán ser gestionadas y coordinadas por el PROPONENTE.",
+        "requerimientos": ["• Soporte fabricante", "• Desarrollo producto"]
+      }
+    },
+    {
+      "numero": "13.4",
+      "titulo": "Mantenimiento Preventivo",
+      "puntos": [
+        "• Revisiones programadas",
+        "• Actualizaciones planificadas",
+        "• Optimización continua",
+        "• Auditorías trimestrales"
+      ]
+    },
+    {
+      "numero": "13.5",
+      "titulo": "Mantenimiento Evolutivo",
+      "puntos": [
+        "• 14,400 horas anuales",
+        "• Mejoras funcionales",
+        "• Nuevas características",
+        "• Optimización performance"
+      ]
+    },
+    {
+      "numero": "13.6",
+      "titulo": "Mantenimiento Normativo",
+      "puntos": [
+        "• Actualización por cambios legales",
+        "• Cumplimiento regulatorio",
+        "• Adaptación normativa"
+      ]
+    }
+  ]
+}

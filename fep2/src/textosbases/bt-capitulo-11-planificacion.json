@@ -1,0 +1,78 @@
+{
+  "titulo_capitulo": "CAPÍTULO 11: PLANIFICACIÓN",
+  "secciones_principales": [
+    {
+      "numero": "11.1",
+      "titulo": "Primera Etapa (12 meses)",
+      "subsecciones": [
+        {
+          "titulo_subseccion": "Diseño y Arquitectura",
+          "puntos": [
+            "• Levantamiento detallado",
+            "• Diseño solución",
+            "• Arquitectura técnica",
+            "• Plan proyecto"
+          ]
+        },
+        {
+          "titulo_subseccion": "Desarrollo Core",
+          "puntos": [
+            "• Módulos principales",
+            "• Integraciones críticas",
+            "• Portal y móvil",
+            "• Testing continuo"
+          ]
+        },
+        {
+          "titulo_subseccion": "Infraestructura",
+          "puntos": [
+            "• Habilitación datacenter",
+            "• Instalación equipos",
+            "• Configuración redes",
+            "• Seguridad perimetral"
+          ]
+        },
+        {
+          "titulo_subseccion": "Implementación",
+          "puntos": [
+            "• Migración datos",
+            "• Capacitación usuarios",
+            "• Piloto 10 entidades",
+            "• Ajustes"
+          ]
+        },
+        {
+          "titulo_subseccion": "Go-Live",
+          "puntos": [
+            "• Puesta en producción",
+            "• Hypercare 24x7",
+            "• Estabilización"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "11.2",
+      "titulo": "Segunda Etapa (8 meses)",
+      "subsecciones": [
+        {
+          "titulo_subseccion": "Expansión",
+          "puntos": [
+            "• Rollout masivo",
+            "• Nuevos módulos",
+            "• Integraciones ERPs"
+          ]
+        },
+        {
+          "titulo_subseccion": "Optimización",
+          "puntos": [
+            "• Analytics avanzado",
+            "• IA y blockchain",
+            "• Marketplace B2B",
+            "• Cierre proyecto"
+          ]
+        }
+      ]
+    }
+  ]
+}

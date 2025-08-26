@@ -1,0 +1,86 @@
+{
+  "titulo_capitulo": "CAPÍTULO 12: CARACTERÍSTICAS DEL SITE PRINCIPAL Y SECUNDARIOS",
+  "introduccion_general": "El PROPONENTE deberá considerar la habilitación de una sala para el alojamiento de servidores y equipos de telecomunicaciones que soportan los servicios operacionales del CLIENTE como Site Principal con un nivel de disponibilidad del 99.95%. Esta sala estará ubicada en un espacio físico proporcionado por el CLIENTE. Dicha habilitación debe cumplir las siguientes características generales:",
+  "caracteristicas_generales": [
+    "• El espacio físico que se asignará será para su uso exclusivo y deberá ser aislado de otras dependencias del CLIENTE.",
+    "• Deberá contar con equipos de climatización de precisión para operación continua.",
+    "• La energía deberá ser suministrada en forma ininterrumpida.",
+    "• La capacidad de generación autónoma de energía debe asegurar un rango mínimo de 24 horas.",
+    "• La instalación eléctrica de los equipos debe ser independiente a la del resto del edificio, siguiendo la norma chilena de seguridad (NCH 2777).",
+    "• Se deberá efectuar una revisión y medición semestral de las instalaciones eléctricas al interior de los Site.",
+    "• El acceso a las redes de comunicaciones deberá estar provisto a través de rutas físicas distintas.",
+    "• Deberá considerar un sistema de control de incendio sobre la base de detección temprana AnaLASER o equivalente mediante aspiración de aire con tecnología láser y extinción automática con FM 200, aprobación UL, e instalado bajo norma NFPA. Además, se deberá proveer de un sistema secundario de extintores habilitados",
+    "• Deberá disponer de un sistema de video vigilancia y monitoreo IP, imágenes que estar en línea y disponibles para ser visualizadas como mínimo de los últimos 30 días transcurridos, las anteriores grabaciones deberán ser respaldadas en un medio secundario, capaz de ser recuperadas y auditadas.",
+    "• La instalación del equipamiento en el site central deberá contar con independencia de rack entre los servidores y equipos de comunicación.",
+    "• Para el ingreso del datacenter se deberá contar con sistemas de seguridad física y control de acceso biométricos basados principalmente en Biometría Facial y como respaldo AFIS, cuyos registros deberán quedar almacenados en alguna bitácora para revisiones a posterior. Se puede proponer sistemas más seguros al indicado.",
+    "• Entre el ACCESO PRINCIPAL y el final del pasillo de la ZONA DE CONTROL Y SEGURIDAD es el espacio en caso de que se deba atender una persona para su Enrolamiento, pero será mejor evaluado si existe una estación de Enrolamiento fuera de las instalaciones del DataCenter. Al Final del Pasillo se deberá colocar un acceso que impida más de una persona a la vez, la cual previamente se deberá volver a verificar para ingresar.",
+    "• Se deberá habilitar un servicio de cintoteca para los medios de respaldo solo para el Site Primario, En caso de existir una solución más segura y eficiente, se podrá proponer, esta debe ser en un medio físico que pueda ser transportado a otro lugar en caso de que el Cliente así lo determine. La habitación para el almacenamiento de los medios de respaldo deber contar con exigencias relativa a luminosidad, humedad, ventilación y cualquier otro factor que pudiese afectar la calidad y disponibilidad de los medios.",
+    "• Se deberá contar con blindaje perimetral en aquellos muros que no sean estructurales del edificio.",
+    "• Se privilegiará quien proponga o provea nuevas o mejores especificaciones del Site."
+  ],
+  "parrafo_personal_operacion": "El PROPONENTE deberá habilitar el espacio físico necesario para ubicar al personal que estará encargado de la operación y administración de la plataforma tecnológica e informática que soportará la operatividad del CLIENTE. Este espacio deberá contar con todos los elementos necesarios - estaciones de trabajo, teléfonos, fax, conexión a Internet, etc. - que permitan realizar la labor en condiciones adecuadas.",
+  "distribucion_base_site_primario": "Espacio físico disponible para la implementación del Site Primario es de 65 mts por 70 mts., con la siguiente distribución de base.",
+  "subsecciones": [
+    {
+      "numero": "12.1",
+      "titulo": "Site Principal (Interno)",
+      "especificaciones_datacenter": {
+        "titulo": "Especificaciones Datacenter:",
+        "puntos": [
+          "• Espacio: 65m x 70m",
+          "• Climatización precisión redundante",
+          "• UPS 30 minutos autonomía",
+          "• Generador 24 horas",
+          "• Detección/extinción incendios FM200",
+          "• Control acceso biométrico",
+          "• Video vigilancia IP",
+          "• Blindaje perimetral"
+        ]
+      }
+    },
+    {
+      "numero": "12.2",
+      "titulo": "Site Secundario (Nube)",
+      "puntos": [
+        "• Replicación tiempo real",
+        "• Activo-activo o activo-pasivo",
+        "• RTO: 1 hora",
+        "• RPO: 15 minutos"
+      ]
+    },
+    {
+      "numero": "12.3_sla",
+      "titulo": "SLA Requeridos",
+      "infraestructura": {
+        "titulo": "Infraestructura:",
+        "puntos": [
+          "• Energía: 99.95%",
+          "• Climatización: 99.95%",
+          "• Red: 99.95%"
+        ]
+      },
+      "aplicaciones": {
+        "titulo": "Aplicaciones:",
+        "puntos": [
+          "• Base datos: 99.95%",
+          "• Servidores: 99.95%",
+          "• Portal: 99.95%"
+        ]
+      }
+    },
+    {
+      "numero": "12.3_implementacion",
+      "titulo": "Implementación de Espacio Físico",
+      "introduccion": "Considerar que el espacio habilitado para el Site Primario se encuentra dentro de un Edificio de la Institución, por lo cual fuera del Site se puede considerar:",
+      "consideraciones_fuera_site": [
+        "• Que existe baños para el personal que trabaje en el Site (No debe implementarse)",
+        "• Que existe un patio donde se podrá instalar contenedor de petróleo, en caso de ser requerido. (Zona despegada que se puede utilizar)",
+        "• Que existen Zonas de Seguridad fuera del Site en caso de una emergencia",
+        "• Las puertas que se representan son las actuales, las cuales pueden ser utilizadas o no, según el destino que se utilice el espacio físico.",
+        "• Las divisiones internas para separar las diversas instalaciones de Generadores, Baterías, Climatización, Servidores, Salas de Comunicaciones, Salas de Trabajo, Salas de Reuniones, o cualquier otra distribución que el Proponente requiera deberá especificarlo, la obra civil de la separación de dichas instalaciones será de costo del CLIENTE."
+      ],
+      "proveedor_adjudicado_obligacion": "El proveedor adjudicado deberá proveer todo lo necesario en cuanto a conectividad, seguridad, y conexiones de cañerías o ductos requeridos para cumplir con las especificaciones de SLA solicitados.",
+      "habilitacion_site_secundario": "Complementariamente, el PROPONENTE deberá habilitar un Site Secundario, en otras dependencias que se deberá proveer por el PROPONENTE en modalidad activo-activo o activo-pasivo con replicación de datos en línea sólo para el ambiente de producción, con similares características a la infraestructura tecnológica del site principal. En esta oferta se debe incluir un plan de recuperación de contingencia, de manera de mantener la continuidad de la operación del CLIENTE ante eventos de fuerza mayor o caso fortuito. Este plan de recuperación, debe probarse al menos dos veces en el año para así garantizar su efectividad."
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "titulo_capitulo": "CAPÍTULO 18: PROTOTIPO DE INTERFAZ Y DISEÑO UX/UI",
+  "secciones_principales": [
+    {
+      "numero": "18.1",
+      "titulo": "REQUISITOS DE PRESENTACIÓN DEL PROTOTIPO INTERACTIVO",
+      "subsecciones": [
+        {
+          "numero": "18.1.1",
+          "titulo": "Objetivo del Prototipo",
+          "introduccion": "El proponente deberá presentar, junto con el Informe 3, un prototipo interactivo de alta fidelidad que demuestre de manera clara y tangible la visión del diseño de interfaz propuesto para la Plataforma de Adquisiciones y Contrataciones. Este prototipo será fundamental para evaluar la comprensión del proponente sobre las necesidades de los usuarios y su capacidad de traducirlas en una experiencia de usuario excepcional.",
+          "simulacion_realista": "El prototipo no requiere conexión con backend ni base de datos, pero debe simular de manera realista la navegación y flujos de trabajo principales del sistema, permitiendo a los evaluadores experimentar la solución propuesta desde la perspectiva de los diferentes tipos de usuarios."
+        },
+        {
+          "numero": "18.1.2",
+          "titulo": "Alcance del Prototipo",
+          "introduccion": "El prototipo interactivo deberá incluir como mínimo las siguientes vistas y funcionalidades navegables:",
+          "portal_principal": {
+            "titulo": "Portal Principal:",
+            "puntos": [
+              "• Página de inicio pública",
+              "• Página de inicio con sesión iniciada (personalizada por rol)",
+              "• Dashboard principal con widgets configurables",
+              "• Menú de navegación completo y funcional",
+              "• Breadcrumbs y navegación contextual"
+            ]
+          },
+          "modulos_obligatorios_a_prototipar": {
+            "titulo": "Módulos Obligatorios a Prototipar:",
+            "puntos_modulos": [
+              {
+                "numero": "1.",
+                "titulo": "Módulo de Autenticación y Onboarding",
+                "subpuntos": [
+                  "o Pantalla de login unificado",
+                  "o Proceso de registro de nuevo proveedor (mínimo 5 pasos)",
+                  "o Recuperación de contraseña",
+                  "o Autenticación de dos factores",
+                  "o Dashboard de primer ingreso con tour guiado"
+                ]
+              },
+              {
+                "numero": "2.",
+                "titulo": "Módulo de Licitaciones (Vista Comprador)",
+                "subpuntos": [
+                  "o Listado de licitaciones con filtros avanzados",
+                  "o Creación de nueva licitación (wizard de mínimo 6 pasos)",
+                  "o Vista de detalle de licitación",
+                  "o Pantalla de evaluación de ofertas",
+                  "o Cuadro comparativo interactivo",
+                  "o Acta de adjudicación"
+                ]
+              },
+              {
+                "numero": "3.",
+                "titulo": "Módulo de Licitaciones (Vista Proveedor)",
+                "subpuntos": [
+                  "o Búsqueda y filtrado de oportunidades",
+                  "o Vista de detalle de licitación",
+                  "o Proceso de presentación de oferta",
+                  "o Gestión de consultas y aclaraciones",
+                  "o Historial de participaciones"
+                ]
+              },
+              {
+                "numero": "4.",
+                "titulo": "Módulo de Órdenes de Compra",
+                "subpuntos": [
+                  "o Listado de órdenes con estados",
+                  "o Creación de orden de compra",
+                  "o Flujo de aprobación visual",
+                  "o Vista de tracking de estado",
+                  "o Confirmación de recepción"
+                ]
+              },
+              {
+                "numero": "5.",
+                "titulo": "Módulo de Gestión de Proveedores",
+                "subpuntos": [
+                  "o Directorio de proveedores",
+                  "o Ficha completa del proveedor",
+                  "o Evaluación y calificación",
+                  "o Gestión de documentos",
+                  "o Historial de transacciones"
+                ]
+              },
+              {
+                "numero": "6.",
+                "titulo": "Dashboard de Analytics",
+                "subpuntos": [
+                  "o KPIs principales con visualizaciones",
+                  "o Gráficos interactivos (mínimo 6 tipos)",
+                  "o Filtros por período y categorías",
+                  "o Drill-down en métricas",
+                  "o Exportación de reportes"
+                ]
+              },
+              {
+                "numero": "7.",
+                "titulo": "Dos módulos más a elección."
+              }
+            ]
+          }
+        },
+        {
+          "numero": "18.1.3",
+          "titulo": "Requerimientos de Diseño UX/UI",
+          "principios_de_diseno": {
+            "titulo": "Principios de Diseño",
+            "introduccion": "El prototipo debe demostrar adherencia a los siguientes principios:",
+            "usabilidad": {
+              "titulo": "Usabilidad:",
+              "puntos": [
+                "• Navegación intuitiva sin necesidad de manual",
+                "• Máximo 3 clics para llegar a cualquier funcionalidad principal",
+                "• Retroalimentación visual clara para cada acción",
+                "• Estados de carga y transición fluidos",
+                "• Manejo elegante de errores"
+              ]
+            },
+            "accesibilidad": {
+              "titulo": "Accesibilidad:",
+              "puntos": [
+                "• Cumplimiento WCAG 2.1 nivel AA",
+                "• Contraste adecuado de colores",
+                "• Tamaños de fuente legibles",
+                "• Áreas de clic/touch apropiadas (mínimo 44x44 píxeles)",
+                "• Navegación completa por teclado",
+                "• Textos alternativos y ARIA labels"
+              ]
+            },
+            "diseno_responsivo": {
+              "titulo": "Diseño Responsivo:",
+              "puntos": [
+                "• Versión desktop (1920x1080, 1366x768)",
+                "• Versión tablet (768x1024 en vertical y horizontal)",
+                "• Versión móvil (375x812)",
+                "• Puntos de quiebre coherentes",
+                "• Adaptación inteligente de contenido"
+              ]
+            },
+            "consistencia_visual": {
+              "titulo": "Consistencia Visual:",
+              "puntos": [
+                "• Sistema de diseño documentado",
+                "• Paleta de colores definida (máximo 5 colores principales)",
+                "• Tipografía jerarquizada (máximo 2 familias tipográficas)",
+                "• Iconografía coherente",
+                "• Espaciado y grid system consistente",
+                "• Componentes reutilizables"
+              ]
+            }
+          }
+        },
+        {
+          "numero": "18.1.4",
+          "titulo": "Elementos de Interfaz Requeridos",
+          "componentes_obligatorios": {
+            "titulo": "Componentes Obligatorios",
+            "introduccion": "El prototipo debe incluir y demostrar el uso correcto de:",
+            "navegacion": {
+              "titulo": "Navegación:",
+              "puntos": [
+                "• Menú principal horizontal/vertical",
+                "• Menú secundario contextual",
+                "• Breadcrumbs",
+                "• Paginación",
+                "• Tabs y acordeones",
+                "• Navegación por pasos (steppers)",
+                "• Menú de acciones rápidas"
+              ]
+            },
+            "formularios": {
+              "titulo": "Formularios:",
+              "puntos": [
+                "• Campos de texto con validación en tiempo real",
+                "• Selectores y dropdowns",
+                "• Checkboxes y radio buttons",
+                "• Date/time pickers",
+                "• Carga de archivos con drag & drop",
+                "• Campos con autocompletado",
+                "• Formularios de múltiples pasos"
+              ]
+            },
+            "visualizacion_datos": {
+              "titulo": "Visualización de Datos:",
+              "puntos": [
+                "• Tablas con ordenamiento y filtrado",
+                "• Gráficos de barras, líneas y torta",
+                "• Tarjetas de información (cards)",
+                "• Líneas de tiempo (timelines)",
+                "• Indicadores de progreso",
+                "• Badges y etiquetas",
+                "• Tooltips informativos"
+              ]
+            },
+            "retroalimentacion": {
+              "titulo": "Retroalimentación:",
+              "puntos": [
+                "• Mensajes de éxito, error, advertencia e información",
+                "• Modales y diálogos",
+                "• Notificaciones toast",
+                "• Skeleton screens durante carga",
+                "• Indicadores de carga (spinners, progress bars)",
+                "• Estados vacíos ilustrados"
+              ]
+            },
+            "elementos_accion": {
+              "titulo": "Elementos de Acción:",
+              "puntos": [
+                "• Botones primarios, secundarios y terciarios",
+                "• Floating action buttons",
+                "• Acciones en línea",
+                "• Menús contextuales",
+                "• Acciones masivas",
+                "• Confirmaciones de acciones críticas"
+              ]
+            }
+          }
+        },
+        {
+          "numero": "18.1.5",
+          "titulo": "Especificaciones Técnicas del Prototipo",
+          "requerimientos_entrega": {
+            "titulo": "Requerimientos de Entrega:",
+            "puntos": [
+              "• Link navegable en línea sin necesidad de instalación",
+              "• Compatible con navegadores modernos (Chrome, Firefox, Safari, Edge)",
+              "• Sin requerimiento de plugins adicionales",
+              "• Acceso garantizado por mínimo 6 meses",
+              "• Posibilidad de exportar a PDF interactivo"
+            ]
+          },
+          "nivel_interactividad": {
+            "titulo": "Nivel de Interactividad:",
+            "puntos": [
+              "• Navegación completa entre pantallas",
+              "• Simulación de ingreso de datos",
+              "• Transiciones y animaciones básicas",
+              "• Estados hover y active",
+              "• Simulación de carga de archivos",
+              "• Desplegables y expandibles funcionales",
+              "• Simulación de validaciones"
+            ]
+          }
+        },
+        {
+          "numero": "18.1.6",
+          "titulo": "Documentación del Diseño",
+          "introduccion": "Junto con el prototipo, se debe entregar:",
+          "arquitectura_informacion": {
+            "titulo": "Arquitectura de Información:",
+            "puntos": [
+              "• Mapa del sitio completo",
+              "• Diagrama de navegación",
+              "• Taxonomía y nomenclatura",
+              "• Estructura de menús",
+              "• Jerarquía de información"
+            ]
+          }
+        },
+        {
+          "numero": "18.1.7",
+          "titulo": "Restricciones y Limitaciones",
+          "no_se_requiere": {
+            "titulo": "No se Requiere:",
+            "puntos": [
+              "• Funcionalidad real de backend",
+              "• Conexión a base de datos",
+              "• Procesamiento real de datos",
+              "• Integración con servicios externos",
+              "• Autenticación real",
+              "• Persistencia de información"
+            ]
+          },
+          "se_penalizara": {
+            "titulo": "Se Penalizará:",
+            "puntos": [
+              "• Prototipos estáticos (no navegables)",
+              "• Diseños genéricos sin personalización",
+              "• Incumplimiento de estándares de accesibilidad",
+              "• Navegación confusa o rota",
+              "• Inconsistencias visuales evidentes",
+              "• Falta de responsividad"
+            ]
+          }
+        },
+        {
+          "numero": "18.1.8",
+          "titulo": "Propiedad Intelectual",
+          "derechos_y_licencias": {
+            "titulo": "Derechos y Licencias:",
+            "puntos": [
+              "• El diseño propuesto será propiedad del CLIENTE si se adjudica",
+              "• El proponente mantiene derechos sobre componentes genéricos",
+              "• Se permite uso del prototipo para fines de evaluación",
+              "• Confidencialidad de diseños no seleccionados",
+              "• Posibilidad de licenciar elementos específicos"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

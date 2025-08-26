@@ -1,0 +1,64 @@
+{
+  "titulo_capitulo": "CAPÍTULO 14: ESTRUCTURA DEL PROYECTO",
+  "secciones_principales": [
+    {
+      "numero": "14.1",
+      "titulo": "Metodología Gestión",
+      "pmo_requerida": {
+        "titulo": "PMO Requerida:",
+        "puntos": [
+          "• Director proyecto exclusivo",
+          "• Metodología PMI",
+          "• Control cambios",
+          "• Gestión riesgos",
+          "• Portal colaborativo"
+        ]
+      }
+    },
+    {
+      "numero": "14.2",
+      "titulo": "Roles Mínimos",
+      "puntos": [
+        "• Gerente Proyecto (PMP)",
+        "• Arquitecto Solución",
+        "• Líder Técnico",
+        "• Líder Funcional",
+        "• Especialista Seguridad",
+        "• Especialista Integración"
+      ]
+    },
+    {
+      "numero": "14.3",
+      "titulo": "Control del Proyecto",
+      "puntos": [
+        "• Informes mensuales",
+        "• Dashboard tiempo real",
+        "• Earned Value",
+        "• Risk Register",
+        "• Change Log"
+      ]
+    },
+    {
+      "numero": "14.4",
+      "titulo": "Gestión del Cambio",
+      "puntos": [
+        "• Metodología ADKAR",
+        "• Plan comunicación",
+        "• Gestión resistencias",
+        "• Quick wins",
+        "• Embajadores"
+      ]
+    },
+    {
+      "numero": "14.5",
+      "titulo": "Gestión del Riesgo",
+      "puntos": [
+        "• ISO 31000",
+        "• Identificación inicial",
+        "• Planes mitigación",
+        "• Contingencias",
+        "• Monitoreo continuo"
+      ]
+    }
+  ]
+}

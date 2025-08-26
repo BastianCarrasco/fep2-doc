@@ -62,8 +62,16 @@ import BtCapitulo5ProblemasActualesView from './views/BtCapitulo5ProblemasActual
 import BtCapitulo6ExpectativasDeLaNuevaSolucionView from './views/BtCapitulo6ExpectativasDeLaNuevaSolucionView.vue'; // ¡Nuevo!
 import BtCapitulo7InfraestructuraActualView from './views/BtCapitulo7InfraestructuraActualView.vue'; // ¡Nuevo!
 import BtCapitulo8RequerimientosDelProcesoView from './views/BtCapitulo8RequerimientosDelProcesoView.vue'; // ¡Nuevo!
-
-
+import BtCapitulo9RequerimientosTecnicosFuncionalesYNoFuncionalesView from './views/BtCapitulo9RequerimientosTecnicosFuncionalesYNoFuncionalesView.vue'; // ¡Nuevo!
+import BtCapitulo10RequerimientosDeLaPropuestaView from './views/BtCapitulo10RequerimientosDeLaPropuestaView.vue'; // ¡Nuevo!
+import BtCapitulo11PlanificacionView from './views/BtCapitulo11PlanificacionView.vue'; // ¡Nuevo!
+import BtCapitulo12CaracteristicasDelSitePrincipalYSecundariosView from './views/BtCapitulo12CaracteristicasDelSitePrincipalYSecundariosView.vue'; // ¡Nuevo!
+import BtCapitulo13ModeloDeOperacionMantencionYSoporteView from './views/BtCapitulo13ModeloDeOperacionMantencionYSoporteView.vue'; // ¡Nuevo!
+import BtCapitulo14EstructuraDelProyectoView from './views/BtCapitulo14EstructuraDelProyectoView.vue'; // ¡Nuevo!
+import BtCapitulo15InnovacionesView from './views/BtCapitulo15InnovacionesView.vue'; // ¡Nuevo!
+import BtCapitulo16InformacionCorporativaYPresenciaDigitalView from './views/BtCapitulo16InformacionCorporativaYPresenciaDigitalView.vue'; // ¡Nuevo!
+import BtCapitulo17VideoDePresentacionDeLaPropuestaView from './views/BtCapitulo17VideoDePresentacionDeLaPropuestaView.vue';
+import BtCapitulo18PrototipoDeInterfazYDisenoUXUIView from './views/BtCapitulo18PrototipoDeInterfazYDisenoUXUIView.vue';
 // ====================================================================================
 
 // Define la vista que se mostrará por defecto al cargar la aplicación
@@ -137,7 +145,18 @@ const formatTitle = (id) => {
     'bt-capitulo-5-problemas-actuales': 'Bases Técnicas - Capítulo 5: Problemas Actuales (TFEP-01/2025)',
     'bt-capitulo-6-expectativas-de-la-nueva-solucion': 'Bases Técnicas - Capítulo 6: Expectativas de la Nueva Solución (TFEP-01/2025)',
     'bt-capitulo-7-infraestructura-actual': 'Bases Técnicas - Capítulo 7: Infraestructura Actual (TFEP-01/2025)',
-    'bt-capitulo-8-requerimientos-del-proceso': 'Bases Técnicas - Capítulo 8: Requerimientos del Proceso (TFEP-01/2025)'
+    'bt-capitulo-8-requerimientos-del-proceso': 'Bases Técnicas - Capítulo 8: Requerimientos del Proceso (TFEP-01/2025)',
+    'bt-capitulo-9-requerimientos-tecnicos-funcionales-y-no-funcionales': 'Bases Técnicas - Capítulo 9: Requerimientos Técnicos, Funcionales y No Funcionales (TFEP-01/2025)',
+    'bt-capitulo-10-requerimientos-de-la-propuesta': 'Bases Técnicas - Capítulo 10: Requerimientos de la Propuesta (TFEP-01/2025)',
+    'bt-capitulo-11-planificacion': 'Bases Técnicas - Capítulo 11: Planificación (TFEP-01/2025)',
+    'bt-capitulo-12-caracteristicas-del-site-principal-y-secundarios': 'Bases Técnicas - Capítulo 12: Características del Site Principal y Secundarios (TFEP-01/2025)',
+    'bt-capitulo-13-modelo-de-operacion-mantencion-y-soporte': 'Bases Técnicas - Capítulo 13: Operación, Mantención y Soporte (TFEP-01/2025)',
+    'bt-capitulo-14-estructura-del-proyecto': 'Bases Técnicas - Capítulo 14: Estructura del Proyecto (TFEP-01/2025)',
+    'bt-capitulo-15-innovaciones': 'Bases Técnicas - Capítulo 15: Innovaciones (TFEP-01/2025)',
+    'bt-capitulo-16-informacion-corporativa-y-presencia-digital': 'Bases Técnicas - Capítulo 16: Información Corporativa y Presencia Digital (TFEP-01/2025)',
+    'bt-capitulo-17-video-de-presentacion-de-la-propuesta': 'Bases Técnicas - Capítulo 17: Video de Presentación de la Propuesta (TFEP-01/2025)',
+    'bt-capitulo-18-prototipo-de-interfaz-y-diseno-ux-ui': 'Bases Técnicas - Capítulo 18: Prototipo de Interfaz y Diseño UX (TFEP-01/2025)',
+    // ... (resto de títulos) ...
   };
   // Intenta encontrar el título en el mapa, si no lo encuentra, formatea el ID a "Título de Ejemplo"
   return titles[id] || id.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -204,6 +223,26 @@ const formatTitle = (id) => {
 
       <BtCapitulo8RequerimientosDelProcesoView
         v-else-if="currentViewId === 'bt-capitulo-8-requerimientos-del-proceso'" />
+      <BtCapitulo9RequerimientosTecnicosFuncionalesYNoFuncionalesView
+        v-else-if="currentViewId === 'bt-capitulo-9-requerimientos-tecnicos-funcionales-y-no-funcionales'" />
+      <!-- ¡Nuevo! -->
+      <BtCapitulo10RequerimientosDeLaPropuestaView
+        v-else-if="currentViewId === 'bt-capitulo-10-requerimientos-de-la-propuesta'" /> <!-- ¡Nuevo! -->
+      <BtCapitulo11PlanificacionView v-else-if="currentViewId === 'bt-capitulo-11-planificacion'" /> <!-- ¡Nuevo! -->
+      <BtCapitulo12CaracteristicasDelSitePrincipalYSecundariosView
+        v-else-if="currentViewId === 'bt-capitulo-12-caracteristicas-del-site-principal-y-secundarios'" />
+      <BtCapitulo13ModeloDeOperacionMantencionYSoporteView
+        v-else-if="currentViewId === 'bt-capitulo-13-modelo-de-operacion-mantencion-y-soporte'" /> <!-- ¡Nuevo! -->
+      <BtCapitulo14EstructuraDelProyectoView v-else-if="currentViewId === 'bt-capitulo-14-estructura-del-proyecto'" />
+      <!-- ¡Nuevo! -->
+      <BtCapitulo15InnovacionesView v-else-if="currentViewId === 'bt-capitulo-15-innovaciones'" /> <!-- ¡Nuevo! -->
+      <BtCapitulo16InformacionCorporativaYPresenciaDigitalView
+        v-else-if="currentViewId === 'bt-capitulo-16-informacion-corporativa-y-presencia-digital'" /> <!-- ¡Nuevo! -->
+      <BtCapitulo17VideoDePresentacionDeLaPropuestaView
+        v-else-if="currentViewId === 'bt-capitulo-17-video-de-presentacion-de-la-propuesta'" /> <!-- ¡Nuevo! -->
+      <BtCapitulo18PrototipoDeInterfazYDisenoUXUIView
+        v-else-if="currentViewId === 'bt-capitulo-18-prototipo-de-interfaz-y-diseno-ux-ui'" /> <!-- ¡Nuevo! -->
+      <!-- ¡Nuevo! -->
       <!-- ¡Nuevo! -->
       <!-- ¡Nuevo! -->
       <!-- Vistas del documento NCh2777 -->

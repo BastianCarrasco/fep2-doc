@@ -1,0 +1,95 @@
+{
+  "titulo_capitulo": "CAPÍTULO 16: INFORMACIÓN CORPORATIVA Y PRESENCIA DIGITAL",
+  "secciones_principales": [
+    {
+      "numero": "16.1",
+      "titulo": "Página Web Corporativa",
+      "subsecciones": [
+        {
+          "numero": "16.1.1",
+          "titulo": "Requisitos Obligatorios",
+          "introduccion": "El proponente deberá disponer de una página web corporativa activa y actualizada que contenga, como mínimo, la siguiente información claramente identificable y de fácil acceso:",
+          "informacion_institucional": {
+            "titulo": "Información Institucional:",
+            "puntos": [
+              "• Descripción detallada del giro principal del negocio",
+              "• Historia y trayectoria de la empresa (mínimo 3 años de antigüedad comprobable)",
+              "• Misión, visión y valores corporativos",
+              "• Certificaciones y acreditaciones vigentes",
+              "• Presencia geográfica y oficinas"
+            ]
+          },
+          "experiencia_casos_exito": {
+            "titulo": "Experiencia y Casos de Éxito:",
+            "puntos": [
+              "• Portfolio de proyectos similares (últimos 5 años)",
+              "• Casos de éxito documentados con métricas verificables",
+              "• Testimoniales de clientes (con autorización de publicación)",
+              "• Industrias atendidas con énfasis en healthcare",
+              "• Volumen de transacciones o usuarios gestionados"
+            ]
+          },
+          "equipo_profesional": {
+            "titulo": "Equipo Profesional:",
+            "puntos": [
+              "• Organigrama del equipo directivo",
+              "• Perfiles profesionales de socios y directores",
+              "• CVs resumidos del equipo técnico clave",
+              "• Certificaciones profesionales del personal",
+              "• Especialistas en temas digital y normativa chilena"
+            ]
+          },
+          "capacidades_tecnicas": {
+            "titulo": "Capacidades Técnicas:",
+            "puntos": [
+              "• Servicios y soluciones ofrecidas",
+              "• Stack tecnológico dominado",
+              "• Partnerships tecnológicos (AWS, Azure, Google Cloud, etc.)",
+              "• Metodologías de trabajo certificadas",
+              "• Infraestructura y capacidad instalada"
+            ]
+          }
+        },
+        {
+          "numero": "16.1.2",
+          "titulo": "Información Adicional Valorada",
+          "introduccion": "Se valorará positivamente la inclusión de:",
+          "puntos_valorados": [
+            "• Webinars o material educativo digital",
+            "• Calculadora de ROI para proyectos médicos",
+            "• Demo online o tour virtual de la solución",
+            "• Centro de recursos y documentación",
+            "• Portal de soporte para clientes",
+            "• Métricas de uptime y performance en tiempo real"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "16.2",
+      "titulo": "Verificación y Validación",
+      "causales_descalificacion": {
+        "titulo": "Causales de Descalificación:",
+        "puntos": [
+          "• Sitio web no disponible o con caídas recurrentes",
+          "• Información falsa o engañosa comprobada",
+          "• Ausencia de información crítica requerida",
+          "• Casos de éxito no verificables",
+          "• Plagio de contenido de otros sitios"
+        ]
+      }
+    },
+    {
+      "numero": "16.3",
+      "titulo": "Declaración de Veracidad",
+      "introduccion": "El proponente deberá incluir una declaración jurada simple indicando:",
+      "puntos_declaracion": [
+        "• URL oficial de la empresa",
+        "• Que toda la información del sitio es verídica y actualizada",
+        "• Autorización para que la comisión contacte referencias",
+        "• Compromiso de mantener el sitio activo durante todo el proceso",
+        "• Aceptación de descalificación por información falsa"
+      ]
+    }
+  ]
+}

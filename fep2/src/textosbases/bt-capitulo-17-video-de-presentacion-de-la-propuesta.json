@@ -1,0 +1,269 @@
+{
+  "titulo_capitulo": "CAPÍTULO 17: VIDEO DE PRESENTACIÓN DE LA PROPUESTA",
+  "secciones_principales": [
+    {
+      "numero": "17.1",
+      "titulo": "Especificaciones Técnicas del Video",
+      "subsecciones": [
+        {
+          "numero": "17.1.1",
+          "titulo": "Requisitos Técnicos Obligatorios",
+          "formato_y_calidad": {
+            "titulo": "Formato y Calidad:",
+            "puntos": [
+              "• Duración: Máximo 5 minutos (300 segundos). Videos que excedan este límite serán descalificados",
+              "• Resolución mínima: Full HD 1920x1080 píxeles",
+              "• Formato de archivo: MP4 con códec H.264",
+              "• Framerate: 30 fps mínimo",
+              "• Bitrate: 5 Mbps mínimo",
+              "• Tamaño máximo archivo: 500 MB"
+            ]
+          },
+          "audio": {
+            "titulo": "Audio:",
+            "puntos": [
+              "• Calidad: 44.1 kHz, 16 bits mínimo",
+              "• Formato: AAC o MP3",
+              "• Niveles normalizados sin distorsión",
+              "• Ausencia de ruido de fondo excesivo",
+              "• Música de fondo opcional (con licencia)"
+            ]
+          },
+          "aspectos_visuales": {
+            "titulo": "Aspectos Visuales:",
+            "puntos": [
+              "• Grabación horizontal (landscape)",
+              "• Iluminación profesional adecuada",
+              "• Fondo neutro o corporativo",
+              "• Sin efectos visuales que distraigan del mensaje",
+              "• Transiciones suaves y profesionales"
+            ]
+          }
+        },
+        {
+          "numero": "17.1.2",
+          "titulo": "Estructura y Contenido Obligatorio",
+          "introduccion": "Se propone que el video contenga los siguientes segmentos:",
+          "segmentos": [
+            {
+              "numero": "1.",
+              "titulo": "Introducción Corporativa:",
+              "puntos": [
+                "• Logo animado de la empresa",
+                "• Nombre del proyecto: \"Propuesta Sistema Integral Consultas Médicas\"",
+                "• Fecha de la propuesta",
+                "• Nombre del proponente principal"
+              ]
+            },
+            {
+              "numero": "2.",
+              "titulo": "Comprensión del Problema:",
+              "puntos": [
+                "• Análisis de la problemática actual",
+                "• Impacto en pacientes y médicos",
+                "• Riesgos de no implementar la solución",
+                "• Métricas del problema identificado",
+                "• Demostración de comprensión del sector"
+              ]
+            },
+            {
+              "numero": "3.",
+              "titulo": "Solución Propuesta:",
+              "puntos": [
+                "• Visión general de la solución",
+                "• Beneficios principales para cada stakeholder",
+                "• Diferenciadores clave",
+                "• Innovaciones incluidas",
+                "• Resultados esperados con métricas"
+              ]
+            },
+            {
+              "numero": "4.",
+              "titulo": "Propuesta Tecnológica:",
+              "puntos": [
+                "• Stack tecnológico completo",
+                "• Arquitectura de alto nivel",
+                "• Tecnologías cloud utilizadas",
+                "• Seguridad y cumplimiento normativo"
+              ]
+            },
+            {
+              "numero": "5.",
+              "titulo": "Ventajas Competitivas:",
+              "puntos": [
+                "• Por qué somos la mejor opción",
+                "• Experiencia específica",
+                "• Casos de éxito relevantes",
+                "• Garantías y compromisos",
+                "• Valor agregado único"
+              ]
+            },
+            {
+              "numero": "6.",
+              "titulo": "Cierre y Compromiso:",
+              "puntos": [
+                "• Compromiso con el proyecto",
+                "• Datos de contacto",
+                "• Invitación a conocer más",
+                "• Logo y slogan final"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "17.2",
+      "titulo": "Participación del Equipo",
+      "subsecciones": [
+        {
+          "numero": "17.2.1",
+          "titulo": "Requisitos de Aparición",
+          "obligatorio": "Obligatorio - Todos los miembros clave deben aparecer:",
+          "integrante_individual": "Cada integrante deberá aparecer individualmente presentándose con:",
+          "puntos_integrante": [
+            "• Toma de medio cuerpo (cintura hacia arriba)",
+            "• Mirando directamente a la cámara",
+            "• Vestimenta formal o business casual",
+            "• Duración mínima de aparición: 10 segundos por persona"
+          ],
+          "identificacion_en_pantalla": "Identificación en Pantalla: Cada vez que aparezca un miembro del equipo, deberá mostrarse:",
+          "puntos_identificacion": [
+            "• Nombre completo",
+            "• Cargo en el proyecto",
+            "• Años de experiencia",
+            "• Especialización relevante",
+            "• Certificaciones principales (opcional)"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "17.3",
+      "titulo": "Criterios de Evaluación del Video",
+      "subsecciones": [
+        {
+          "numero": "17.3.1",
+          "titulo": "Causales de Penalización o Descalificación",
+          "penalizaciones": {
+            "titulo": "Penalizaciones (-5 puntos c/u):",
+            "puntos": [
+              "• Audio con problemas menores",
+              "• Iluminación deficiente",
+              "• Transiciones bruscas",
+              "• Información poco clara",
+              "• Falta de algún rol no crítico"
+            ]
+          },
+          "descalificacion_automatica": {
+            "titulo": "Descalificación Automática:",
+            "puntos": [
+              "• Duración mayor a 5 minutos",
+              "• No aparición del equipo completo clave",
+              "• Calidad técnica inferior a lo especificado",
+              "• Información falsa o engañosa",
+              "• Uso de material con derechos de autor sin licencia",
+              "• No entrega del video con la propuesta"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "numero": "17.4",
+      "titulo": "Homogeneidad y Consistencia",
+      "subsecciones": [
+        {
+          "numero": "17.4.1",
+          "titulo": "Requisitos de Uniformidad",
+          "aspectos_visuales": {
+            "titulo": "Aspectos Visuales:",
+            "puntos": [
+              "• Mismo fondo para todas las tomas de personas",
+              "• Iluminación consistente entre tomas",
+              "• Encuadre similar para todos los participantes",
+              "• Paleta de colores corporativa consistente",
+              "• Tipografía única para textos y títulos"
+            ]
+          },
+          "aspectos_audio": {
+            "titulo": "Aspectos de Audio:",
+            "puntos": [
+              "• Niveles de volumen normalizados",
+              "• Misma calidad de grabación",
+              "• Sin variaciones bruscas de sonido",
+              "• Música de fondo consistente (si aplica)"
+            ]
+          },
+          "identidad_corporativa": {
+            "titulo": "Identidad Corporativa:",
+            "puntos": [
+              "• Logo visible en todas las escenas",
+              "• Colores corporativos presentes",
+              "• Footer o header con información de contacto",
+              "• Uso consistente de la marca"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "numero": "17.5",
+      "titulo": "Entrega y Formato",
+      "subsecciones": [
+        {
+          "numero": "17.5.1",
+          "titulo": "Medios de Entrega",
+          "introduccion": "El video deberá ser entregado mediante:",
+          "opciones_entrega": [
+            {
+              "titulo": "Opción 1 - Entrega Física:",
+              "puntos": [
+                "• USB junto con propuesta impresa",
+                "• Etiquetado con nombre de empresa y proyecto",
+                "• Incluir archivo de respaldo"
+              ]
+            },
+            {
+              "titulo": "Opción 2 - Entrega Digital:",
+              "puntos": [
+                "• Link de descarga (WeTransfer, Google Drive, OneDrive)",
+                "• Vigencia mínima del link: 60 días",
+                "• Sin restricciones de descarga",
+                "• Password de acceso en documento separado"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "17.6",
+      "titulo": "Derechos y Autorizaciones",
+      "subsecciones": [
+        {
+          "numero": "17.6.1",
+          "titulo": "Cesión de Derechos",
+          "introduccion": "El proponente deberá:",
+          "puntos": [
+            "• Autorizar el uso del video para fines de evaluación",
+            "• Permitir la proyección en sesiones de evaluación",
+            "• Aceptar la posible publicación de extractos (con autorización previa)",
+            "• Garantizar que posee todos los derechos necesarios"
+          ]
+        },
+        {
+          "numero": "17.6.2",
+          "titulo": "Protección de Información",
+          "introduccion": "La comisión evaluadora se compromete a:",
+          "puntos": [
+            "• Mantener confidencialidad del contenido",
+            "• No distribuir sin autorización",
+            "• Eliminar copias post-evaluación si no es seleccionado",
+            "• Proteger la propiedad intelectual presentada"
+          ]
+        }
+      ]
+    }
+  ]
+}

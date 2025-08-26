@@ -1,0 +1,20 @@
+{
+  "titulo_capitulo": "CAPÍTULO 15: INNOVACIONES (A COSTO DEL PROPONENTE)",
+  "innovaciones": [
+    {
+      "numero": "15.1",
+      "titulo": "Marketplace B2B Inteligente",
+      "descripcion": "Sistema de matchmaking automático entre compradores y proveedores usando IA, con recomendaciones personalizadas, predicción de demanda y optimización de precios."
+    },
+    {
+      "numero": "15.2",
+      "titulo": "Blockchain para Contratos",
+      "descripcion": "Implementación de smart contracts para automatizar procesos de contratación, garantías y pagos, con trazabilidad inmutable y reducción de disputas."
+    },
+    {
+      "numero": "15.3",
+      "titulo": "Analytics Predictivo Anti-Fraude",
+      "descripcion": "Motor de IA que analiza patrones transaccionales para detectar anomalías, colusión, sobreprecio y otras prácticas irregulares en tiempo real."
+    }
+  ]
+}
