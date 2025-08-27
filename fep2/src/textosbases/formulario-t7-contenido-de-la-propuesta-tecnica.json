@@ -1,0 +1,285 @@
+{
+  "titulo_formulario": "FORMULARIO T-7",
+  "subtitulo": "CONTENIDO DE LA PROPUESTA TÉCNICA",
+  "instrucciones_generales": [
+    "Se deberá entregar la propuesta en la fecha y hora que se informe. Esta propuesta deberá ser entregada rigurosamente según las instrucciones que se indiquen, cualquier falta u error puede implicar quedar fuera del proceso, lo que significará quedar fuera del proceso.",
+    "Se deben entregar la Propuesta Técnica de la Empresa con todas las correcciones y adaptaciones solicitadas en los Informes y presentaciones preparatorias."
+  ],
+  "tabla_contenido": {
+    "titulo": "TABLA DE CONTENIDO - PROPUESTA TÉCNICA",
+    "subdocumentos": [
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 1",
+        "secciones": [
+          {
+            "numero": "1.",
+            "titulo": "RESUMEN EJECUTIVO",
+            "contenido": "Sintetizar la propuesta técnica integral, evidenciando el dominio de la complejidad del proyecto TIC y la capacidad de integración de todas las dimensiones ingenieriles. Debe demostrar comprensión sistémica del problema, innovación tecnológica aplicada y alineación estratégica con los objetivos del cliente. Se espera que el proponente articule claramente su propuesta de valor diferenciada y el enfoque ingenieril que garantiza el éxito del proyecto."
+          },
+          {
+            "numero": "2.",
+            "titulo": "DESCRIPCIÓN DEL PROPONENTE",
+            "contenido": "Establecer las credenciales técnicas, organizacionales y financieras del proponente. Demostrar capacidad instalada para proyectos TIC complejos, madurez en gestión de tecnología, experiencia en integración de sistemas heterogéneos y solidez metodológica en ingeniería de software y sistemas."
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 2",
+        "secciones": [
+          {
+            "numero": "3.",
+            "titulo": "ALCANCE DEL SERVICIO",
+            "subsecciones_alcance": [
+              {
+                "letra": "a)",
+                "titulo": "Definición del Alcance",
+                "contenido": "Demostrar capacidad de análisis ingenieril para descomponer un problema complejo en componentes manejables. Se espera una visión holística que abarque desde la arquitectura empresarial hasta los detalles de implementación técnica, considerando restricciones tecnológicas, normativas y operacionales. El proponente debe evidenciar comprensión de la interoperabilidad, escalabilidad, seguridad y performance requeridas."
+              },
+              {
+                "letra": "b)",
+                "titulo": "Implementación",
+                "contenido": "Presentar el enfoque ingenieril para la materialización de la solución. Demostrar dominio de las mejores prácticas en ingeniería de software, gestión de configuración, integración continua y deployment. Se evalúa la coherencia entre la arquitectura propuesta y su realizabilidad técnica."
+              },
+              {
+                "letra": "c)",
+                "titulo": "Implantación",
+                "contenido": "Evidenciar capacidad de gestión del cambio tecnológico y organizacional. Mostrar comprensión de los aspectos críticos de migración de datos, cutover de sistemas, gestión de ambientes paralelos y minimización del impacto operacional. Se espera un enfoque que considere rollback, contingencias y validación exhaustiva."
+              },
+              {
+                "letra": "d)",
+                "titulo": "Operación",
+                "contenido": "Demostrar visión de ingeniería de confiabilidad (SRE) y capacidad para diseñar sistemas autogestionables. Considerar aspectos de observabilidad, telemetría, automatización operacional y gestión proactiva de capacidad. El diseño debe contemplar RTO/RPO, alta disponibilidad y recuperación ante desastres."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 3",
+        "secciones": [
+          {
+            "numero": "4.",
+            "titulo": "DESCRIPCIÓN LÓGICA DE LA SOLUCIÓN",
+            "subsecciones_logica": [
+              {
+                "letra": "a)",
+                "titulo": "Esquema de la Solución",
+                "contenido": "Presentar el modelo conceptual de la arquitectura de sistemas, demostrando cumplimiento exhaustivo de requerimientos funcionales y no funcionales. Evidenciar aplicación de patrones de diseño, principios SOLID y arquitecturas de referencia. Debe quedar clara la trazabilidad entre requerimientos y componentes de solución, así como la cobertura de todos los ambientes del SDLC."
+              },
+              {
+                "letra": "b)",
+                "titulo": "Arquitectura Lógica de la Solución",
+                "contenido": "Demostrar capacidad de diseño arquitectónico empresarial siguiendo frameworks reconocidos (TOGAF, Zachman). Presentar descomposición en capas, componentes, servicios e interfaces. Se evalúa la aplicación de principios de bajo acoplamiento, alta cohesión, separación de concerns y diseño orientado al dominio. Considerar aspectos de integración, orquestación y coreografía de servicios."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 4",
+        "secciones": [
+          {
+            "numero": "5.",
+            "titulo": "DESCRIPCIÓN FÍSICA DE LA SOLUCIÓN",
+            "subsecciones_fisica": [
+              {
+                "letra": "a)",
+                "titulo": "Arquitectura Física de la Solución",
+                "contenido": "Traducir el diseño lógico en infraestructura tangible, demostrando capacidad de dimensionamiento, capacity planning y optimización de recursos. Evidenciar comprensión de topologías de red, segmentación, zonas de seguridad y arquitecturas distribuidas. El diseño debe considerar latencia, throughput, IOPS y demás métricas de performance."
+              },
+              {
+                "letra": "b)",
+                "titulo": "Especificaciones Tecnológicas de Software",
+                "contenido": "Justificar técnicamente la selección del stack tecnológico desde una perspectiva de ingeniería. Considerar TCO, curva de aprendizaje, soporte empresarial, roadmap tecnológico, deuda técnica y obsolescencia. Demostrar análisis comparativo de alternativas y trade-offs considerados."
+              },
+              {
+                "letra": "c)",
+                "titulo": "Especificaciones de Implementos a Proveer (Hardware y Software)",
+                "contenido": "Aplicar principios de ingeniería para el dimensionamiento óptimo de recursos. Considerar factores de crecimiento, economías de escala, aprovisionamiento dinámico y elasticidad. El sizing debe estar respaldado por modelos matemáticos, benchmarks y análisis de carga proyectada."
+              },
+              {
+                "letra": "d)",
+                "titulo": "Especificaciones Data Center Primario",
+                "contenido": "Demostrar comprensión de los requerimientos de infraestructura crítica: poder, cooling, espacio, conectividad, seguridad física. Considerar certificaciones TIER, PUE, redundancias N+1/2N, y cumplimiento normativo. Evaluar opciones on-premise, colocation, cloud e híbridas."
+              },
+              {
+                "letra": "e)",
+                "titulo": "Especificaciones Data Center Secundario",
+                "contenido": "Diseñar estrategia de continuidad considerando RPO/RTO, replicación síncrona/asíncrona, active-active vs active-passive. Demostrar comprensión de las implicancias técnicas del split-brain, quorum, y consistencia eventual. Considerar aspectos de ancho de banda, latencia y costo de la replicación."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 5",
+        "secciones": [
+          {
+            "numero": "6.",
+            "titulo": "VENTAJAS DE LA SOLUCIÓN",
+            "subsecciones_ventajas": [
+              {
+                "letra": "a)",
+                "titulo": "Ventajas de la Arquitectura Propuesta (Lógica y Física)",
+                "contenido": "Argumentar desde la perspectiva de ingeniería por qué el diseño propuesto es óptimo. Utilizar métricas cuantificables: complejidad ciclomática, deuda técnica, MTBF, MTTR. Demostrar análisis de trade-offs y decisiones arquitectónicas fundamentadas en principios de ingeniería."
+              },
+              {
+                "letra": "b)",
+                "titulo": "Ventajas Tecnológicas de la Aplicación",
+                "contenido": "Justificar la superioridad técnica en términos de performance, mantenibilidad, extensibilidad y robustez. Presentar análisis comparativo basado en benchmarks, pruebas de concepto y evidencia empírica. Considerar aspectos de ingeniería de software como testabilidad, refactoring y evolución."
+              },
+              {
+                "letra": "c)",
+                "titulo": "Ventajas Tecnológicas de la Base de Datos",
+                "contenido": "Demostrar expertise en ingeniería de datos: modelado, normalización/desnormalización, índices, particionamiento, sharding. Justificar elección entre SQL/NoSQL, ACID vs BASE, consistencia vs disponibilidad (teorema CAP). Considerar aspectos de tunning, cache, y optimización de queries."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 6",
+        "secciones": [
+          {
+            "numero": "7.",
+            "titulo": "METODOLOGÍAS",
+            "subsecciones_metodologias": [
+              {
+                "letra": "a)",
+                "titulo": "Metodología de Gestión de Proyectos",
+                "contenido": "Demostrar capacidad de aplicar frameworks de gestión adaptados a la complejidad del proyecto TIC. Integrar aspectos del PMBOK con enfoques ágiles donde corresponda. Evidenciar comprensión de la gestión de stakeholders, comunicaciones, adquisiciones e integración en contextos tecnológicos complejos."
+              },
+              {
+                "letra": "b)",
+                "titulo": "Metodología de Desarrollo de Software",
+                "contenido": "Presentar enfoque metodológico coherente con la naturaleza del proyecto. Demostrar comprensión de las implicancias de cada metodología en términos de gestión de requerimientos, arquitectura evolutiva, refactoring, deuda técnica y time-to-market. Considerar DevOps, CI/CD, IaC y automatización de pruebas."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 7",
+        "secciones": [
+          {
+            "numero": "8.",
+            "titulo": "PLAN DE TRABAJO",
+            "subsecciones_plan_trabajo": [
+              {
+                "letra": "a)",
+                "titulo": "Plan de Trabajo, EDT y Carta Gantt",
+                "contenido": "Aplicar técnicas de ingeniería de proyectos para descomposición del trabajo, secuenciamiento, estimación y optimización de recursos. Demostrar uso de técnicas como PERT/CPM, nivelación de recursos, fast-tracking y crashing. La planificación debe evidenciar comprensión de las dependencias técnicas, identificación de la ruta crítica y gestión de holguras. Considerar múltiples frentes de trabajo, paralelización y sincronización de actividades."
+              },
+              {
+                "letra": "b)",
+                "titulo": "Plan de Implantación y Puesta en Marcha",
+                "contenido": "Diseñar estrategia de deployment considerando blue-green, canary, rolling updates. Planificar pruebas de aceptación, performance testing, stress testing y chaos engineering. Definir criterios de éxito medibles y procedimientos de rollback. Considerar aspectos de change management y comunicación con stakeholders."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 8",
+        "secciones": [
+          {
+            "numero": "9.",
+            "titulo": "PLAN DE RIESGO:",
+            "contenido": "Aplicar ingeniería de confiabilidad y análisis probabilístico para identificación y cuantificación de riesgos técnicos, organizacionales y de proyecto. Utilizar técnicas como FMEA, fault tree analysis, Monte Carlo. Diseñar estrategias de mitigación basadas en análisis costo-beneficio. Considerar riesgos de obsolescencia tecnológica, vendor lock-in, escalabilidad y seguridad."
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 9",
+        "secciones": [
+          {
+            "numero": "10.",
+            "titulo": "PLAN DE CALIDAD:",
+            "contenido": "Establecer framework de aseguramiento de calidad basado en estándares de ingeniería de software (ISO 25010, CMMI). Definir métricas de calidad del código, cobertura de pruebas, complejidad, acoplamiento. Implementar gates de calidad, revisiones de código, análisis estático y dinámico. Considerar aspectos de trazabilidad, verificación y validación."
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 10",
+        "secciones": [
+          {
+            "numero": "11.",
+            "titulo": "SERVICIOS DE OPERACIÓN",
+            "subsecciones_operacion": [
+              {
+                "letra": "a)",
+                "titulo": "Especificaciones del Call Center y SLA",
+                "contenido": "Diseñar modelo de soporte basado en ITIL/ITSM con métricas ingenieriles claras. Definir SLI, SLO y SLA considerando teoría de colas, distribuciones de probabilidad y modelos de disponibilidad. Calcular staffing óptimo usando Erlang C. Establecer OLA y UC internos coherentes con los SLA comprometidos."
+              },
+              {
+                "letra": "b)",
+                "titulo": "Especificaciones del Soporte",
+                "contenido": "Estructurar soporte técnico considerando escalamiento, knowledge management y automatización. Definir playbooks, runbooks y procedimientos de troubleshooting. Implementar observabilidad end-to-end y correlación de eventos. Considerar implementación de AI Ops y self-healing systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 11",
+        "secciones": [
+          {
+            "numero": "12.",
+            "titulo": "PLANES EN OPERACIÓN",
+            "subsecciones_planes_operacion": [
+              {
+                "letra": "a)",
+                "titulo": "Plan de Mantención Preventiva/Evolutiva",
+                "contenido": "Aplicar principios de ingeniería de mantenimiento y confiabilidad. Diseñar estrategias basadas en RCM (Reliability Centered Maintenance), mantenimiento predictivo usando ML/AI. Para mantención evolutiva, considerar refactoring continuo, actualización de dependencias, y gestión de deuda técnica. Establecer métricas de degradación y umbrales de intervención."
+              },
+              {
+                "letra": "b)",
+                "titulo": "Plan de Servicios de Operación",
+                "contenido": "Diseñar operación basada en principios de Site Reliability Engineering. Implementar observabilidad completa (logs, métricas, traces), automatización de tareas repetitivas, y chaos engineering. Definir error budgets, toil reduction y blameless postmortems. Considerar FinOps para optimización de costos operacionales."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 12",
+        "secciones": [
+          {
+            "numero": "13.",
+            "titulo": "EQUIPO DE TRABAJO, SUBCONTRATACIONES Y ALIANZAS",
+            "contenido": "Demostrar capacidad de conformar equipos multidisciplinarios con las competencias técnicas requeridas. Presentar estructura organizacional que refleje comprensión de los roles necesarios: arquitectos de solución, ingenieros de datos, DevOps, SRE, QA engineers. Justificar decisiones de make-or-buy y selección de partners desde perspectiva de capacidades técnicas, certificaciones y track record. Evidenciar estrategia de gestión del conocimiento y transferencia tecnológica."
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 13",
+        "secciones": [
+          {
+            "numero": "14.",
+            "titulo": "INNOVACIONES:",
+            "contenido": "Proponer soluciones que trasciendan los requerimientos aplicando innovación tecnológica fundamentada. Demostrar capacidad de incorporar tecnologías emergentes (IA/ML, IoT, blockchain, edge computing) donde agreguen valor real. Las innovaciones deben estar respaldadas por análisis de factibilidad técnica, pruebas de concepto y evaluación de riesgos. Considerar aspectos de investigación aplicada y desarrollo experimental."
+          }
+        ]
+      },
+      {
+        "titulo_subdocumento": "SUBDOCUMENTO 14",
+        "secciones": [
+          {
+            "numero": "15.",
+            "titulo": "VENTAJAS Y BENEFICIOS DE LA SOLUCIÓN - CONSOLIDACIÓN:",
+            "contenido": "Sintetizar la propuesta de valor desde una perspectiva de ingeniería integral. Presentar análisis cuantitativo de beneficios: ROI, TCO, mejoras de performance, reducción de MTTR, aumento de disponibilidad. Demostrar cómo la solución propuesta optimiza el triángulo alcance-tiempo-costo manteniendo la calidad. Evidenciar alineación con principios de ingeniería: eficiencia, robustez, escalabilidad, mantenibilidad y elegancia técnica."
+          }
+        ]
+      }
+    ]
+  },
+  "consideraciones_transversales": {
+    "titulo": "CONSIDERACIONES TRANSVERSALES:",
+    "puntos": [
+      "• Consistencia Técnica: Todas las secciones deben mantener coherencia arquitectónica y tecnológica",
+      "• Trazabilidad: Demostrar mapeo claro de la propuesta entre requerimientos → diseño → implementación → operación",
+      "• Fundamentación Ingenieril: Decisiones respaldadas por análisis cuantitativo, modelos matemáticos y mejores prácticas",
+      "• Compliance: Considerar aspectos regulatorios, estándares de industria y frameworks de gobierno TI"
+    ]
+  }
+}

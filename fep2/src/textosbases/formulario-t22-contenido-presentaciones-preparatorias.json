@@ -1,0 +1,115 @@
+{
+  "titulo_formulario": "FORMULARIO T-22",
+  "subtitulo": "CONTENIDO PRESENTACIONES PREPARATORIAS",
+  "propuesta_presentaciones": {
+    "introduccion": "De manera de asegurar que el proceso sea exitoso, y lleguen propuesta que cumplan con los objetivos definidos por el CLIENTE se deberán realizar tres presentaciones previas para validar que la propuesta en preparación va en los lineamientos que el CLIENTE requiere, estas presentaciones serán indicadas en el Calendario de Actividades.",
+    "obligatoriedad": "Estas presentaciones tendrán carácter de obligatorio, por lo cual la no presentación involucra quedar fuera del proceso de la Adjudicación. Se realizarán tres presentaciones preparatorias por cada empresa. En cada presentación solo se abordarán los temas definidos en la Agenda."
+  },
+  "informe_presentacion_1": {
+    "titulo": "Informe y Presentación 1:",
+    "puntos_contenido": [
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar la Empresa. Respondiendo al menos breve reseña de la trayectoria y las principales capacidades. Indique también a qué actividad se dedican y qué productos y/o servicios ofrecen."
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar el problema y necesidad abordado, se evaluará como se dimensiona de manera realista la magnitud del problema o desafío, se espera que demuestre una comprensión suficiente del contexto y particularidades y sus particularidades con un foco cualitativo. Se evaluará la claridad con que se plantea y la correcta identificación de los actores a los que afecta este problema. La información de apoyo debe estar adecuadamente referenciada. Se debe ser capaz de explicar el tamaño del problema y supuestos realizados en su análisis, debe indicar datos cuantitativos del problema abordar. No mezclar con la solución."
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar el Esquema de Solución y Alcance de la Solución, Se evaluará que el proyecto tenga coherencia con el problema definido y la solución planteada, esto tiene directa relación con la metodología y financiamiento a logar. La estrategia de la solución y como conseguirán el apoyo necesario de involucrados claves, stakeholders o grupos de interés que permitan alcanzar los logros del proyecto."
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar la Arquitectura Lógica / Física de la Solución, esto de diferente a la explicación del Alcance o Diagrama de Solución, esto tiene relación con la parte técnica que soportará la solución, debe tener suficiente detalle para entender cada módulo y capa de la solución. Debe ser algo propio a la solución planteada, no puede ser un diagrama genérico."
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar potenciales Innovaciones a implementar, deben estar bien desarrolladas y planteadas, si aún requiere de investigación al informe 1 se debe indicar, pero no solo puede ser el título de la innovación. Esto debe estar completamente desarrollado en su idea, tecnología, alcance, forma de implementarlo y resultados esperados."
+      }
+    ],
+    "corresponde_propuesta_tecnica": {
+      "titulo": "De la Propuesta Técnica corresponde al",
+      "subdocumentos": [
+        "• Subdocumento 1",
+        "• Subdocumento 2",
+        "• Subdocumento 3",
+        "• Subdocumento 4",
+        "• Subdocumento 5",
+        "• Subdocumento 13"
+      ]
+    }
+  },
+  "informe_presentacion_2": {
+    "titulo": "Informe y Presentación 2:",
+    "puntos_contenido": [
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar las correcciones del Informe 1"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar Análisis de Riesgo de la Solución"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar Análisis de Riesgo del Desarrollo del Proyecto"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar Análisis de Riesgo de Implantación"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar el EDT del Proyecto y Equipo de Trabajo. Será relevante que el equipo de trabajo sea coherente con las actividades en términos concretos de la propuesta o solución para abordar el problema, desafío u oportunidad."
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar la Planificación e Hitos del Proyecto, gran parte de las propuestas obtuvieron notas deficientes porque el plan de trabajo es poco claro y preciso. Por lo general los planes de trabajo se consideran deficientes cuando las actividades no son coherentes con los objetivos y/o se presentan actividades genéricas que podrían servir para cualquier proyecto sin profundidad suficiente que dé cuenta de un entendimiento acabado de la metodología."
+      }
+    ],
+    "corresponde_propuesta_tecnica": {
+      "titulo": "De la Propuesta Técnica corresponde al",
+      "subdocumentos": [
+        "• Subdocumento 1",
+        "• Subdocumento 2",
+        "• Subdocumento 3",
+        "• Subdocumento 4",
+        "• Subdocumento 5",
+        "• Subdocumento 6",
+        "• Subdocumento 7",
+        "• Subdocumento 8",
+        "• Subdocumento 9",
+        "• Subdocumento 13"
+      ]
+    }
+  },
+  "informe_presentacion_3": {
+    "titulo": "Informe y Presentación 3:",
+    "puntos_contenido": [
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar Proveedores Claves de la Solución"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar las Adquisiciones Claves / Relevantes de la Solución"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar la Curva S del Proyecto"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar Análisis de Costos de la Solución, gran parte de las propuestas obtuvieron notas deficientes porque el presupuesto y los gastos asociados al proyecto no se dimensionan adecuadamente (se sobreestiman o subestiman). Se recomienda que los ítems presupuestados se encuentren correctamente justificados y sean coherentes con el plan de actividades propuesto."
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "• Debe presentar el VAN / TIR de la Solución"
+      }
+    ],
+    "informacion_adicional": "Se deberá completar una planilla Excel (a entregar) con la información económica del Proyecto, donde deberá indicar información desglosada en: Gastos de Operación, Gastos de Inversión, Gastos Administrativos, Gastos RR.HH., los gastos asociados a Proveedores deben ser explicitados en una hoja y sumados al Gasto de Operación. Además, un Flujo de Caja mensual, con total mes y monto acumulado.",
+    "propuesta_economica_final": "De la Propuesta Económica Final Documento con los Costos vs Venta (Documento) y Excel de Cálculo."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "titulo_formulario": "FORMULARIO T-20",
+  "subtitulo": "CALENDARIO DE ACTIVIDADES",
+  "introduccion": "A continuación, se entrega el Calendario de Actividades, las cuales podrán ser ajustadas por el CLIENTE de acuerdo a las Bases Administrativas.",
+  "calendario_actividades": {
+    "encabezados": ["Nro.", "Actividad", "Fecha Inicio", "Fecha Término"],
+    "filas": [
+      {
+        "nro": "1",
+        "actividad": "Publicación de las Bases Administrativas",
+        "fecha_inicio": "22-08-2025",
+        "fecha_termino": "22-08-2025"
+      },
+      {
+        "nro": "2",
+        "actividad": "Publicación de las Bases Técnicas",
+        "fecha_inicio": "22-08-2025",
+        "fecha_termino": "22-08-2025"
+      },
+      {
+        "nro": "3",
+        "actividad": "Periodo de Consultas Abiertas",
+        "fecha_inicio": "22-08-2025",
+        "fecha_termino": "05-09-2025"
+      },
+      {
+        "nro": "5",
+        "actividad": "Presentación preparatoria 1",
+        "fecha_inicio": "05-09-2025",
+        "fecha_termino": "12-09-2025"
+      },
+      {
+        "nro": "6",
+        "actividad": "Presentación preparatoria 2",
+        "fecha_inicio": "12-10-2025",
+        "fecha_termino": "19-10-2025"
+      },
+      {
+        "nro": "7",
+        "actividad": "Presentación preparatoria 3",
+        "fecha_inicio": "10-11-2025",
+        "fecha_termino": "17-11-2025"
+      },
+      {
+        "nro": "8",
+        "actividad": "Entrega de Propuestas en sobre Cerrados a las 11:00 am. (Incluye Documentos Administrativos, Boletas y Propuesta Técnica y Económica)",
+        "fecha_inicio": "24-11-2025",
+        "fecha_termino": "24-11-2025"
+      },
+      {
+        "nro": "9",
+        "actividad": "Presentación de Propuestas",
+        "fecha_inicio": "24-11-2025",
+        "fecha_termino": "24-11-2025"
+      },
+      {
+        "nro": "10",
+        "actividad": "Entrega de Resultados",
+        "fecha_inicio": "03-12-2025",
+        "fecha_termino": "03-12-2025"
+      }
+    ]
+  }
+}

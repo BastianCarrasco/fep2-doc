@@ -1,0 +1,304 @@
+{
+  "titulo_formulario": "FORMULARIO E-21",
+  "subtitulo": "ESTRUCTURA DE LA PROPUESTA ECONÓMICA",
+  "instrucciones": {
+    "titulo": "INSTRUCCIONES PARA LA OFERTA ECONÓMICA",
+    "consideraciones_criticas": {
+      "titulo": "CONSIDERACIONES CRÍTICAS",
+      "advertencia": "ADVERTENCIA: El cumplimiento estricto de estas instrucciones es OBLIGATORIO. Cualquier desviación, omisión o error en el formato, estructura o contenido solicitado resultará en la DESCALIFICACIÓN AUTOMÁTICA del proceso de licitación.",
+      "entrega": "La Oferta Económica debe entregarse de forma SEPARADA E INDEPENDIENTE de la Oferta Técnica, en la fecha y hora exacta que será comunicada oportunamente."
+    },
+    "estructura_entregables": {
+      "titulo": "ESTRUCTURA DE ENTREGABLES",
+      "introduccion": "La Oferta Económica comprende TRES (3) ENTREGABLES OBLIGATORIOS que deben presentarse simultáneamente:",
+      "entregables": [
+        {
+          "titulo_entregable": "ENTREGABLE 1: PROPUESTA ECONÓMICA FORMAL",
+          "descripcion": "Documento ejecutivo con la propuesta comercial definitiva",
+          "secciones": [
+            {
+              "numero": "1.1",
+              "titulo": "PROPUESTA DE VALOR ECONÓMICO",
+              "objetivo": "Objetivo: Presentar la estructura de precios integral del proyecto con transparencia y trazabilidad completa.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "valores_totales": {
+                  "titulo": "• Valores Totales del Proyecto (expresados obligatoriamente en CLP, UF y USD):",
+                  "puntos": [
+                    "1. Valor Total Fase de Implementación/Implantación",
+                    "2. Valor Total Fase de Operación (período completo)",
+                    "3. Valor Total del Proyecto (suma ítems 1 y 2)"
+                  ]
+                },
+                "otros_puntos": [
+                  "• Tipo de cambio referencial utilizado y fecha de referencia",
+                  "• Cláusulas de reajustabilidad aplicables",
+                  "• Vigencia de la oferta"
+                ]
+              }
+            },
+            {
+              "numero": "1.2",
+              "titulo": "ESTRUCTURA DE PAGOS DETALLADA",
+              "objetivo": "Objetivo: Desglosar la forma de pago y distribución temporal de los desembolsos.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "hitos_pago": {
+                  "titulo": "• Hitos de Pago - Fase Implementación:",
+                  "puntos": [
+                    "o Identificación clara de cada hito facturable",
+                    "o Porcentaje y monto asociado a cada hito",
+                    "o Entregables que gatillan cada pago",
+                    "o Criterios de aceptación vinculados"
+                  ]
+                },
+                "pagos_mensuales": {
+                  "titulo": "• Estructura de Pagos Mensuales - Fase Operación:",
+                  "puntos": [
+                    "o Detalle de servicios incluidos en pago recurrente",
+                    "o Componentes fijos vs variables",
+                    "o Métricas que afectan pagos variables (SLA, volumen, etc.)",
+                    "o Periodicidad y términos de facturación"
+                  ]
+                }
+              }
+            },
+            {
+              "numero": "1.3",
+              "titulo": "RESUMEN EJECUTIVO DE VALOR",
+              "objetivo": "Objetivo: Sintetizar qué incluye el valor total propuesto.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "puntos": [
+                  "• Matriz de servicios y productos incluidos",
+                  "• Exclusiones explícitas",
+                  "• Supuestos y dependencias comerciales",
+                  "• Beneficios económicos para el cliente",
+                  "• Términos y condiciones comerciales relevantes"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "titulo_entregable": "ENTREGABLE 2: ANÁLISIS ECONÓMICO-FINANCIERO",
+          "descripcion": "Documento técnico con el modelo de negocio y justificación económica",
+          "secciones": [
+            {
+              "numero": "2.1",
+              "titulo": "ANÁLISIS COMPARATIVO COSTOS VS PRECIO",
+              "objetivo": "Objetivo: Demostrar la construcción del precio y márgenes del proyecto.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "cuadro_costos": {
+                  "titulo": "• Cuadro Maestro de Costos (CLP, UF, USD):",
+                  "puntos": [
+                    "o Costos directos de implementación",
+                    "o Costos directos de operación",
+                    "o Costos indirectos y overhead",
+                    "o Estructura de costos por categoría (RRHH, infraestructura, licencias, etc.)"
+                  ]
+                },
+                "cuadro_precio_venta": {
+                  "titulo": "• Cuadro de Precio de Venta (CLP, UF, USD):",
+                  "puntos": [
+                    "o Precio de venta implementación",
+                    "o Precio de venta operación",
+                    "o Márgenes aplicados por componente"
+                  ]
+                }
+              }
+            },
+            {
+              "numero": "2.2",
+              "titulo": "EVALUACIÓN FINANCIERA DEL PROYECTO",
+              "objetivo": "Objetivo: Presentar indicadores financieros que demuestren viabilidad económica.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "van_tir": {
+                  "titulo": "• VAN (Valor Actual Neto) del proyecto",
+                  "subpuntos": [
+                    "o Tasa de descuento utilizada y justificación",
+                    "o Flujo de caja proyectado completo"
+                  ]
+                },
+                "tir": {
+                  "titulo": "• TIR (Tasa Interna de Retorno) del proyecto",
+                  "subpuntos": [
+                    "o Análisis de sensibilidad",
+                    "o Punto de equilibrio"
+                  ]
+                }
+              }
+            },
+            {
+              "numero": "2.3",
+              "titulo": "CURVA S - DISTRIBUCIÓN TEMPORAL",
+              "objetivo": "Objetivo: Visualizar la distribución de costos e ingresos en el tiempo.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "puntos": [
+                  "• Gráfico de Curva S de costos acumulados",
+                  "• Gráfico de Curva S de ingresos acumulados",
+                  "• Análisis de flujo de caja mensual"
+                ]
+              }
+            },
+            {
+              "numero": "2.4",
+              "titulo": "ESTRATEGIA DE ADQUISICIONES",
+              "objetivo": "Objetivo: Detallar la gestión de compras y contrataciones del proyecto.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "puntos": [
+                  "• Matriz de adquisiciones principales",
+                  "• Cronograma de compras alineado con plan de proyecto",
+                  "• Estrategia de negociación con proveedores",
+                  "• Contratos críticos y términos comerciales",
+                  "• Plan de gestión de importaciones (si aplica)",
+                  "• Análisis make-or-buy realizado"
+                ]
+              }
+            },
+            {
+              "numero": "2.5",
+              "titulo": "MODELO DE COSTOS OPERACIONALES",
+              "objetivo": "Objetivo: Transparentar la estructura de costos durante la operación.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "desglose_costos": {
+                  "titulo": "• Desglose de costos operacionales:",
+                  "puntos": [
+                    "o Recursos humanos",
+                    "o Infraestructura y housing",
+                    "o Licenciamiento y suscripciones",
+                    "o Conectividad y comunicaciones",
+                    "o Energía y facilities",
+                    "o Seguros y garantías"
+                  ]
+                },
+                "optimizaciones": "• Optimizaciones previstas en el tiempo"
+              }
+            },
+            {
+              "numero": "2.6",
+              "titulo": "ESTRUCTURA DE MANTENCIÓN Y SOPORTE",
+              "objetivo": "Objetivo: Detallar costos asociados a mantención preventiva, correctiva y evolutiva.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "puntos": [
+                  "• Modelo de costeo de soporte (por incidente, por hora, mensual)",
+                  "• Recursos dedicados vs compartidos",
+                  "• Costos de mantención preventiva programada",
+                  "• Provisión para mantención correctiva",
+                  "• Presupuesto para mejora continua",
+                  "• Costos de actualización tecnológica"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "titulo_entregable": "ENTREGABLE 3: MODELO FINANCIERO EN EXCEL",
+          "descripcion": "Herramienta de cálculo con el modelo económico completo",
+          "secciones": [
+            {
+              "numero": "3.1",
+              "titulo": "ESTRUCTURA DEL MODELO",
+              "objetivo": "Objetivo: Proveer herramienta auditable con todos los cálculos respaldatorios.",
+              "contenido_requerido": {
+                "titulo": "Contenido Requerido:",
+                "excel_guia": {
+                  "titulo": "Se entregará un Excel de guía, el cual al menos deberá contener:",
+                  "puntos": [
+                    "• Resumen Ejecutivo: Resumen",
+                    "• Hoja de Parámetros: Variables modificables del modelo",
+                    "• Curva S: Grafico con costos e ingresos acumulados",
+                    "• Hoja de Costos: Detalle completo de estructura de costos",
+                    "• Hoja de Ingresos: Proyección de facturación",
+                    "• Hoja de Flujo de Caja: Análisis temporal",
+                    "• Hoja de Indicadores: VAN, TIR, ratios financieros"
+                  ]
+                }
+              }
+            },
+            {
+              "numero": "3.2",
+              "titulo": "REQUISITOS TÉCNICOS DEL MODELO",
+              "obligatorio": {
+                "titulo": "Obligatorio:",
+                "puntos": [
+                  "• Uso correcto de fórmulas financieras",
+                  "• Referencias absolutas y relativas apropiadas",
+                  "• Validación de datos en celdas de entrada",
+                  "• Protección de fórmulas críticas",
+                  "• Documentación de supuestos en cada hoja",
+                  "• Trazabilidad completa de cálculos",
+                  "• Sin valores hardcodeados en fórmulas"
+                ]
+              }
+            },
+            {
+              "numero": "3.3",
+              "titulo": "CRITERIOS DE EVALUACIÓN DEL MODELO",
+              "introduccion": "Se evaluará:",
+              "criterios": [
+                "• Coherencia y consistencia de fórmulas",
+                "• Flexibilidad para análisis de escenarios",
+                "• Claridad en la presentación",
+                "• Robustez ante cambios de parámetros",
+                "• Alineación con documentos 1 y 2",
+                "• Cumplimiento del template proporcionado"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "requisitos_formales_presentacion": {
+    "titulo": "REQUISITOS FORMALES DE PRESENTACIÓN",
+    "formato_documentos": {
+      "titulo": "Formato de Documentos:",
+      "puntos": [
+        "• Documentos 1 y 2 en formato PDF y Word (.docx)",
+        "• Modelo Excel en formato .xlsx (compatible con MS Excel 2016 o superior)",
+        "• Numeración correlativa de páginas",
+        "• Índice detallado en cada documento"
+      ]
+    },
+    "nomenclatura_archivos": {
+      "titulo": "Nomenclatura de Archivos:",
+      "puntos": [
+        "• [EMPRESA]_OfertaEconomica_1_[FECHA].pdf",
+        "• [EMPRESA]_AnalisisFinanciero_2_[FECHA].pdf",
+        "• [EMPRESA]_ModeloFinanciero_3_[FECHA].xlsx"
+      ]
+    },
+    "consistencia_obligatoria": {
+      "titulo": "Consistencia Obligatoria:",
+      "puntos": [
+        "• Los valores en los tres documentos deben ser IDÉNTICOS",
+        "• Cualquier discrepancia será causal de descalificación",
+        "• Todos los cálculos deben ser trazables entre documentos"
+      ]
+    }
+  },
+  "notas_importantes": {
+    "titulo": "NOTAS IMPORTANTES",
+    "puntos": [
+      "1. PLANTILLA EXCEL: Se proporcionará template obligatorio que DEBE ser utilizado",
+      "2. MONEDAS: Es obligatorio presentar TODOS los valores en las tres monedas (CLP, UF, USD) con tipo de cambio claramente indicado",
+      "3. REVISIONES: Esta oferta debe incorporar TODAS las correcciones solicitadas en informes previos y presentaciones preparatorias",
+      "4. CONFIDENCIALIDAD: Toda la información económica está sujeta a acuerdo de confidencialidad",
+      "5. ACLARACIONES: Consultas sobre estas instrucciones deben realizarse por el canal formal establecido antes de la fecha límite de consultas",
+      "6. EVALUACIÓN PEDAGÓGICA: Al ser un ejercicio académico, se evaluará especialmente:",
+      "o Comprensión del modelo de negocio TIC",
+      "o Aplicación correcta de conceptos financieros",
+      "o Coherencia entre propuesta técnica y económica",
+      "o Calidad del análisis económico",
+      "o Uso apropiado de herramientas financieras"
+    ]
+  },
+  "recordatorio_final": "RECORDATORIO FINAL: El incumplimiento de cualquier requisito establecido en estas instrucciones resultará en la descalificación automática del proceso. No se aceptarán entregas parciales, fuera de plazo o que no cumplan con el formato especificado."
+}

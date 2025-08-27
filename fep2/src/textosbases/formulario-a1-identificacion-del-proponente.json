@@ -1,0 +1,75 @@
+{
+  "titulo_formulario": "FORMULARIO A-1",
+  "subtitulo": "IDENTIFICACIÓN DEL PROPONENTE Y REPRESENTANTE ANTE EL CLIENTE.",
+  "secciones": [
+    {
+      "numero": "1.",
+      "titulo": "IDENTIFICACIÓN DEL PROPONENTE",
+      "campos": [
+        { "etiqueta": "LICITANTE", "nombre": "LICITANTE", "tipo": "header" },
+        {
+          "numero": "1)",
+          "nombre": "NOMBRE O RAZON SOCIAL",
+          "valor_ejemplo": "………………………………………………………………………………………………"
+        },
+        {
+          "numero": "2)",
+          "nombre": "CONSTITUCIÓN LEGAL (marque con una cruz)",
+          "opciones": [
+            { "letra": "a)", "descripcion": "Persona Jurídica …." },
+            { "letra": "b)", "descripcion": "Persona Natural …." }
+          ]
+        },
+        {
+          "numero": "3)",
+          "nombre": "DOMICILIO",
+          "valor_ejemplo": "……………………………………………………………………………………………………"
+        }
+      ]
+    },
+    {
+      "numero": "4.",
+      "titulo": "REPRESENTANTE LEGAL:",
+      "campos": [
+        {
+          "letra": "a)",
+          "nombre": "Nombre",
+          "valor_ejemplo": "………………………………….."
+        },
+        { "letra": "b)", "nombre": "RUT", "valor_ejemplo": "………………………………….." }
+      ]
+    },
+    {
+      "numero": "5.",
+      "titulo": "REPRESENTANTE DESIGNADO ANTE EL CLIENTE",
+      "campos": [
+        { "nombre": "Nombre", "valor_ejemplo": "……………………………………………………." },
+        { "nombre": "Domicilio", "valor_ejemplo": "……………………………………………………." },
+        { "nombre": "Teléfono", "valor_ejemplo": "……………………………………………………." },
+        {
+          "nombre": "Correo Electrónico",
+          "valor_ejemplo": "…………………………………………………"
+        }
+      ]
+    },
+    {
+      "numero": "6.",
+      "titulo": "DIRECCIÓN DE LA SEDE PRINCIPAL",
+      "campos": [
+        {
+          "nombre": "Calle",
+          "valor_ejemplo": "……………………………………………………...... N°: .......... Depto/Of.:............"
+        },
+        {
+          "nombre": "Ciudad",
+          "valor_ejemplo": "...................................................................................... País:......................"
+        }
+      ]
+    }
+  ],
+  "firma": {
+    "texto": "________________________",
+    "cargo": "Firma Representante Legal",
+    "lugar_fecha": "Valparaíso: ……………………………………………….."
+  }
+}

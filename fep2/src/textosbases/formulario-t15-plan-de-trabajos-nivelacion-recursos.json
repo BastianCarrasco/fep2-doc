@@ -1,0 +1,17 @@
+{
+  "titulo_formulario": "FORMULARIO T-15",
+  "subtitulo": "PLAN DE TRABAJOS NIVELACIÓN DE RECURSOS",
+  "proponente_info": "PROPONENTE: …………………………………………………………………………….",
+  "instruccion_general": "El Proponente adjuntará a este formulario la información solicitada.",
+  "extracto_indicaciones": {
+    "titulo": "Extracto de las indicaciones:",
+    "introduccion": "El Proponente deberá indicar claramente la siguiente información de planificación a manera de resumen:",
+    "puntos_resumen": [
+      "▪ Horas Hombre destinadas para cada una de las tareas o etapas involucradas en la implementación del Proyecto.",
+      "▪ Curva de HH programado para el desarrollo del proyecto (implementación) de cada una de las etapas o todo el Proyecto de Implementación, y en forma separada la curva de HH de la etapa de continuidad operacional;",
+      "▪ Número de personas involucradas en las distintas actividades durante la implementación del Proyecto y luego la continuidad operacional",
+      "▪ Identificación de la ruta crítica para la Implementación del Proyecto."
+    ],
+    "programa_trabajos": "El Programa de Trabajos por módulos que presente el Proponente, además del detalle de actividades de Trabajo, deberá contener una definición clara de la cantidad de frentes de trabajo que empleará para la ejecución de su programa en lo referente al Proyecto."
+  }
+}

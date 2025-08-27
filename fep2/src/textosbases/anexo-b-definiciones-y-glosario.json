@@ -1,0 +1,113 @@
+{
+  "titulo_anexo": "ANEXO B: DEFINICIONES Y GLOSARIO",
+  "definiciones": [
+    {
+      "termino": "API",
+      "definicion": "Application Programming Interface"
+    },
+    {
+      "termino": "B2B",
+      "definicion": "Business to Business"
+    },
+    {
+      "termino": "B2G",
+      "definicion": "Business to Government"
+    },
+    {
+      "termino": "BI",
+      "definicion": "Business Intelligence"
+    },
+    {
+      "termino": "COBIT",
+      "definicion": "Control Objectives for Information Technology"
+    },
+    {
+      "termino": "DevOps",
+      "definicion": "Development and Operations"
+    },
+    {
+      "termino": "ERP",
+      "definicion": "Enterprise Resource Planning"
+    },
+    {
+      "termino": "FCR",
+      "definicion": "First Call Resolution"
+    },
+    {
+      "termino": "IA",
+      "definicion": "Inteligencia Artificial"
+    },
+    {
+      "termino": "ITIL",
+      "definicion": "Information Technology Infrastructure Library"
+    },
+    {
+      "termino": "KPI",
+      "definicion": "Key Performance Indicator"
+    },
+    {
+      "termino": "ML",
+      "definicion": "Machine Learning"
+    },
+    {
+      "termino": "NOC",
+      "definicion": "Network Operations Center"
+    },
+    {
+      "termino": "OTP",
+      "definicion": "One Time Password"
+    },
+    {
+      "termino": "PMI",
+      "definicion": "Project Management Institute"
+    },
+    {
+      "termino": "PMO",
+      "definicion": "Project Management Office"
+    },
+    {
+      "termino": "RFP",
+      "definicion": "Request for Proposal"
+    },
+    {
+      "termino": "ROI",
+      "definicion": "Return on Investment"
+    },
+    {
+      "termino": "RPO",
+      "definicion": "Recovery Point Objective"
+    },
+    {
+      "termino": "RTO",
+      "definicion": "Recovery Time Objective"
+    },
+    {
+      "termino": "SLA",
+      "definicion": "Service Level Agreement"
+    },
+    {
+      "termino": "SOA",
+      "definicion": "Service Oriented Architecture"
+    },
+    {
+      "termino": "SOC",
+      "definicion": "Security Operations Center"
+    },
+    {
+      "termino": "TPS",
+      "definicion": "Transactions Per Second"
+    },
+    {
+      "termino": "UAT",
+      "definicion": "User Acceptance Testing"
+    },
+    {
+      "termino": "VPN",
+      "definicion": "Virtual Private Network"
+    },
+    {
+      "termino": "WAF",
+      "definicion": "Web Application Firewall"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "titulo_formulario": "FORMULARIO T-21",
+  "subtitulo": "EVALUACIÓN",
+  "introduccion": "A continuación, se entrega la modalidad de evaluación, las cuales podrán ser ajustadas por el CLIENTE de acuerdo a las Bases Administrativas.",
+  "evaluacion_por_item": "Cada ítem señalado en el Índice indicado será evaluado de 0 a 100.",
+  "peso_item": "• Cada ítem tiene un peso dentro de la propuesta, por lo cual multiplicado con el % asignado y llevado a una Escala de 1 a 7 se obtendrá la nota final del documento.",
+  "criterios_asignacion_porcentaje": {
+    "titulo": "Criterio de asignación de Porcentaje:",
+    "puntos": [
+      "• Puntaje 100: El ítem cumple con todo lo solicitado sin observaciones",
+      "• Puntaje 90: El ítem cumple con todo lo solicitado con una observación menor",
+      "• Puntaje 80: El ítem cumple con lo solicitado, pero tiene 2 observaciones",
+      "• Puntaje 70: El ítem cumple con lo solicitado, pero tiene más de 2 observaciones o tiene una observación grave.",
+      "• Puntaje 60: El ítem cumple con el mínimo requerido",
+      "• Puntaje 50: El ítem cumple con el mínimo requerido, pero tiene observaciones",
+      "• Puntaje 40: El ítem menciona levemente lo solicitado, o cumple con el mínimo con observaciones graves respecto",
+      "• Puntaje 20: El ítem solo se menciona, pero no existe ninguna explicación que aporte valor.",
+      "• Puntaje 0: No se encuentra el ítem o no indica lo solicitado"
+    ]
+  },
+  "informacion_detalle": "La información detallada del contenido del documento y los pesos de cada ítem esta descrito en el CASO respectivo, o será informado oportunamente en clases.",
+  "ponderacion_evaluacion_contenido": {
+    "titulo": "Ponderación de la Evaluación del Contenido",
+    "encabezados": ["", "INF1\nPeso", "INF2\nPeso", "FINAL\nPeso"],
+    "subdocumentos": [
+      {
+        "titulo": "Subdocumento 1",
+        "items": [
+          {
+            "id": "0",
+            "descripcion": "Formalidad y contenido del documento / Cumplimiento de Instrucciones",
+            "inf1_peso": "5",
+            "inf2_peso": "2",
+            "final_peso": "3"
+          },
+          {
+            "id": "1",
+            "descripcion": "Resumen Ejecutivo",
+            "inf1_peso": "5",
+            "inf2_peso": "5",
+            "final_peso": "3"
+          },
+          {
+            "id": "2",
+            "descripcion": "Descripción del Proponente",
+            "inf1_peso": "5",
+            "inf2_peso": "2",
+            "final_peso": "2"
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 2",
+        "items": [
+          {
+            "id": "3",
+            "descripcion": "Alcance del Servicio",
+            "type": "header"
+          },
+          {
+            "id": "a)",
+            "descripcion": "Definición del alcance",
+            "inf1_peso": "5",
+            "inf2_peso": "3",
+            "final_peso": "3"
+          },
+          {
+            "id": "b)",
+            "descripcion": "Implementación",
+            "inf1_peso": "5",
+            "inf2_peso": "2",
+            "final_peso": "2"
+          },
+          {
+            "id": "c)",
+            "descripcion": "Implantación",
+            "inf1_peso": "5",
+            "inf2_peso": "2",
+            "final_peso": "2"
+          },
+          {
+            "id": "d)",
+            "descripcion": "Operación",
+            "inf1_peso": "5",
+            "inf2_peso": "2",
+            "final_peso": "2"
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 3",
+        "items": [
+          {
+            "id": "4",
+            "descripcion": "Descripción Lógica de la Solución",
+            "type": "header"
+          },
+          {
+            "id": "a)",
+            "descripcion": "Esquema Solución",
+            "inf1_peso": "5",
+            "inf2_peso": "5",
+            "final_peso": "3"
+          },
+          {
+            "id": "b)",
+            "descripcion": "Arquitectura Lógica de la Solución",
+            "inf1_peso": "10",
+            "inf2_peso": "5",
+            "final_peso": "3"
+          },
+          {
+            "id": "c)",
+            "descripcion": "Prototipos y Diseño Interfaz",
+            "inf1_peso": "",
+            "inf2_peso": "",
+            "final_peso": "2"
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 4",
+        "items": [
+          {
+            "id": "5",
+            "descripcion": "Descripción Física de la Solución",
+            "type": "header"
+          },
+          {
+            "id": "a)",
+            "descripcion": "Arquitectura Física de la Solución",
+            "inf1_peso": "10",
+            "inf2_peso": "5",
+            "final_peso": "5"
+          },
+          {
+            "id": "b)",
+            "descripcion": "Especificaciones Tecnologías de Software a utilizar",
+            "inf1_peso": "5",
+            "inf2_peso": "5",
+            "final_peso": "5"
+          },
+          {
+            "id": "c)",
+            "descripcion": "Especificaciones Implementos a proveer (Hardware y Software)",
+            "inf1_peso": "5",
+            "inf2_peso": "5",
+            "final_peso": "5"
+          },
+          {
+            "id": "d)",
+            "descripcion": "Especificaciones Data Center Primaria",
+            "inf1_peso": "5",
+            "inf2_peso": "5",
+            "final_peso": "5"
+          },
+          {
+            "id": "e)",
+            "descripcion": "Especificaciones Data Center Secundario",
+            "inf1_peso": "5",
+            "inf2_peso": "3",
+            "final_peso": "3"
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 5",
+        "items": [
+          {
+            "id": "6",
+            "descripcion": "Ventajas de la Solución",
+            "type": "header"
+          },
+          {
+            "id": "a)",
+            "descripcion": "Indicar ventajas de su propuesta de Arquitectura Lógica y Física",
+            "inf1_peso": "5",
+            "inf2_peso": "3",
+            "final_peso": "3"
+          },
+          {
+            "id": "b)",
+            "descripcion": "Indicar ventajas de su propuesta Tecnológica de la Aplicación",
+            "inf1_peso": "5",
+            "inf2_peso": "3",
+            "final_peso": "3"
+          },
+          {
+            "id": "c)",
+            "descripcion": "Indicar ventajas de su propuesta Tecnológica de la Base de Datos",
+            "inf1_peso": "5",
+            "inf2_peso": "3",
+            "final_peso": "3"
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 6",
+        "items": [
+          { "id": "7", "descripcion": "Metodologías", "type": "header" },
+          {
+            "id": "a)",
+            "descripcion": "Metodología de Gestión de Proyectos",
+            "inf1_peso": "5",
+            "inf2_peso": "2",
+            "final_peso": ""
+          },
+          {
+            "id": "b)",
+            "descripcion": "Metodología de Desarrollo Software",
+            "inf1_peso": "5",
+            "inf2_peso": "2",
+            "final_peso": ""
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 7",
+        "items": [
+          { "id": "8", "descripcion": "Plan de Trabajo", "type": "header" },
+          {
+            "id": "a)",
+            "descripcion": "Plan de Trabajo, EDT y Carta Gantt",
+            "inf1_peso": "10",
+            "inf2_peso": "3",
+            "final_peso": ""
+          },
+          {
+            "id": "b)",
+            "descripcion": "Plan de Implantación y Puesta en Marcha",
+            "inf1_peso": "5",
+            "inf2_peso": "5",
+            "final_peso": ""
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 8",
+        "items": [
+          { "id": "9", "descripcion": "Plan de Riesgo", "type": "header" },
+          {
+            "id": "",
+            "descripcion": "Metodología a Utilizar, Riesgos identificados y Plan de Riesgo",
+            "inf1_peso": "5",
+            "inf2_peso": "5",
+            "final_peso": ""
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 9",
+        "items": [
+          { "id": "10", "descripcion": "Plan de Calidad", "type": "header" },
+          {
+            "id": "",
+            "descripcion": "Metodología a Utilizar y Plan de Calidad",
+            "inf1_peso": "5",
+            "inf2_peso": "5",
+            "final_peso": ""
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 10",
+        "items": [
+          {
+            "id": "11",
+            "descripcion": "Servicios de Operación",
+            "type": "header"
+          },
+          {
+            "id": "a)",
+            "descripcion": "Especificaciones del Call Center y SLA",
+            "inf1_peso": "2",
+            "inf2_peso": "",
+            "final_peso": ""
+          },
+          {
+            "id": "b)",
+            "descripcion": "Especificaciones del Soporte",
+            "inf1_peso": "3",
+            "inf2_peso": "",
+            "final_peso": ""
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 11",
+        "items": [
+          {
+            "id": "12",
+            "descripcion": "Planes en Operación",
+            "type": "header"
+          },
+          {
+            "id": "a)",
+            "descripcion": "Plan Mantención Preventiva / Evolutiva",
+            "inf1_peso": "2",
+            "inf2_peso": "",
+            "final_peso": ""
+          },
+          {
+            "id": "b)",
+            "descripcion": "Plan Servicios de Operación",
+            "inf1_peso": "3",
+            "inf2_peso": "",
+            "final_peso": ""
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 12",
+        "items": [
+          {
+            "id": "13",
+            "descripcion": "Equipo de Trabajo, Subcontrataciones y Alianzas Estratégicas con proveedores",
+            "inf1_peso": "3",
+            "inf2_peso": "",
+            "final_peso": ""
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 13",
+        "items": [
+          {
+            "id": "14",
+            "descripcion": "Innovaciones",
+            "inf1_peso": "5",
+            "inf2_peso": "5",
+            "final_peso": "3"
+          }
+        ]
+      },
+      {
+        "titulo": "Subdocumento 14",
+        "items": [
+          {
+            "id": "15",
+            "descripcion": "Ventajas y Beneficios de la Solución",
+            "inf1_peso": "5",
+            "inf2_peso": "",
+            "final_peso": ""
+          }
+        ]
+      }
+    ]
+  }
+}

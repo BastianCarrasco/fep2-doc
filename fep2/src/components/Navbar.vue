@@ -1,53 +1,61 @@
 <script setup>
-import { ref, defineEmits, defineProps } from 'vue';
+import { ref, defineEmits, defineProps, watch, onMounted } from 'vue';
 
 const emits = defineEmits(['navigate']);
 const props = defineProps({
     activeViewId: {
         type: String,
         default: 'capitulo-1-antecedentes-y-marco-normativo' // Puedes ajustar el ID de la vista inicial aquí
+    },
+    isNavbarOpen: { // Recibe la prop para controlar el estado en móvil desde App.vue
+        type: Boolean,
+        default: false
     }
 });
 
+// Estado para almacenar el ID del grupo (header o sub_header) que está abierto
+const openGroups = ref({});
+
+// La lista de secciones ahora incluye "headers", "sub_headers", y "dividers"
 const mainSections = ref([
-    { type: 'header', title: 'Bases de Licitación TFEP-01/2025' },
-    { type: 'sub_header', title: 'TÍTULO I DISPOSICIONES GENERALES' },
+    { type: 'header', title: 'Bases de Licitación TFEP-01/2025', id: 'tfep-bases-licitacion' }, // ID único
+    { type: 'sub_header', title: 'TÍTULO I DISPOSICIONES GENERALES', id: 'tfep-ba-titulo-1' }, // ID único
     { id: 'capitulo-1-antecedentes-y-marco-normativo', title: 'Capítulo 1: Marco Normativo' },
     { id: 'capitulo-2-condiciones-generales-del-proceso', title: 'Capítulo 2: Condiciones Generales' },
 
-    { type: 'sub_header', title: 'TÍTULO II REQUISITOS Y CONDICIONES DE PARTICIPACIÓN' },
+    { type: 'sub_header', title: 'TÍTULO II REQUISITOS Y CONDICIONES DE PARTICIPACIÓN', id: 'tfep-ba-titulo-2' },
     { id: 'capitulo-3-participantes', title: 'Capítulo 3: Participantes' },
     { id: 'capitulo-4-garantias', title: 'Capítulo 4: Garantías' },
     { id: 'capitulo-5-requisitos-administrativos', title: 'Capítulo 5: Requisitos Administrativos' },
 
-    { type: 'sub_header', title: 'TÍTULO III PROCESO DE LICITACIÓN' },
+    { type: 'sub_header', title: 'TÍTULO III PROCESO DE LICITACIÓN', id: 'tfep-ba-titulo-3' },
     { id: 'capitulo-6-obtencion-de-bases-y-comunicaciones', title: 'Capítulo 6: Obtención de Bases y Comunicaciones' },
     { id: 'capitulo-7-consultas-y-aclaraciones', title: 'Capítulo 7: Consultas y Aclaraciones' },
     { id: 'capitulo-8-presentaciones-preparatorias', title: 'Capítulo 8: Presentaciones Preparatorias' },
     { id: 'capitulo-9-recepcion-y-apertura-de-ofertas', title: 'Capítulo 9: Recepción y Apertura de Ofertas' },
 
-    { type: 'sub_header', title: 'TÍTULO IV EVALUACIÓN Y ADJUDICACIÓN' },
+    { type: 'sub_header', title: 'TÍTULO IV EVALUACIÓN Y ADJUDICACIÓN', id: 'tfep-ba-titulo-4' },
     { id: 'capitulo-10-proceso-de-evaluacion', title: 'Capítulo 10: Proceso de Evaluación' },
     { id: 'capitulo-11-evaluacion-tecnica', title: 'Capítulo 11: Evaluación Técnica' },
     { id: 'capitulo-12-evaluacion-economica', title: 'Capítulo 12: Evaluación Económica' },
     { id: 'capitulo-13-evaluacion-final-y-adjudicacion', title: 'Capítulo 13: Evaluación Final y Adjudicación' },
     { id: 'capitulo-14-evaluacion-academica', title: 'Capítulo 14: Evaluación Académica' },
 
-    { type: 'sub_header', title: 'TÍTULO V CONTRATACIÓN Y EJECUCIÓN' },
+    { type: 'sub_header', title: 'TÍTULO V CONTRATACIÓN Y EJECUCIÓN', id: 'tfep-ba-titulo-5' },
     { id: 'capitulo-15-formalizacion-del-contrato', title: 'Capítulo 15: Formalización del Contrato' },
     { id: 'capitulo-16-gestion-contractual', title: 'Capítulo 16: Gestión Contractual' },
     { id: 'capitulo-17-obligaciones-del-contratista', title: 'Capítulo 17: Obligaciones del Contratista' },
     { id: 'capitulo-18-niveles-de-servicio-y-penalidades', title: 'Capítulo 18: Niveles de Servicio y Penalidades' },
     { id: 'capitulo-19-termino-del-contrato', title: 'Capítulo 19: Término del Contrato' },
 
-    { type: 'sub_header', title: 'TÍTULO VI DISPOSICIONES ESPECIALES' },
+    { type: 'sub_header', title: 'TÍTULO VI DISPOSICIONES ESPECIALES', id: 'tfep-ba-titulo-6' },
     { id: 'capitulo-20-confidencialidad-y-propiedad-intelectual', title: 'Capítulo 20: Confidencialidad y Propiedad Intelectual' },
     { id: 'capitulo-21-solucion-de-controversias', title: 'Capítulo 21: Solución de Controversias' },
     { id: 'capitulo-22-gestion-del-cambio-y-capacitacion', title: 'Capítulo 22: Gestión del Cambio y Capacitación' },
 
-    { type: 'divider' }, /* Separador entre Bases Administrativas y Bases Técnicas */
+    { type: 'divider' },
 
-    { type: 'header', title: 'Bases Técnicas TFEP-01/2025' },
+    { type: 'header', title: 'Bases Técnicas TFEP-01/2025', id: 'tfep-bases-tecnicas' }, // ID único
     { id: 'bt-capitulo-1-introduccion', title: 'Capítulo 1: Introducción' },
     { id: 'bt-capitulo-2-antecedentes', title: 'Capítulo 2: Antecedentes' },
     { id: 'bt-capitulo-3-requerimientos-generales', title: 'Capítulo 3: Requerimientos Generales' },
@@ -67,7 +75,7 @@ const mainSections = ref([
     { id: 'bt-capitulo-17-video-de-presentacion-de-la-propuesta', title: 'Capítulo 17: Video de Presentación' },
     { id: 'bt-capitulo-18-prototipo-de-interfaz-y-diseno-ux-ui', title: 'Capítulo 18: Prototipo Interfaz y Diseño UX/UI' },
 
-    { type: 'sub_header', title: 'ANEXOS Y FORMULARIOS' },
+    { type: 'sub_header', title: 'ANEXOS Y FORMULARIOS', id: 'tfep-anexos-formularios' }, // ID único
     { id: 'anexo-a-volumetria-actual-y-proyectada', title: 'Anexo A: Volumetría' },
     { id: 'anexo-b-definiciones-y-glosario', title: 'Anexo B: Glosario' },
     { id: 'formulario-a1-identificacion-del-proponente', title: 'Formulario A-1: Identificación del Proponente' },
@@ -90,9 +98,9 @@ const mainSections = ref([
     { id: 'formulario-e26-rango-valores-perfiles-profesionales', title: 'Formulario E-26: Rangos Perfiles Profesionales' },
 
 
-    { type: 'divider' }, /* Separador entre Bases TFEP y NCh2777 */
+    { type: 'divider' },
 
-    { type: 'header', title: 'Documento NCh2777' },
+    { type: 'header', title: 'Documento NCh2777', id: 'nch2777-main' }, // ID único
     { id: 'preambulo', title: 'Preámbulo' },
     { id: 'introduccion', title: '0 Introducción' },
     { id: 'alcance-y-campo-de-aplicacion', title: '1 Alcance y campo de aplicación' },
@@ -108,10 +116,95 @@ const mainSections = ref([
     { id: 'gestion-de-la-continuidad-del-negocio', title: '11 Gestión de la continuidad del negocio' },
     { id: 'cumplimiento', title: '12 Cumplimiento' }
 ]);
+
+
+// --- Lógica para el colapsado de grupos ---
+
+// Mapa auxiliar para encontrar el padre directo de un ID dado (ya sea header o sub_header)
+// Usamos Map para mejor rendimiento y claridad
+const parentLookupMap = new Map();
+
+// Función para construir el mapa de padres. Se ejecuta una vez al montar.
+const buildParentMap = () => {
+    let currentHeaderId = null;
+    let currentSubHeaderId = null;
+
+    for (const section of mainSections.value) {
+        if (section.type === 'header') {
+            currentHeaderId = section.id;
+            currentSubHeaderId = null; // Reiniciar sub_header al encontrar un nuevo header
+        } else if (section.type === 'sub_header') {
+            currentSubHeaderId = section.id;
+            if (currentHeaderId) {
+                parentLookupMap.set(section.id, currentHeaderId); // sub_header -> header
+            }
+        } else if (section.id) { // Es un enlace normal (item)
+            if (currentSubHeaderId) {
+                parentLookupMap.set(section.id, currentSubHeaderId); // item -> sub_header
+            } else if (currentHeaderId) {
+                parentLookupMap.set(section.id, currentHeaderId); // item -> header (si no hay sub_header)
+            }
+        }
+    }
+};
+
+// Obtiene el ID del grupo padre inmediato de un `childId`
+const getDirectParentId = (childId) => {
+    return parentLookupMap.get(childId);
+};
+
+// Función para alternar el estado de apertura de un grupo (header o sub_header)
+const toggleGroup = (groupId) => {
+    openGroups.value[groupId] = !openGroups.value[groupId];
+};
+
+// Observa `activeViewId` para expandir automáticamente los grupos padres de la vista activa
+watch(() => props.activeViewId, (newId) => {
+    // Si la vista activa es un header o sub_header, y ya está abierto, no hacer nada especial aquí
+    if (mainSections.value.find(s => s.id === newId && (s.type === 'header' || s.type === 'sub_header')) && openGroups.value[newId]) {
+        return;
+    }
+
+    // Al navegar a un nuevo ítem, cerramos todos los grupos *a menos* que sean ancestros de la nueva vista
+    // para tener una vista limpia, pero expandir los necesarios.
+    const ancestorsToKeepOpen = new Set();
+    let currentAncestorId = newId;
+    while (currentAncestorId) {
+        ancestorsToKeepOpen.add(currentAncestorId);
+        currentAncestorId = getDirectParentId(currentAncestorId);
+    }
+
+    for (const groupId in openGroups.value) {
+        if (!ancestorsToKeepOpen.has(groupId)) {
+            openGroups.value[groupId] = false;
+        }
+    }
+
+    // Luego, abrimos los grupos necesarios para que la nueva vista sea visible
+    currentAncestorId = newId;
+    while (currentAncestorId) {
+        const parentId = getDirectParentId(currentAncestorId);
+        if (parentId && !openGroups.value[parentId]) {
+            openGroups.value[parentId] = true;
+            currentAncestorId = parentId;
+        } else {
+            break;
+        }
+    }
+}, { immediate: true }); // Ejecuta la observación inmediatamente al montar
+
+
+const handleClick = (event, viewId) => {
+    event.preventDefault(); // Previene el comportamiento por defecto del enlace (recargar la página)
+    emits('navigate', viewId); // Emite el evento `navigate` con el ID de la vista seleccionada
+};
+
+// Llama a buildParentMap al montar el componente
+onMounted(buildParentMap);
 </script>
 
 <template>
-    <nav class="navbar">
+    <nav class="navbar" :class="{ 'is-open': props.isNavbarOpen }"> <!-- Añade clase para control móvil -->
         <div class="navbar-header">
             <h3 class="navbar-title">Visor de Documentos</h3>
         </div>
@@ -119,16 +212,23 @@ const mainSections = ref([
             <template v-for="(section, index) in mainSections" :key="index">
                 <!-- Encabezado de grupo de documentos (ej. "Bases de Licitación TFEP-01/2025") -->
                 <li v-if="section.type === 'header'" class="navbar-group-header">
-                    {{ section.title }}
+                    <button @click="toggleGroup(section.id)" class="group-toggle-button">
+                        {{ section.title }}
+                        <span class="toggle-icon" :class="{ 'rotate': openGroups[section.id] }">▼</span>
+                    </button>
                 </li>
                 <!-- Sub-encabezado para TÍTULOS (ej. "TÍTULO I DISPOSICIONES GENERALES") -->
-                <li v-else-if="section.type === 'sub_header'" class="navbar-sub-group-header">
-                    {{ section.title }}
+                <li v-else-if="section.type === 'sub_header'" class="navbar-sub-group-header"
+                    v-show="openGroups[getDirectParentId(section.id)] || props.isNavbarOpen">
+                    <button @click="toggleGroup(section.id)" class="group-toggle-button">
+                        {{ section.title }}
+                        <span class="toggle-icon" :class="{ 'rotate': openGroups[section.id] }">▼</span>
+                    </button>
                 </li>
                 <!-- Separador visual entre grupos de documentos -->
                 <li v-else-if="section.type === 'divider'" class="navbar-divider"></li>
                 <!-- Elemento de navegación real (enlace a un capítulo/sección) -->
-                <li v-else class="navbar-item">
+                <li v-else class="navbar-item" v-show="openGroups[getDirectParentId(section.id)] || props.isNavbarOpen">
                     <a :href="`#${section.id}`"
                         :class="['navbar-link', { 'active': section.id === props.activeViewId }]"
                         @click="handleClick($event, section.id)">
@@ -153,13 +253,20 @@ const mainSections = ref([
     color: #ecf0f1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 1000;
+    transition: transform 0.3s ease-out;
+    left: 0;
+    transform: translateX(0);
 }
 
-/* Estilos del encabezado superior del Navbar */
+/* Encabezado del Navbar (Visor de Documentos) */
 .navbar-header {
     padding: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #2c3e50;
+    z-index: 10;
 }
 
 .navbar-title {
@@ -169,17 +276,41 @@ const mainSections = ref([
     text-align: center;
 }
 
-/* Estilos de la lista de navegación */
+/* Lista principal de navegación */
 .navbar-list {
     list-style: none;
     padding: 10px 0;
     margin: 0;
 }
 
-/* Estilos para los encabezados de grupo de documentos (ej. "Documento TFEP-01/2025") */
+/* Botón de alternancia para grupos (headers y sub_headers) */
+.group-toggle-button {
+    background: none;
+    border: none;
+    color: inherit;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inherit;
+}
+
+.toggle-icon {
+    transition: transform 0.2s ease;
+    margin-left: 10px;
+}
+
+.toggle-icon.rotate {
+    transform: rotate(180deg);
+}
+
+/* Estilos para los encabezados de grupo de documentos (ej. "Bases de Licitación TFEP-01/2025") */
 .navbar-group-header {
     color: #00bcd4;
-    /* Cian vibrante */
     font-weight: bold;
     padding: 15px 20px 5px 20px;
     font-size: 1.1em;
@@ -189,20 +320,31 @@ const mainSections = ref([
     margin-bottom: 5px;
 }
 
+.navbar-group-header .group-toggle-button {
+    color: #00bcd4;
+    font-weight: bold;
+    padding: 0 0 0 0;
+}
+
+
 /* Estilos para los sub-encabezados (TÍTULOS dentro de Bases Administrativas/Técnicas) */
 .navbar-sub-group-header {
     color: #a0a0a0;
-    /* Gris más suave */
     font-weight: 600;
     padding: 10px 20px 5px 25px;
-    /* Ligeramente más indentado */
     font-size: 0.9em;
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 5px;
     border-left: 3px solid #555;
-    /* Barra lateral más discreta */
 }
+
+.navbar-sub-group-header .group-toggle-button {
+    color: #a0a0a0;
+    font-weight: 600;
+    padding: 0 0 0 0;
+}
+
 
 /* Estilos para el separador visual entre grupos */
 .navbar-divider {
@@ -226,7 +368,6 @@ const mainSections = ref([
     transition: background-color 0.3s ease, color 0.3s ease;
     font-size: 0.95em;
     padding-left: 35px;
-    /* Mayor indentación para los enlaces de capítulo */
 }
 
 /* Efecto hover en los enlaces */
@@ -253,5 +394,46 @@ const mainSections = ref([
     width: 5px;
     background-color: #00bcd4;
     border-radius: 0 3px 3px 0;
+}
+
+
+/* --- Media Queries para Responsividad Móvil --- */
+@media (max-width: 768px) {
+    .navbar {
+        width: 80%;
+        /* Ajusta el ancho para móvil, por ejemplo, 80% de la pantalla */
+        max-width: 320px;
+        /* Máximo ancho para evitar que sea demasiado grande en tablets pequeñas */
+        transform: translateX(-100%);
+        /* Oculta el navbar completamente fuera de la pantalla por defecto */
+        box-shadow: 5px 0 15px rgba(0, 0, 0, 0.3);
+        /* Sombra más pronunciada cuando está abierto */
+    }
+
+    .navbar.is-open {
+        transform: translateX(0);
+        /* Muestra el navbar cuando la prop isNavbarOpen es true */
+    }
+
+    /* Opcional: Ajustar el tamaño de fuente y padding en móvil si es necesario */
+    .navbar-title {
+        font-size: 1.2em;
+    }
+
+    .navbar-group-header {
+        padding: 12px 15px 5px 15px;
+        font-size: 1em;
+    }
+
+    .navbar-sub-group-header {
+        padding: 8px 15px 5px 20px;
+        font-size: 0.85em;
+    }
+
+    .navbar-link {
+        padding: 8px 15px;
+        padding-left: 30px;
+        font-size: 0.9em;
+    }
 }
 </style>
